@@ -1,0 +1,21 @@
+/* .title {
+  background-color: black;
+} */
+.text {
+  color: white;
+  font-family: 'WishfulWaves';
+  font-size: 1.8rem;
+  white-space: nowrap;
+  margin: 5px 10px;
+}
+.marquee {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+
+
+
+
+

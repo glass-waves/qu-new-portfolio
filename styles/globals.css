@@ -1,3 +1,20 @@
+
+@font-face {
+  font-family: "WishfulWaves";
+  src: url('../public/fonts/wishfulwaves/wishfulwaves.ttf');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "aaaiight";
+  src: url('../public/fonts/aaaiight/aaaiight.ttf');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+
 html,
 body {
   padding: 0;

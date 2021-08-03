@@ -1,0 +1,19 @@
+.main {
+  background-image: url('https://res.cloudinary.com/glasswavs/image/upload/c_scale,q_auto,w_2000/v1627951760/General%20Qu/backgrounds/cloudBackground_ibziva.jpg');
+  /* position: relative; */
+}
+.clientList {
+  margin: 5px auto 5px 50%;
+  transform: translateX(-25%);
+
+}
+.clients {
+  font-family: 'aaaiight';
+  font-size: 2em;
+  color: #f9ff99;
+  margin: 4px auto;
+}
+.clients:hover {
+  text-decoration: line-through;
+  cursor: pointer;
+}
