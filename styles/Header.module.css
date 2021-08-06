@@ -1,0 +1,17 @@
+.header {
+  position: relative;
+}
+.logo {
+  color: white;
+  text-align: center;
+  font-family: 'aaaiight';
+  /* margin-top: 0; */
+}
+.nav {
+  position: absolute;
+  top: 50%;
+  right: 50px;
+}
+.link {
+  margin-right: 10px;;
+}

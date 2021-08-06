@@ -7,14 +7,14 @@ function HomeSection6() {
     <section className={style.photoSection5}>
       <div className={style.imageMargin}>
         <Image
-          src="https://res.cloudinary.com/glasswavs/image/upload/c_scale,q_auto,w_950/v1601060033/General%20Qu/pot-plant/potPlant5_qm2u5a.jpg"
+          src="https://res.cloudinary.com/glasswavs/image/upload/c_scale,dpr_2.0,q_auto,w_950/v1601060033/General%20Qu/pot-plant/potPlant5_qm2u5a.jpg"
           width={950}
           height={713}
         />
       </div>
       <div className={style.imageMargin}>
         <Image
-          src="https://res.cloudinary.com/glasswavs/image/upload/c_scale,q_auto,w_450/v1627624596/General%20Qu/olio%20lab/2_om0vxs.jpg"
+          src="https://res.cloudinary.com/glasswavs/image/upload/c_scale,dpr_2.0,q_auto,w_450/v1627624596/General%20Qu/olio%20lab/2_om0vxs.jpg"
           width={450}
           height={600}
         />

@@ -2,6 +2,7 @@ import React from "react";
 import Ticker from "../components/ticker";
 import style from "../styles/Work.module.css";
 import Link from "next/link";
+import Header from "../components/header";
 const clients = [
   "aurora elixirs",
   "barbari",
@@ -24,7 +25,8 @@ const clients = [
 const Work = () => {
   return (
     <main className={style.main}>
-      <Ticker text=" work  work  " />
+      <Header fontColor="white" links={['home', 'about']} />
+      <Ticker text=" work work " />
       <section className={style.clientList}>
         {clients.map((client) => (
           <Link href={`/work/${client.split(' ').join('')}`}>
@@ -34,7 +36,8 @@ const Work = () => {
           </Link>
         ))}
       </section>
-      <Ticker text="general qu " />
+      <Ticker text="general qu 🥴" />
+      {/* <Ticker text="🥴 🥴 🥴" /> */}
     </main>
   );
 };

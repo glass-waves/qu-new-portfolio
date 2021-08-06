@@ -7,21 +7,21 @@ function HomeSection3() {
     <section className={style.photoSection3}>
       <div className={style.imageMargin}>
         <Image
-          src="https://res.cloudinary.com/glasswavs/image/upload/c_scale,q_auto,w_500/v1627619412/General%20Qu/demi/2_lklxst.jpg"
+          src="https://res.cloudinary.com/glasswavs/image/upload/c_scale,dpr_2.0,q_auto,w_500/v1627619412/General%20Qu/demi/2_lklxst.jpg"
           width={500}
           height={750}
         />
       </div>
       <div className={style.imageMargin}>
         <Image
-          src="https://res.cloudinary.com/glasswavs/image/upload/c_scale,h_750,q_auto/v1627619412/General%20Qu/demi/1_kriclc.jpg"
+          src="https://res.cloudinary.com/glasswavs/image/upload/c_scale,dpr_2.0,h_750,q_auto/v1627619412/General%20Qu/demi/1_kriclc.jpg"
           width={1125}
           height={750}
         />
       </div>
       <div className={style.imageMargin}>
         <Image
-          src="https://res.cloudinary.com/glasswavs/image/upload/c_scale,q_auto,w_500/v1627619412/General%20Qu/demi/3_t42afa.jpg"
+          src="https://res.cloudinary.com/glasswavs/image/upload/c_scale,dpr_2.0,q_auto,w_500/v1627619412/General%20Qu/demi/3_t42afa.jpg"
           width={500}
           height={750}
         />

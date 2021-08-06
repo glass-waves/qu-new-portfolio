@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Header from "../components/header";
 import style from "../styles/Home.module.css";
 import Ticker from "../components/ticker.jsx";
 import HomeSection1 from "../components/homeSections/homeSection1";
@@ -12,8 +13,9 @@ import HomeSection7 from "../components/homeSections/homeSections7";
 export default function Home() {
   return (
     <main className={style.container}>
-      <h1 className={style.logo}>general qu</h1>
-      <Ticker text=" defining asthetic" backgroundColor="#000"/>
+      {/* <h1 className={style.logo}>general qu</h1> */}
+      <Header fontColor="white" links={[ "work", "about"]}/>
+      <Ticker text=" defining aesthetic" backgroundColor="#000"/>
       <HomeSection1 />
       <HomeSection2 />
       <HomeSection3 />

@@ -1,0 +1,32 @@
+.container {
+  background-color: black;
+  padding-top: 10px;
+  color: white;
+}
+.flex {
+  display: flex;
+  justify-content: space-around;
+}
+.imageContainer {
+  width: 35%;
+  margin: 20px;
+}
+.textContainer {
+  width: 35%;
+  font-family: 'aaaiight';
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+}
+.textBox {
+  margin: 20px auto;
+  width: 90%;
+}
+.mailLink {
+  color: #f9ff99;
+}
+.mailLink:hover {
+  cursor: pointer;
+  text-decoration: line-through;
+}
