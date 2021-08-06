@@ -14,6 +14,7 @@ function About() {
         <div className={style.imageContainer}>
           <Image
             src="https://res.cloudinary.com/glasswavs/image/upload/v1628108634/General%20Qu/about/quPortrait_edep7e.jpg"
+            alt="portrait"
             width={663}
             height={886}
           />
