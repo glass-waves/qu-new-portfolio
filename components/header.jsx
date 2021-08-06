@@ -10,7 +10,7 @@ function Header({ fontColor, links }) {
         general qu
       </h1>
       <nav className={style.nav} style={{ color: fontColor}}>
-        {links.map(link => <Link href={`/${link}`}><span className={style.link}>{link}</span></Link>)}
+        {links.map(link => <Link key={link} href={`/${link}`}><span className={style.link}>{link}</span></Link>)}
       </nav>
     </header>
   );

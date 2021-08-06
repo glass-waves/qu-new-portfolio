@@ -29,7 +29,7 @@ const Work = () => {
       <Ticker text=" work work " />
       <section className={style.clientList}>
         {clients.map((client) => (
-          <Link href={`/work/${client.split(' ').join('')}`}>
+          <Link href={`/work/${client.split(' ').join('')}`} key={client}>
             <h2 className={style.clients} key={client}>
               {client}
             </h2>
