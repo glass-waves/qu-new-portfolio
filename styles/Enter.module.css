@@ -11,10 +11,9 @@
 .imageLink {
   width: 30%;
 }
-.imageLink:hover{
-  cursor: pointer;
+.hover {
+  cursor: url('https://res.cloudinary.com/glasswavs/image/upload/c_scale,w_50/v1628294470/General%20Qu/enter/PngItem_1818548_obdwx6.png'), auto;
 }
-
 .imageContainer {
   display: flex;
   /* flex-direction: column; */

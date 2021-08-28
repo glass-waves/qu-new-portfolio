@@ -16,21 +16,21 @@ function Enter(props) {
             height={501}
           />
         </div>
-        <div className={styles.image}>
+        <div className={styles.imageLink}>
           <Link href="/home">
-            <Image
-              alt="center enter image"
-              className={styles.imageLink}
-              src="https://res.cloudinary.com/glasswavs/image/upload/c_scale,dpr_2.0,q_auto:best,w_500/v1627590500/General%20Qu/enter/ENTERpage1_2enter_x5tjbb.png"
-              width={500}
-              height={501}
-            />
+            <a className={styles.hover}>
+              <Image
+                alt="center enter image"
+                src="https://res.cloudinary.com/glasswavs/image/upload/c_scale,dpr_2.0,q_auto:best,w_500/v1627590500/General%20Qu/enter/ENTERpage1_2enter_x5tjbb.png"
+                width={500}
+                height={501}
+              />
+            </a>
           </Link>
         </div>
         <div className={styles.image}>
           <Image
             alt="right enter image"
-            className={styles.image}
             src="https://res.cloudinary.com/glasswavs/image/upload/c_scale,dpr_2.0,q_auto:best,w_500/v1627590500/General%20Qu/enter/ENTERpage1_3_wykn8x.png"
             width={500}
             height={500}

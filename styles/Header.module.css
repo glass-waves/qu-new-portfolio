@@ -1,5 +1,7 @@
 .header {
-  position: relative;
+  /* position: relative; */
+  display: grid;
+  grid-template-columns: 3fr 3fr 1fr 2fr;
 }
 .logo {
   color: white;
@@ -8,10 +10,20 @@
   /* margin-top: 0; */
 }
 .nav {
-  position: absolute;
-  top: 50%;
-  right: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 50%;
+  height: 75%;
+  margin: auto 10px auto 0;
 }
 .link {
-  margin-right: 10px;;
+  font-family: 'aaaiight';
+  font-size: 1.5em;
+  margin-right: 15px;
+  color: black;
+}
+.link:hover {
+  color: #00ed18
 }

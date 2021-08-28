@@ -25,14 +25,16 @@ const clients = [
 const Work = () => {
   return (
     <main className={style.main}>
-      <Header fontColor="white" links={['home', 'about']} />
+      <Header fontColor="white" links={["home", "about"]} />
       <Ticker text=" work work " />
       <section className={style.clientList}>
         {clients.map((client) => (
-          <Link href={`/work/${client.split(' ').join('')}`} key={client}>
-            <h2 className={style.clients} key={client}>
-              {client}
-            </h2>
+          <Link href={`/work/${client.split(" ").join("")}`} key={client}>
+            <a className={style.aWrapper}>
+              <h2 className={style.clients}>
+                {client}
+              </h2>
+            </a>
           </Link>
         ))}
       </section>
