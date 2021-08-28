@@ -13,10 +13,10 @@ function About() {
       <section className={style.flex}>
         <div className={style.imageContainer}>
           <Image
-            src="https://res.cloudinary.com/glasswavs/image/upload/v1628108634/General%20Qu/about/quPortrait_edep7e.jpg"
+            src="https://res.cloudinary.com/glasswavs/image/upload/c_scale,dpr_2.0,q_auto:best,w_650/v1630192741/General%20Qu/about/qu_portrait_qonodt.jpg"
             alt="portrait"
-            width={663}
-            height={886}
+            width={650}
+            height={910}
           />
         </div>
         <div className={style.textContainer}>

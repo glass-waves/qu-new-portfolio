@@ -17,6 +17,7 @@
 
 html,
 body {
+  cursor: url('https://res.cloudinary.com/glasswavs/image/upload/c_scale,w_50/v1628295516/General%20Qu/enter/cursor-png-1104_jnqhz9.png'), auto;
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
@@ -24,6 +25,7 @@ body {
 }
 
 a {
+  cursor: url('https://res.cloudinary.com/glasswavs/image/upload/c_scale,w_50/v1628294470/General%20Qu/enter/PngItem_1818548_obdwx6.png'), auto;
   color: inherit;
   text-decoration: none;
 }

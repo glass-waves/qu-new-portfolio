@@ -529,7 +529,7 @@ export const clients = {
   },
   wetdream: {
     header: 'wet dream',
-    copy: `IS QU’S MUSIC/VISUAL PROJECT WITH DYLAN WHITE AND BENJAMIN JOHNSON.
+    copy: `WET DREAM IS QU’S MUSIC/VISUAL PROJECT WITH DYLAN WHITE AND BENJAMIN JOHNSON.
 
     MUSIC CAN BE FOUND ON SPOTIFY.
     

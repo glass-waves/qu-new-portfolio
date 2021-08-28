@@ -36,10 +36,6 @@ export async function getStaticPaths() {
   };
 }
 const Client = (props) => {
-  // const router = useRouter();
-  // const {client} = router.query;
-  // const thisClient = clients[client];
-  console.log(props)
   const thisClient = props.client;
 
   return (
