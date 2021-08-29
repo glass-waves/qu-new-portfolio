@@ -17,7 +17,6 @@ function Enter(props) {
           />
         </div>
         <div className={styles.imageLink}>
-          <Link href="/home">
               <Image
                 className={styles.hover}
                 alt="center enter image"
@@ -25,7 +24,6 @@ function Enter(props) {
                 width={594}
                 height={595}
               />
-          </Link>
         </div>
         <div className={styles.image}>
           <Image
