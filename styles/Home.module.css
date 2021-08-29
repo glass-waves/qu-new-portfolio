@@ -25,14 +25,16 @@
 }
 .photoSection4 {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 .photoSection5 {
   display: flex;
+  justify-content: center;
   align-items: center;
 }
 .photoSection7 {
   display: flex;
+  justify-content: center;
   flex-direction: row;
   align-items: center;
 }
