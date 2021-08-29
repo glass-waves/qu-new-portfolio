@@ -17,15 +17,14 @@ function Enter(props) {
           />
         </div>
         <div className={styles.imageLink}>
-          <Link href="/home" passHref>
-            <a className={styles.hover}>
+          <Link href="/home">
               <Image
+                className={styles.hover}
                 alt="center enter image"
                 src="/../public/ENTERpage1_2enter.png"
                 width={594}
                 height={595}
               />
-            </a>
           </Link>
         </div>
         <div className={styles.image}>
