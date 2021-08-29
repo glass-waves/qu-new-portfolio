@@ -42,10 +42,10 @@ const Client = (props) => {
     <main className={style.container}>
       <Header fontColor='white' links={['home', 'about', 'work']} />
       <Ticker text={thisClient.header}/>
-      <p className={style.copy}>{thisClient.copy}</p>
       <section className={style.photoContainer}>
         {thisClient.photos.map(photo => <div className={style.imageWrapper} key={photo.src} style={{maxWidth: photo.width}}><Image src={photo.src} width={photo.width} height={photo.height}/></div>)}
       </section>
+      <p className={style.copy}>{thisClient.copy}</p>
     </main>
   )
 }

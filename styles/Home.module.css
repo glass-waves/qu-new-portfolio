@@ -12,6 +12,11 @@
 }
 .photoSection1 {
   display: flex;
+  justify-content: center;
+}
+.photoSection2 {
+  display: flex;
+  justify-content: center;
 }
 .photoSection3 {
   display: grid;
