@@ -4,22 +4,22 @@ import style from "../styles/Work.module.css";
 import Link from "next/link";
 import Header from "../components/header";
 const clients = [
+  "nike",
+  "new age design",
+  "demi",
+  "wet dream",
+  "stay over",
+  "pot plant",
   "aurora elixirs",
   "barbari",
   "chrome",
-  "demi",
   "dicks sporting goods",
   "dolphin midwives",
   "forest remedies",
   "gazzy by gazzo",
   "aphex",
   "munchies",
-  "new age design",
-  "nike",
   "olio lab",
-  "pot plant",
-  "stay over",
-  "wet dream",
 ];
 
 const Work = () => {
