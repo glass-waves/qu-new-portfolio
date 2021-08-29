@@ -21,7 +21,7 @@ function Enter(props) {
             <Image
               className={styles.hover}
               alt="left enter image"
-              src="/../public/centerenterr.png"
+              src="https://res.cloudinary.com/glasswavs/image/upload/c_scale,dpr_2.0,q_auto,w_500/v1630272385/General%20Qu/enter/centerenterr.png"
               width={594}
               height={595}
             />
