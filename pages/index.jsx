@@ -21,7 +21,7 @@ function Enter(props) {
             <Image
               className={styles.hover}
               alt="left enter image"
-              src="/../public/ENTERpage1_2enter.png"
+              src="/../public/centerenterr.png"
               width={594}
               height={595}
             />
