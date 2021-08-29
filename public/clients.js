@@ -234,7 +234,7 @@ export const clients = {
   },
   forestremedies: {
     header: 'forest remedies',
-    copy: 'FOREST REMEDIES IS A REGULAR CLIENT QU CREATES FOR. ALL IMAGES BELOW ARE STYLED AND SHOT BY QU.',
+    copy: 'FOREST REMEDIES IS A REGULAR CLIENT QU CREATES FOR. ALL IMAGES ARE STYLED AND SHOT BY QU.',
     photos: [
       {
         src: "https://res.cloudinary.com/glasswavs/image/upload/c_scale,dpr_2.0,q_auto:best,w_400/v1628215720/General%20Qu/forest%20remedies/1_gutxh0.jpg",
