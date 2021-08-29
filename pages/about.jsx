@@ -6,6 +6,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 function About() {
+  console.log(window.devicePixelRatio);
   return (
     <main className={style.container}>
       <Header fontColor="white" links={["home", "work"]} />
