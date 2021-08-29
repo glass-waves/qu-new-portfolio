@@ -17,11 +17,11 @@ function Enter(props) {
           />
         </div>
         <div className={styles.imageLink}>
-          <Link href="/home">
+          <Link href="/home" passHref>
             <a className={styles.hover}>
               <Image
                 alt="center enter image"
-                src="https://res.cloudinary.com/glasswavs/image/upload/c_scale,dpr_2.0,q_auto,w_500/v1627590500/General%20Qu/enter/ENTERpage1_2enter_x5tjbb.png"
+                src="https://res.cloudinary.com/glasswavs/image/upload/c_scale,dpr_2.0,q_auto,w_500/v1630270192/General%20Qu/enter/ENTERpage1_2enter_ofvpcb.png"
                 width={500}
                 height={501}
               />
