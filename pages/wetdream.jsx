@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Header from "../components/header";
 import Ticker from "../components/ticker";
 import style from "../styles/Client.module.css";
@@ -6,6 +6,12 @@ import style2 from "../styles/Wet.module.css";
 import Image from "next/image";
 
 function Wetdream() {
+  const [screenRatio, setScreenRatio ] = useState(1);
+  const handleWidth = () => setScreenRatio(window.innerWidth / 1000);
+  useEffect(() => {
+    handleWidth();
+    window.addEventListener('resize', handleWidth);
+  }, [])
   return (
     <main className={style.container}>
       <Header fontColor="white" links={["home", "about", "work"]} />
@@ -17,8 +23,8 @@ function Wetdream() {
       <section className={style.photoContainer}>
         <div className={style2.videoWrapper}>
           <iframe
-            width="640"
-            height="360"
+            width={640 * screenRatio}
+            height={360 * screenRatio}
             src="https://www.youtube.com/embed/8KWRkCOSyfU"
             title="YouTube video player"
             frameBorder="0"
@@ -30,8 +36,8 @@ function Wetdream() {
           <iframe
             title="vimeo-player"
             src="https://player.vimeo.com/video/336836268?h=ecf932df6f"
-            width="640"
-            height="360"
+            width={640 * screenRatio}
+            height={360 * screenRatio}
             frameBorder="0"
             allowFullScreen
           ></iframe>
