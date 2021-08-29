@@ -410,16 +410,6 @@ export const clients = {
         width: 700,
         height: 442,
       },
-      {
-        src: "https://res.cloudinary.com/glasswavs/image/upload/c_scale,dpr_2.0,q_auto:best,w_400/v1627616770/General%20Qu/nike%20x%20beyond%20labels/15_qnrok2.jpg",
-        width: 400,
-        height: 832,
-      },
-      {
-        src: "https://res.cloudinary.com/glasswavs/image/upload/c_scale,dpr_2.0,q_auto:best,w_700/v1627616769/General%20Qu/nike%20x%20beyond%20labels/16_yedzk6.jpg",
-        width: 700,
-        height: 403,
-      },
     ]
   },
   oliolab: {
