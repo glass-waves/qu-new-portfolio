@@ -12,6 +12,7 @@ function Header({ fontColor, links }) {
       {/* <h1 className={style.logo} style={{ color: fontColor }}>
         general qu
       </h1> */}
+      <div className={style.logoContainer}>
       <Image
         src="https://res.cloudinary.com/glasswavs/image/upload/c_scale,dpr_auto,w_1000/v1630192952/General%20Qu/logo/General_Qu_white_vywhbg.png"
         // src="https://res.cloudinary.com/glasswavs/image/upload/c_scale,dpr_auto,w_1000/v1630192960/General%20Qu/logo/General_Qu_green_eddo9f.png"
@@ -19,6 +20,7 @@ function Header({ fontColor, links }) {
         height={196}
         alt="logo"
       />
+      </div>
       <div></div>
       <nav className={style.nav} style={{ color: fontColor }}>
         {links.map((link) => (
