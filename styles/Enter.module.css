@@ -22,3 +22,32 @@
   text-align: center;
   justify-content: center;
 }
+
+@media screen and (max-width: 800px) {
+  .imageContainer {
+    flex-direction: column;
+    width: 100%;
+  }
+  .image{
+    width: 30%;
+  }
+  .imageLink{
+    width: 30%;
+  }
+}
+@media screen and (max-width: 650px) {
+  .image{
+    width: 35%;
+  }
+  .imageLink{
+    width: 35%;
+  }
+}
+@media screen and (max-width: 550px) {
+  .image{
+    width: 40%;
+  }
+  .imageLink{
+    width: 40%;
+  }
+}
