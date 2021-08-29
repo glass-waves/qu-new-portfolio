@@ -11,7 +11,7 @@ function Enter(props) {
         <div className={styles.image}>
           <Image
             alt="left enter image"
-            src="https://res.cloudinary.com/glasswavs/image/upload/c_scale,dpr_2.0,q_auto:best,w_500/v1627590500/General%20Qu/enter/ENTERpage1_1_urjjl8.png"
+            src="https://res.cloudinary.com/glasswavs/image/upload/c_scale,q_auto:best,w_500/v1627590500/General%20Qu/enter/ENTERpage1_1_urjjl8.png"
             width={500}
             height={501}
           />
@@ -21,7 +21,7 @@ function Enter(props) {
             <Image
               className={styles.hover}
               alt="left enter image"
-              src="https://res.cloudinary.com/glasswavs/image/upload/c_scale,dpr_2.0,q_auto,w_500/v1630272385/General%20Qu/enter/centerenterr.png"
+              src="https://res.cloudinary.com/glasswavs/image/upload/c_scale,q_auto,w_500/v1630272385/General%20Qu/enter/centerenterr.png"
               width={594}
               height={595}
             />
@@ -31,7 +31,7 @@ function Enter(props) {
         <div className={styles.image}>
           <Image
             alt="right enter image"
-            src="https://res.cloudinary.com/glasswavs/image/upload/c_scale,dpr_2.0,q_auto:best,w_500/v1627590500/General%20Qu/enter/ENTERpage1_3_wykn8x.png"
+            src="https://res.cloudinary.com/glasswavs/image/upload/c_scale,q_auto:best,w_500/v1627590500/General%20Qu/enter/ENTERpage1_3_wykn8x.png"
             width={500}
             height={500}
           />
