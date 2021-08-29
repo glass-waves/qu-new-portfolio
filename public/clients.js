@@ -234,7 +234,7 @@ export const clients = {
   },
   forestremedies: {
     header: 'forest remedies',
-    copy: 'FOREST REMEDIES IS A REGULAR CLIENT QU CREATES FOR. ALL IMAGES BELOW ARE STYLED AND SHOT BY QU.',
+    copy: 'FOREST REMEDIES IS A REGULAR CLIENT QU CREATES FOR. ALL IMAGES ARE STYLED AND SHOT BY QU.',
     photos: [
       {
         src: "https://res.cloudinary.com/glasswavs/image/upload/c_scale,dpr_2.0,q_auto:best,w_400/v1628215720/General%20Qu/forest%20remedies/1_gutxh0.jpg",
@@ -414,9 +414,7 @@ export const clients = {
   },
   oliolab: {
     header: 'olio lab',
-    copy: `OLIO LAB IS THE ARTIST STUDIO OF BUCKLEY AND QU. MODELS- BUCKLEY AND SALOMEYA SOBKU
-
-    SHORT FILM - “IT’S STILL LIFE” MADE BY OLIO LAB, STARRING-SUNNY FARRIS, SALOMEYA SOBKU, BUCKLEY, AND QU. MUSIC BY QU AND WET DREAM`,
+    copy: `OLIO LAB IS THE ARTIST STUDIO OF BUCKLEY AND QU. MODELS - BUCKLEY AND SALOMEYA SOBKU`,
     photos: [
       {
         src: "https://res.cloudinary.com/glasswavs/image/upload/c_scale,dpr_2.0,q_auto:best,w_400/v1627624596/General%20Qu/olio%20lab/2_om0vxs.jpg",
