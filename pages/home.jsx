@@ -22,7 +22,7 @@ export default function Home() {
       <HomeSection4 />
       <HomeSection5 />
       <HomeSection6 />
-      <HomeSection7 />
+      {/* <HomeSection7 /> dolphin midwives*/}
       <Ticker text="@GENERAL_QU #GENERALQU" backgroundColor="#000"/>
     </main>
   );

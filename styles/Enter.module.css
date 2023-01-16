@@ -1,19 +1,32 @@
 .container {
-  height: 100vh;
-  width: 100%;
-  background-color: rgb(147,248,206);
+  background-color: rgb(0,0,0);
   display: flex;
   justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+}
+.imageAndText {
+  position: relative;
+}
+.text {
+  position: absolute;
+  color: white;
+  top: 87%;
+  left: 50%;
+}
+.text:hover {
+  color: black;
 }
 .image {
-  width: 30%;
+  height: 100%;
+  width: auto;
 }
 .imageLink {
   width: 30%;
 }
-.hover {
+/* .hover {
   cursor: url('https://res.cloudinary.com/glasswavs/image/upload/c_scale,w_50/v1628294470/General%20Qu/enter/PngItem_1818548_obdwx6.png'), auto;
-}
+} */
 .imageContainer {
   display: flex;
   /* flex-direction: column; */

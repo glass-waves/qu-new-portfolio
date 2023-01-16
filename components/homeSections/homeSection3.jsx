@@ -21,14 +21,14 @@ function HomeSection3() {
           alt="demi"
         />
       </div>
-      <div className={style.imageMargin}>
+      {/* <div className={style.imageMargin}>
         <Image
           src="https://res.cloudinary.com/glasswavs/image/upload/c_scale,dpr_2.0,q_auto,w_500/v1627619412/General%20Qu/demi/3_t42afa.jpg"
           width={500}
           height={750}
           alt="demi"
         />
-      </div>
+      </div> */}
     </section>
   );
 }

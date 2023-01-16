@@ -1,5 +1,5 @@
 import React from "react";
-import PropTypes from "prop-types";
+// import PropTypes from "prop-types";
 import styles from "../styles/Enter.module.css";
 import Link from "next/link";
 import Image from "next/image";
@@ -7,35 +7,18 @@ import Image from "next/image";
 function Enter(props) {
   return (
     <section className={styles.container}>
-      <div className={styles.imageContainer}>
-        <div className={styles.image}>
+      <div className={styles.imageAndText}>
+        <Link href="/home" passHref>
           <Image
-            alt="left enter image"
-            src="https://res.cloudinary.com/glasswavs/image/upload/c_scale,q_auto:best,w_500/v1627590500/General%20Qu/enter/ENTERpage1_1_urjjl8.png"
-            width={500}
-            height={501}
+            alt="enter image"
+            quality={100}
+            priority
+            src="https://res.cloudinary.com/glasswavs/image/upload/v1665356847/General%20Qu/2022_revamp/sorel_fall22/SOREL_FA22_KINETIC_IMPACT_STRAP_1999491125_PINK_ONBODY_5647_ocvk9y.jpg"
+            width={1200}
+            height={800}
           />
-        </div>
-        <div className={styles.image}>
-          <Link href="/home">
-            <Image
-              className={styles.hover}
-              alt="left enter image"
-              src="https://res.cloudinary.com/glasswavs/image/upload/c_scale,q_auto,w_500/v1630272385/General%20Qu/enter/centerenterr.png"
-              width={594}
-              height={595}
-            />
-          </Link>
-        </div>
-
-        <div className={styles.image}>
-          <Image
-            alt="right enter image"
-            src="https://res.cloudinary.com/glasswavs/image/upload/c_scale,q_auto:best,w_500/v1627590500/General%20Qu/enter/ENTERpage1_3_wykn8x.png"
-            width={500}
-            height={500}
-          />
-        </div>
+          <h1 className={styles.text}>ENTER</h1>
+        </Link>
       </div>
     </section>
   );
