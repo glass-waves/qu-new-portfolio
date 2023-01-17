@@ -22,15 +22,9 @@ const clients = [
   "wet dream",
   "stay over",
   "pot plant",
-  // "aurora elixirs",
   "barbari",
-  // "chrome",
   "dicks sporting goods",
-  // "forest remedies",
-  // "gazzy by gazzo",
-  // "aphex",
   "munchies",
-  // "olio lab",
 ];
 
 const Work = () => {

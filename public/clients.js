@@ -491,68 +491,6 @@ export const clients = {
       },
     ],
   },
-  aphex: {
-    header: "aphex aphex",
-    copy: "MODEL - JOHNNY COSTELLO, PHOTOGRAPHER - NADAV BENJAMIN, STYLIST - QU, HMUA - SUNNY FARRIS",
-    photos: [
-      {
-        src: "https://res.cloudinary.com/glasswavs/image/upload/c_scale,dpr_2.0,q_auto:best,w_700/v1628284688/General%20Qu/aphex/1_puqbz4.jpg",
-        width: 700,
-        height: 525,
-      },
-      {
-        src: "https://res.cloudinary.com/glasswavs/image/upload/c_scale,dpr_2.0,q_auto:best,w_400/v1628284688/General%20Qu/aphex/2_klw9c7.jpg",
-        width: 400,
-        height: 533,
-      },
-      {
-        src: "https://res.cloudinary.com/glasswavs/image/upload/c_scale,dpr_2.0,q_auto:best,w_400/v1628284688/General%20Qu/aphex/3_lsdnnx.jpg",
-        width: 400,
-        height: 533,
-      },
-      {
-        src: "https://res.cloudinary.com/glasswavs/image/upload/c_scale,dpr_2.0,q_auto:best,w_400/v1628284688/General%20Qu/aphex/4_iwjstz.jpg",
-        width: 400,
-        height: 533,
-      },
-      {
-        src: "https://res.cloudinary.com/glasswavs/image/upload/c_scale,dpr_2.0,q_auto:best,w_400/v1628284688/General%20Qu/aphex/5_eotmg2.jpg",
-        width: 400,
-        height: 533,
-      },
-    ],
-  },
-  auroraelixirs: {
-    header: "aurora elixirs",
-    copy: "AURORA ELIXIRS IS A REGULAR CLIENT QU CREATES CONTENT FOR. \nALL IMAGES ARE STYLED AND SHOT BY QU. MODEL IS LUCY LAREYNA.",
-    photos: [
-      {
-        src: "https://res.cloudinary.com/glasswavs/image/upload/c_scale,dpr_2.0,q_auto:best,w_700/v1628114834/General%20Qu/aurora/2021/4_sb9toe.jpg",
-        width: 700,
-        height: 1050,
-      },
-      {
-        src: "https://res.cloudinary.com/glasswavs/image/upload/c_scale,dpr_2.0,q_auto:best,w_700/v1628114835/General%20Qu/aurora/2021/5_tetkai.jpg",
-        width: 700,
-        height: 1050,
-      },
-      {
-        src: "https://res.cloudinary.com/glasswavs/image/upload/c_scale,dpr_2.0,q_auto:best,w_700/v1628114834/General%20Qu/aurora/2021/1_tfgu6v.jpg",
-        width: 700,
-        height: 1050,
-      },
-      {
-        src: "https://res.cloudinary.com/glasswavs/image/upload/c_scale,dpr_2.0,q_auto:best,w_700/v1628114834/General%20Qu/aurora/2021/2_faapxz.jpg",
-        width: 700,
-        height: 1050,
-      },
-      {
-        src: "https://res.cloudinary.com/glasswavs/image/upload/c_scale,dpr_2.0,q_auto:best,w_700/v1628114834/General%20Qu/aurora/2021/3_vhbqxy.jpg",
-        width: 700,
-        height: 1050,
-      },
-    ],
-  },
   barbari: {
     header: "barbari",
     copy: "BARBARI HAS BEEN A REGULAR CLIENT OF QU’S FOR THE LAST 2.5 YEARS. TOGETHER, BOTH COMPANIES HAVE EVOLVED A SOLID AESTHETIC. ALL IMAGES ARE STYLED AND SHOT BY QU. IMAGES 5 & 8 STYLED BY FAMOUS CHARM. MODELS - CHRISTIAN BURKE AND BRILEY JOZWIAK.",
@@ -614,29 +552,6 @@ export const clients = {
       },
     ],
   },
-  chrome: {
-    header: "chrome chrome",
-    copy: `FW2020. ALL IMAGES STYLED AND SHOT BY QU.\n
-
-    MODELS - CHRISTIAN BURKE AND MARGARET ALBA.`,
-    photos: [
-      {
-        src: "https://res.cloudinary.com/glasswavs/image/upload/c_scale,dpr_2.0,q_auto:best,w_700/v1601060034/General%20Qu/chrome/chrome7_ihspq7.jpg",
-        width: 700,
-        height: 467,
-      },
-      {
-        src: "https://res.cloudinary.com/glasswavs/image/upload/c_scale,dpr_2.0,q_auto:best,w_400/v1601060034/General%20Qu/chrome/chrome8_bqsxqb.jpg",
-        width: 400,
-        height: 600,
-      },
-      {
-        src: "https://res.cloudinary.com/glasswavs/image/upload/c_scale,dpr_2.0,q_auto:best,w_700/v1601060033/General%20Qu/chrome/chrome3_to6gtz.jpg",
-        width: 700,
-        height: 467,
-      },
-    ],
-  },
   demi: {
     header: "demi demi",
     copy: `THIS PROJECT WAS ART DIRECTED, STYLED, AND PRODUCED BY QU. PHOTOGRAPHER-ZACH DOLEAC,
@@ -692,73 +607,6 @@ export const clients = {
         src: "https://res.cloudinary.com/glasswavs/image/upload/c_scale,dpr_2.0,q_auto:best,w_700/v1601059995/General%20Qu/dsg/dsg6_vdjfgw.jpg",
         width: 700,
         height: 700,
-      },
-    ],
-  },
-  forestremedies: {
-    header: "forest remedies",
-    copy: "FOREST REMEDIES IS A REGULAR CLIENT QU CREATES FOR. ALL IMAGES ARE STYLED AND SHOT BY QU.",
-    photos: [
-      {
-        src: "https://res.cloudinary.com/glasswavs/image/upload/c_scale,dpr_2.0,q_auto:best,w_400/v1628215720/General%20Qu/forest%20remedies/1_gutxh0.jpg",
-        width: 400,
-        height: 500,
-      },
-      {
-        src: "https://res.cloudinary.com/glasswavs/image/upload/c_scale,dpr_2.0,q_auto:best,w_700/v1628215721/General%20Qu/forest%20remedies/2_aygknw.jpg",
-        width: 700,
-        height: 700,
-      },
-      {
-        src: "https://res.cloudinary.com/glasswavs/image/upload/c_scale,dpr_2.0,q_auto:best,w_400/v1628215720/General%20Qu/forest%20remedies/3_jxxi46.jpg",
-        width: 400,
-        height: 517,
-      },
-      {
-        src: "https://res.cloudinary.com/glasswavs/image/upload/c_scale,dpr_2.0,q_auto:best,w_700/v1628215720/General%20Qu/forest%20remedies/4_oqjrhu.jpg",
-        width: 700,
-        height: 467,
-      },
-      {
-        src: "https://res.cloudinary.com/glasswavs/image/upload/c_scale,dpr_2.0,q_auto:best,w_400/v1628215720/General%20Qu/forest%20remedies/5_vh3wxh.jpg",
-        width: 400,
-        height: 517,
-      },
-      {
-        src: "https://res.cloudinary.com/glasswavs/image/upload/c_scale,dpr_2.0,q_auto:best,w_400/v1628215720/General%20Qu/forest%20remedies/7_uvqjca.jpg",
-        width: 400,
-        height: 500,
-      },
-      {
-        src: "https://res.cloudinary.com/glasswavs/image/upload/c_scale,dpr_2.0,q_auto:best,w_400/v1628215720/General%20Qu/forest%20remedies/8_udpcnu.jpg",
-        width: 400,
-        height: 517,
-      },
-    ],
-  },
-  gazzybygazzo: {
-    header: "gazzy by gazzo",
-    copy: "GAZZY BY GAZZO IS A REGULAR CLIENT OF QU. ALL PHOTOS SHOT BY QU. MODELS - DECONTEE, SABEY, KEASHA BROWN, EUNICE CAZEREZ, LISA CHIEN, AND CHRISTIAN BURKE",
-    photos: [
-      {
-        src: "https://res.cloudinary.com/glasswavs/image/upload/c_scale,dpr_2.0,q_auto:best,w_700/v1601060039/General%20Qu/gazzy/gazzy10_rx976y.jpg",
-        width: 700,
-        height: 467,
-      },
-      {
-        src: "https://res.cloudinary.com/glasswavs/image/upload/c_scale,dpr_2.0,q_auto:best,w_700/v1601060040/General%20Qu/gazzy/gazzy1_yvelur.jpg",
-        width: 700,
-        height: 467,
-      },
-      {
-        src: "https://res.cloudinary.com/glasswavs/image/upload/c_scale,dpr_2.0,q_auto:best,w_700/v1601060040/General%20Qu/gazzy/gazzy3_fptirb.jpg",
-        width: 700,
-        height: 700,
-      },
-      {
-        src: "https://res.cloudinary.com/glasswavs/image/upload/c_scale,dpr_2.0,q_auto:best,w_700/v1628215285/General%20Qu/gazzy/gazzy4_b2hvhy.jpg",
-        width: 700,
-        height: 467,
       },
     ],
   },
@@ -872,37 +720,6 @@ export const clients = {
         src: "https://res.cloudinary.com/glasswavs/image/upload/c_scale,dpr_2.0,q_auto:best,w_700/v1627616771/General%20Qu/nike%20x%20beyond%20labels/14_yjmc6l.jpg",
         width: 700,
         height: 442,
-      },
-    ],
-  },
-  oliolab: {
-    header: "olio lab",
-    copy: `OLIO LAB IS THE ARTIST STUDIO OF BUCKLEY AND QU. MODELS - BUCKLEY AND SALOMEYA SOBKU`,
-    photos: [
-      {
-        src: "https://res.cloudinary.com/glasswavs/image/upload/c_scale,dpr_2.0,q_auto:best,w_400/v1627624596/General%20Qu/olio%20lab/2_om0vxs.jpg",
-        width: 400,
-        height: 533,
-      },
-      {
-        src: "https://res.cloudinary.com/glasswavs/image/upload/c_scale,dpr_2.0,q_auto:best,w_400/v1627624597/General%20Qu/olio%20lab/1_ifdmj9.jpg",
-        width: 400,
-        height: 533,
-      },
-      {
-        src: "https://res.cloudinary.com/glasswavs/image/upload/c_scale,dpr_2.0,q_auto:best,w_400/v1627624605/General%20Qu/olio%20lab/1_tutlss.jpg",
-        width: 400,
-        height: 600,
-      },
-      {
-        src: "https://res.cloudinary.com/glasswavs/image/upload/c_scale,dpr_2.0,q_auto:best,w_400/v1627624605/General%20Qu/olio%20lab/3_qfko8s.jpg",
-        width: 400,
-        height: 560,
-      },
-      {
-        src: "https://res.cloudinary.com/glasswavs/image/upload/c_scale,dpr_2.0,q_auto:best,w_400/v1627624605/General%20Qu/olio%20lab/2_jieube.jpg",
-        width: 400,
-        height: 560,
       },
     ],
   },
