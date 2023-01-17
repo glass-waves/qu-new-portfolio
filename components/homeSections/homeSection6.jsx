@@ -1,6 +1,6 @@
 import React from "react";
 import style from "../../styles/Home.module.css";
-import Image from 'next/image'
+import Image from "next/legacy/image";
 
 function HomeSection6() {
   return (
@@ -15,12 +15,20 @@ function HomeSection6() {
       </div>
       <div className={style.imageMargin}>
         <Image
+          src="https://res.cloudinary.com/glasswavs/image/upload/c_scale,dpr_2.0,q_auto,h_713/v1627619412/General%20Qu/demi/3_t42afa.jpg"
+          width={475}
+          height={713}
+          alt="demi"
+        />
+      </div>
+      {/* <div className={style.imageMargin}>
+        <Image
           src="https://res.cloudinary.com/glasswavs/image/upload/c_scale,dpr_2.0,q_auto,w_450/v1627624596/General%20Qu/olio%20lab/2_om0vxs.jpg"
           width={450}
           height={600}
           alt="pot plant"
         />
-      </div>
+      </div> */}
     </section>
   );
 }

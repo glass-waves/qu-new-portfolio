@@ -1,6 +1,7 @@
 .container {
   background-color: black;
   margin-top: 0;
+  /* width: 100%; */
   /* height: 100vh; */
   padding-top: 10px;
 
@@ -19,8 +20,11 @@
   justify-content: center;
 }
 .photoSection3 {
-  display: grid;
-  grid-template-columns: 25% 50% 25%;
+  width: 100%;
+  /* display: grid;
+  grid-template-columns: 25% 50% 25%; */
+  display: flex;
+  justify-content: space-evenly;
   height: 100%;
 }
 .photoSection4 {
@@ -35,6 +39,18 @@
 .photoSection7 {
   display: flex;
   justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+.photoSection8 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+.photoSection10 {
+  display: flex;
+  justify-content: space-around;
   flex-direction: row;
   align-items: center;
 }

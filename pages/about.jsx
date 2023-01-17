@@ -2,10 +2,16 @@ import React from "react";
 import Header from "../components/header";
 import Ticker from "../components/ticker";
 import style from "../styles/About.module.css";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import Link from "next/link";
 
 function About() {
+  /**
+   * Creative Director
+set & props styling
+wardrobe styling
+color consulting
+   */
   return (
     <main className={style.container}>
       <Header fontColor="white" links={["home", "work"]} />
@@ -23,7 +29,7 @@ function About() {
           <div className={style.textBox}>
             <p>
               contact -{" "}
-              <Link href="mailto:hi@generalqu.com">
+              <Link passHref href="mailto:hi@generalqu.com">
                 <span className={style.mailLink}>hi@generalqu.com</span>
               </Link>
             </p>
@@ -32,10 +38,10 @@ function About() {
           </div>
           <div className={style.textBox}>
             <p>services -</p>
-            <p>interior, set and prop styling/design</p>
-            <p>photography</p>
-            <p>aesthetic development</p>
-            <p>interior design consultation</p>
+            <p>creative direction</p>
+            <p>set and props styling</p>
+            <p>wardrobe styling</p>
+            <p>color consulting</p>
           </div>
         </div>
       </section>

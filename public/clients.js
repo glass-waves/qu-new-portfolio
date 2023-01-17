@@ -1,69 +1,499 @@
 export const clients = {
-  aphex: {
-    header: 'aphex aphex',
-    copy: 'MODEL - JOHNNY COSTELLO, PHOTOGRAPHER - NADAV BENJAMIN, STYLIST - QU, HMUA - SUNNY FARRIS',
+  tevafall22: {
+    header: "teva fall 22",
+    copy: "PHOTOGRAPHER - BEN SELLON, SET DESIGNER - QU METCALF, PRODUCER - KATIE SELLON, STYLIST - MARCUS FISCHER, AD - MYKE MART",
     photos: [
       {
-        src: "https://res.cloudinary.com/glasswavs/image/upload/c_scale,dpr_2.0,q_auto:best,w_700/v1628284688/General%20Qu/aphex/1_puqbz4.jpg",
-        width: 700,
-        height: 525,
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1673909384/General%20Qu/2022_revamp/teva_fall22/3_ftm5az.jpg",
+        width: 1200,
+        height: 675,
       },
       {
-        src: "https://res.cloudinary.com/glasswavs/image/upload/c_scale,dpr_2.0,q_auto:best,w_400/v1628284688/General%20Qu/aphex/2_klw9c7.jpg",
-        width: 400,
-        height: 533,
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1673909383/General%20Qu/2022_revamp/teva_fall22/7_ljyghr.jpg",
+        width: 1200,
+        height: 675,
       },
       {
-        src: "https://res.cloudinary.com/glasswavs/image/upload/c_scale,dpr_2.0,q_auto:best,w_400/v1628284688/General%20Qu/aphex/3_lsdnnx.jpg",
-        width: 400,
-        height: 533,
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1673909383/General%20Qu/2022_revamp/teva_fall22/5_txh8pb.jpg",
+        width: 1200,
+        height: 675,
       },
       {
-        src: "https://res.cloudinary.com/glasswavs/image/upload/c_scale,dpr_2.0,q_auto:best,w_400/v1628284688/General%20Qu/aphex/4_iwjstz.jpg",
-        width: 400,
-        height: 533,
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1673909383/General%20Qu/2022_revamp/teva_fall22/2_odo3m7.jpg",
+        width: 1200,
+        height: 675,
       },
       {
-        src: "https://res.cloudinary.com/glasswavs/image/upload/c_scale,dpr_2.0,q_auto:best,w_400/v1628284688/General%20Qu/aphex/5_eotmg2.jpg",
-        width: 400,
-        height: 533,
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1673909383/General%20Qu/2022_revamp/teva_fall22/1._dsddug.jpg",
+        width: 1200,
+        height: 675,
       },
-    ]
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1673909383/General%20Qu/2022_revamp/teva_fall22/4_ktkfqy.jpg",
+        width: 1200,
+        height: 675,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1673909383/General%20Qu/2022_revamp/teva_fall22/6_bj04ab.jpg",
+        width: 1200,
+        height: 675,
+      },
+    ],
   },
-  auroraelixirs: {
-    header: 'aurora elixirs',
-    copy: 'AURORA ELIXIRS IS A REGULAR CLIENT QU CREATES CONTENT FOR. \nALL IMAGES ARE STYLED AND SHOT BY QU. MODEL IS LUCY LAREYNA.',
+  fluttering: {
+    header: "fluttering",
+    copy: "CD/STYLIST - QU METCALF, PHOTOGRAPHER - TYLER ASHLOCK, MODELS - NYANG YOUNG & ARIANNA SIMONE, HMUA - KYLIE SALLEE",
     photos: [
       {
-        src: "https://res.cloudinary.com/glasswavs/image/upload/c_scale,dpr_2.0,q_auto:best,w_700/v1628114834/General%20Qu/aurora/2021/4_sb9toe.jpg",
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1673909319/General%20Qu/2022_revamp/a_fluttering/1_xoudsg.jpg",
+        width: 1200,
+        height: 800,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1673909319/General%20Qu/2022_revamp/a_fluttering/5_ne3v8o.jpg",
+        width: 1200,
+        height: 800,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1673909318/General%20Qu/2022_revamp/a_fluttering/2_c23spo.jpg",
+        width: 1200,
+        height: 800,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1673909318/General%20Qu/2022_revamp/a_fluttering/6_jfvmb6.jpg",
+        width: 1200,
+        height: 800,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1673909318/General%20Qu/2022_revamp/a_fluttering/3_yo7c0l.jpg",
+        width: 1200,
+        height: 800,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1673909318/General%20Qu/2022_revamp/a_fluttering/4_vargfr.jpg",
+        width: 1200,
+        height: 800,
+      },
+    ],
+  },
+  sorelszn22: {
+    header: "sorel szn 22'",
+    copy: "PHOTOGRAPHER - EVIE LANE, SET DESIGN/STYLIST - QU METCALF, ASSIST - LICHI, SOREL TEAM - CORI PEDDICORD, TORI LESIKAR, ALISON, JADE",
+    photos: [
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1673909445/General%20Qu/2022_revamp/sorel_szn_22/2_etsank.jpg",
+        width: 1024,
+        height: 683,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1673909445/General%20Qu/2022_revamp/sorel_szn_22/10_j9hwsv.jpg",
+        width: 500,
+        height: 750,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1673909445/General%20Qu/2022_revamp/sorel_szn_22/3_potv7t.jpg",
+        width: 500,
+        height: 750,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1673909444/General%20Qu/2022_revamp/sorel_szn_22/13_phgtzr.jpg",
+        width: 500,
+        height: 750,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1673909444/General%20Qu/2022_revamp/sorel_szn_22/9_dw8k04.jpg",
+        width: 500,
+        height: 750,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1673909444/General%20Qu/2022_revamp/sorel_szn_22/7_zwhrqd.jpg",
+        width: 500,
+        height: 750,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1673909444/General%20Qu/2022_revamp/sorel_szn_22/12_cimmff.jpg",
+        width: 500,
+        height: 750,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1673909444/General%20Qu/2022_revamp/sorel_szn_22/6_oarcjg.jpg",
+        width: 500,
+        height: 750,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1673909444/General%20Qu/2022_revamp/sorel_szn_22/4_nfua6r.jpg",
+        width: 500,
+        height: 750,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1673909443/General%20Qu/2022_revamp/sorel_szn_22/11_kotclf.jpg",
+        width: 500,
+        height: 750,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1673909443/General%20Qu/2022_revamp/sorel_szn_22/1_h7bscg.jpg",
+        width: 1024,
+        height: 683,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1673909443/General%20Qu/2022_revamp/sorel_szn_22/5_grtz5s.jpg",
+        width: 500,
+        height: 750,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1673909443/General%20Qu/2022_revamp/sorel_szn_22/8_gmicke.jpg",
+        width: 1024,
+        height: 683,
+      },
+    ],
+  },
+  sorelfall22: {
+    header: "sorel fall 22'",
+    copy: "PHOTOGRAPHER - TYLER ASHLOCK @ SWANSON STUDIO, SET DESIGN/STYLIST - QU METCALF, MODELS - MINJ + AYAANA STEVENS",
+    photos: [
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1673911358/General%20Qu/2022_revamp/sorel_fall22/3__qfuvir.jpg",
+        width: 1500,
+        height: 1000,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1665356851/General%20Qu/2022_revamp/sorel_fall22/SOREL_FA22_KINETIC_IMPACT_LACE_1986491125_ORANGE_ONBODY_2581_a57fbe.jpg",
+        width: 1500,
+        height: 1000,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1665356849/General%20Qu/2022_revamp/sorel_fall22/SOREL_FA22_KINETIC_BREAKTHRU_DAY_LACE_1986301125_GREEN_ONBODY_1610_l8axmz.jpg",
+        width: 1500,
+        height: 1000,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1665356848/General%20Qu/2022_revamp/sorel_fall22/SOREL_FA22_KINETIC_BREAKTHRU_TECH_LACE_1986291608_TURQUOISE_ONBODY_4753_jehpkq.jpg",
+        width: 1500,
+        height: 1000,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1665356847/General%20Qu/2022_revamp/sorel_fall22/SOREL_FA22_KINETIC_IMPACT_STRAP_1999491125_PINK_ONBODY_5647_ocvk9y.jpg",
+        width: 1500,
+        height: 1000,
+      },
+    ],
+  },
+  sorelglowpack: {
+    header: "sorel glow pack",
+    copy: "PHOTOGRAPHER - PAUL REID MILLER, SET DESIGN/STYLIST - QU METCALF, MODEL - EMMA JOHNSTON",
+    photos: [
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1665356336/General%20Qu/2022_revamp/sorel_glow_pack/03_nozfyk.jpg",
+        width: 1500,
+        height: 1000,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1665356335/General%20Qu/2022_revamp/sorel_glow_pack/12_q63rai.jpg",
+        width: 1500,
+        height: 1000,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1665356330/General%20Qu/2022_revamp/sorel_glow_pack/04_pns21l.jpg",
+        width: 1500,
+        height: 1000,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1665356327/General%20Qu/2022_revamp/sorel_glow_pack/07_ptbhb9.jpg",
+        width: 1500,
+        height: 1000,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1665356327/General%20Qu/2022_revamp/sorel_glow_pack/08_muptxm.jpg",
+        width: 1500,
+        height: 1000,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1665356326/General%20Qu/2022_revamp/sorel_glow_pack/02_jufa6j.jpg",
+        width: 1500,
+        height: 1000,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1665356325/General%20Qu/2022_revamp/sorel_glow_pack/06_w716g6.jpg",
+        width: 1500,
+        height: 1000,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1665356324/General%20Qu/2022_revamp/sorel_glow_pack/01_icftho.jpg",
+        width: 1500,
+        height: 1000,
+      },
+    ],
+  },
+  sorelspring22: {
+    header: "sorel spring 22",
+    copy: "PHOTOGRAPHER - RICHARD DARBONNE, STYLIST - QU METCALF",
+    photos: [
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1665355914/General%20Qu/2022_revamp/sorel_spring_22/12_ply9we.jpg",
+        width: 1177,
+        height: 786,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1665355913/General%20Qu/2022_revamp/sorel_spring_22/04_ytzfjv.jpg",
+        width: 1180,
+        height: 786,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1665355912/General%20Qu/2022_revamp/sorel_spring_22/11_tp14cx.jpg",
+        width: 786,
+        height: 1180,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1665355912/General%20Qu/2022_revamp/sorel_spring_22/13_pjepyd.jpg",
+        width: 1131,
+        height: 754,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1665355911/General%20Qu/2022_revamp/sorel_spring_22/10_ny9stc.jpg",
+        width: 1180,
+        height: 786,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1665355910/General%20Qu/2022_revamp/sorel_spring_22/09_cnqei5.jpg",
+        width: 1180,
+        height: 786,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1665355910/General%20Qu/2022_revamp/sorel_spring_22/07_w62yne.jpg",
+        width: 1180,
+        height: 786,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1665355910/General%20Qu/2022_revamp/sorel_spring_22/06_gqltm2.jpg",
+        width: 1180,
+        height: 786,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1665355910/General%20Qu/2022_revamp/sorel_spring_22/02_zgcyur.jpg",
+        width: 1180,
+        height: 786,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1665355910/General%20Qu/2022_revamp/sorel_spring_22/08_i8p0j4.jpg",
+        width: 1180,
+        height: 786,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1665355910/General%20Qu/2022_revamp/sorel_spring_22/03_qblple.jpg",
+        width: 1180,
+        height: 786,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1665355909/General%20Qu/2022_revamp/sorel_spring_22/01_ewdsvn.jpg",
+        width: 1180,
+        height: 786,
+      },
+    ],
+  },
+  "jordan-zionxnaruto": {
+    header: "jordan - zion x naruto",
+    copy: "DP - NOLAN GROSE WITH BROTHER PRODUCTIONS, SET DESIGN/STYLIST - QU METCALF, VIDEO - https://www.youtube.com/watch?v=RXeJ9kUmVTM",
+    photos: [
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1665356716/General%20Qu/2022_revamp/zion_naruto/group2_qj4qsv.jpg",
+        width: 1500,
+        height: 740,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1665356716/General%20Qu/2022_revamp/zion_naruto/IMG_8454_lp7q2z.jpg",
+        width: 1170,
+        height: 1443,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1665356716/General%20Qu/2022_revamp/zion_naruto/IMG_8451_mrhsne.jpg",
+        width: 1170,
+        height: 1449,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1665356715/General%20Qu/2022_revamp/zion_naruto/YT2_ggxjnr.jpg",
+        width: 1280,
+        height: 720,
+      },
+    ],
+  },
+  nikesportsbra: {
+    header: "nike sports bra",
+    copy: "PHOTOGRAPHER - EVIE LANE, MODELS - CADENCE CAMILLE, MAKAYLA KYLE, AKQA",
+    photos: [
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1665355964/General%20Qu/2022_revamp/nike_sports_bra/03_ku1cw1.jpg",
+        width: 500,
+        height: 749,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1665355962/General%20Qu/2022_revamp/nike_sports_bra/04_v60ajv.jpg",
+        width: 500,
+        height: 750,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1665355962/General%20Qu/2022_revamp/nike_sports_bra/07_x07hai.jpg",
+        width: 1500,
+        height: 1000,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1665355961/General%20Qu/2022_revamp/nike_sports_bra/05_ukoxde.jpg",
+        width: 500,
+        height: 750,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1665355961/General%20Qu/2022_revamp/nike_sports_bra/01_mnmokt.jpg",
+        width: 500,
+        height: 750,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1665355960/General%20Qu/2022_revamp/nike_sports_bra/08_wwacdp.jpg",
+        width: 1500,
+        height: 1000,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1665355960/General%20Qu/2022_revamp/nike_sports_bra/02_ehr5lr.jpg",
+        width: 500,
+        height: 750,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1665355959/General%20Qu/2022_revamp/nike_sports_bra/06_wfucsh.jpg",
+        width: 1500,
+        height: 1000,
+      },
+    ],
+  },
+  nikebehindthedesign: {
+    header: "nike behind the design",
+    copy: "PHOTOGRAPHER -  EVIE LANE, STYLING - QU METCALF, TALENT - BETH MATHIAS, INSTRUMENT",
+    photos: [
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1665356770/General%20Qu/2022_revamp/nike_behind_the_design/02_cl1q5c.jpg",
+        width: 700,
+        height: 858,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1665356770/General%20Qu/2022_revamp/nike_behind_the_design/05_x9epxx.jpg",
+        width: 700,
+        height: 858,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1665356770/General%20Qu/2022_revamp/nike_behind_the_design/01_bm6eq0.jpg",
+        width: 700,
+        height: 858,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1665356770/General%20Qu/2022_revamp/nike_behind_the_design/04_u2ewuk.jpg",
+        width: 700,
+        height: 858,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1665356770/General%20Qu/2022_revamp/nike_behind_the_design/06_gatgca.jpg",
+        width: 700,
+        height: 858,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1665356770/General%20Qu/2022_revamp/nike_behind_the_design/03_ycft9r.jpg",
+        width: 700,
+        height: 858,
+      },
+    ],
+  },
+  nikefall21olympics: {
+    header: "nike fall 21 olympics",
+    copy: "PHOTOGRAPHER - JULES DAVIES, STYLIST - QU METCALF, MODELS - QUINN SEARLE, ROBDU, EMMA JOHNSTON, AKQA",
+    photos: [
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1665356273/General%20Qu/2022_revamp/nike_fall21_olympics/07_fewzwu.jpg",
+        width: 700,
+        height: 980,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1665356270/General%20Qu/2022_revamp/nike_fall21_olympics/01_sssjld.jpg",
         width: 700,
         height: 1050,
       },
       {
-        src: "https://res.cloudinary.com/glasswavs/image/upload/c_scale,dpr_2.0,q_auto:best,w_700/v1628114835/General%20Qu/aurora/2021/5_tetkai.jpg",
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1665356270/General%20Qu/2022_revamp/nike_fall21_olympics/06_qpsma5.jpg",
+        width: 700,
+        height: 980,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1665356267/General%20Qu/2022_revamp/nike_fall21_olympics/04_uywf2n.jpg",
         width: 700,
         height: 1050,
       },
       {
-        src: "https://res.cloudinary.com/glasswavs/image/upload/c_scale,dpr_2.0,q_auto:best,w_700/v1628114834/General%20Qu/aurora/2021/1_tfgu6v.jpg",
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1665356266/General%20Qu/2022_revamp/nike_fall21_olympics/03_jlkp9d.jpg",
+        width: 700,
+        height: 980,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1665356264/General%20Qu/2022_revamp/nike_fall21_olympics/02_vkmeqs.jpg",
+        width: 1500,
+        height: 1071,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1665356263/General%20Qu/2022_revamp/nike_fall21_olympics/06_1_aohzkx.jpg",
         width: 700,
         height: 1050,
       },
       {
-        src: "https://res.cloudinary.com/glasswavs/image/upload/c_scale,dpr_2.0,q_auto:best,w_700/v1628114834/General%20Qu/aurora/2021/2_faapxz.jpg",
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1665356263/General%20Qu/2022_revamp/nike_fall21_olympics/05_m9uwn7.jpg",
         width: 700,
         height: 1050,
+      },
+    ],
+  },
+  tmagazine: {
+    header: "t magazine",
+    copy: "PHOTOGRAPHER/VIDEOGRAPHER - MASON TRINCA, STYLIST - QU METCALF, FEATURING CHRIS JOHANSON + JOHANNA JACKSON, CONTENT - https://www.nytimes.com/2021/10/04/t-magazine/chris-johanson-johanna-jackson.html",
+    photos: [
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1665356060/General%20Qu/2022_revamp/t_magazine/20210915_TMagazine_092_tgljto.jpg",
+        width: 1500,
+        height: 1125,
       },
       {
-        src: "https://res.cloudinary.com/glasswavs/image/upload/c_scale,dpr_2.0,q_auto:best,w_700/v1628114834/General%20Qu/aurora/2021/3_vhbqxy.jpg",
-        width: 700,
-        height: 1050,
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1665356057/General%20Qu/2022_revamp/t_magazine/20210915_TMagazine_627_dmaxi9.jpg",
+        width: 1500,
+        height: 1125,
       },
-    ]
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1665356053/General%20Qu/2022_revamp/t_magazine/20210915_TMagazine_268_cji5rb.jpg",
+        width: 700,
+        height: 933,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1665356053/General%20Qu/2022_revamp/t_magazine/20210915_TMagazine_080_wq9mrb.jpg",
+        width: 1500,
+        height: 1001,
+      },
+    ],
+  },
+  florals: {
+    header: "florals",
+    copy: "PHOTOGRAPHER - NADAV BENJAMIN, STYLIST - QU METCALF",
+    photos: [
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1665356230/General%20Qu/2022_revamp/florals/floral1_afqucq.jpg",
+        width: 1000,
+        height: 1000,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1665356227/General%20Qu/2022_revamp/florals/floral3_vnaokv.jpg",
+        width: 1000,
+        height: 1000,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1665356215/General%20Qu/2022_revamp/florals/floral2_v95xec.jpg",
+        width: 1000,
+        height: 1000,
+      },
+    ],
   },
   barbari: {
-    header: 'barbari',
-    copy: 'BARBARI HAS BEEN A REGULAR CLIENT OF QU’S FOR THE LAST 2.5 YEARS. TOGETHER, BOTH COMPANIES HAVE EVOLVED A SOLID AESTHETIC. ALL IMAGES ARE STYLED AND SHOT BY QU. IMAGES 5 & 8 STYLED BY FAMOUS CHARM. MODELS - CHRISTIAN BURKE AND BRILEY JOZWIAK.',
+    header: "barbari",
+    copy: "BARBARI HAS BEEN A REGULAR CLIENT OF QU’S FOR THE LAST 2.5 YEARS. TOGETHER, BOTH COMPANIES HAVE EVOLVED A SOLID AESTHETIC. ALL IMAGES ARE STYLED AND SHOT BY QU. IMAGES 5 & 8 STYLED BY FAMOUS CHARM. MODELS - CHRISTIAN BURKE AND BRILEY JOZWIAK.",
     photos: [
       {
         src: "https://res.cloudinary.com/glasswavs/image/upload/c_scale,dpr_2.0,q_auto:best,w_700/v1628210845/General%20Qu/barbari/barbari_new1_ys7pac.jpg",
@@ -120,34 +550,10 @@ export const clients = {
         width: 400,
         height: 600,
       },
-
-    ]
-  },
-  chrome: {
-    header: 'chrome chrome',
-    copy: `FW2020. ALL IMAGES STYLED AND SHOT BY QU.\n
-
-    MODELS - CHRISTIAN BURKE AND MARGARET ALBA.`,
-    photos: [
-      {
-        src: "https://res.cloudinary.com/glasswavs/image/upload/c_scale,dpr_2.0,q_auto:best,w_700/v1601060034/General%20Qu/chrome/chrome7_ihspq7.jpg",
-        width: 700,
-        height: 467,
-      },
-      {
-        src: "https://res.cloudinary.com/glasswavs/image/upload/c_scale,dpr_2.0,q_auto:best,w_400/v1601060034/General%20Qu/chrome/chrome8_bqsxqb.jpg",
-        width: 400,
-        height: 600,
-      },
-      {
-        src: "https://res.cloudinary.com/glasswavs/image/upload/c_scale,dpr_2.0,q_auto:best,w_700/v1601060033/General%20Qu/chrome/chrome3_to6gtz.jpg",
-        width: 700,
-        height: 467,
-      },
-    ]
+    ],
   },
   demi: {
-    header: 'demi demi',
+    header: "demi demi",
     copy: `THIS PROJECT WAS ART DIRECTED, STYLED, AND PRODUCED BY QU. PHOTOGRAPHER-ZACH DOLEAC,
 
     MODEL DEMI YO’KO, HMUA-SUNNY FARRIS, DIGI/POST-TYLER LYON WITH CAMPFIRE CREATIVE`,
@@ -177,10 +583,10 @@ export const clients = {
         width: 700,
         height: 467,
       },
-    ]
+    ],
   },
   dickssportinggoods: {
-    header: 'dicks sporting goods',
+    header: "dicks sporting goods",
     copy: `THIS PROJECT WAS CREATED AT THE BEGINNING OF THE PANDEMIC IN SPRING 2020. 
 
     A COLLABORATION BETWEEN DICKS SPORTING GOODS AND NIKE/STAY AT HOME GYM.
@@ -202,106 +608,11 @@ export const clients = {
         width: 700,
         height: 700,
       },
-    ]
-  },
-  dolphinmidwives: {
-    header: 'dolphin midwives',
-    copy: `“BODY OF WATER” PRESS PHOTOS, ALBUM COVER PHOTO, AND SINGLE PHOTO BY QU. 
-
-    DIGITAL COLLAGE BY SAGE FISHER. RELEASED BY BEACON SOUND`,
-    photos: [
-      {
-        src: "https://res.cloudinary.com/glasswavs/image/upload/c_scale,dpr_2.0,q_auto:good,w_700/v1627625079/General%20Qu/dolphin%20midwives/1_qeniqx.jpg",
-        width: 700,
-        height: 700,
-      },
-      {
-        src: "https://res.cloudinary.com/glasswavs/image/upload/c_scale,dpr_2.0,q_auto:best,w_700/v1627625079/General%20Qu/dolphin%20midwives/2_qjsq45.jpg",
-        width: 700,
-        height: 496,
-      },
-      {
-        src: "https://res.cloudinary.com/glasswavs/image/upload/c_scale,dpr_2.0,q_auto:best,w_700/v1627625078/General%20Qu/dolphin%20midwives/3_mh910b.jpg",
-        width: 700,
-        height: 650,
-      },
-      {
-        src: "https://res.cloudinary.com/glasswavs/image/upload/c_scale,dpr_2.0,q_auto:best,w_700/v1627625078/General%20Qu/dolphin%20midwives/4_abh5cm.jpg",
-        width: 700,
-        height: 700,
-      },
-    ]
-  },
-  forestremedies: {
-    header: 'forest remedies',
-    copy: 'FOREST REMEDIES IS A REGULAR CLIENT QU CREATES FOR. ALL IMAGES ARE STYLED AND SHOT BY QU.',
-    photos: [
-      {
-        src: "https://res.cloudinary.com/glasswavs/image/upload/c_scale,dpr_2.0,q_auto:best,w_400/v1628215720/General%20Qu/forest%20remedies/1_gutxh0.jpg",
-        width: 400,
-        height: 500,
-      },
-      {
-        src: "https://res.cloudinary.com/glasswavs/image/upload/c_scale,dpr_2.0,q_auto:best,w_700/v1628215721/General%20Qu/forest%20remedies/2_aygknw.jpg",
-        width: 700,
-        height: 700,
-      },
-      {
-        src: "https://res.cloudinary.com/glasswavs/image/upload/c_scale,dpr_2.0,q_auto:best,w_400/v1628215720/General%20Qu/forest%20remedies/3_jxxi46.jpg",
-        width: 400,
-        height: 517,
-      },
-      {
-        src: "https://res.cloudinary.com/glasswavs/image/upload/c_scale,dpr_2.0,q_auto:best,w_700/v1628215720/General%20Qu/forest%20remedies/4_oqjrhu.jpg",
-        width: 700,
-        height: 467,
-      },
-      {
-        src: "https://res.cloudinary.com/glasswavs/image/upload/c_scale,dpr_2.0,q_auto:best,w_400/v1628215720/General%20Qu/forest%20remedies/5_vh3wxh.jpg",
-        width: 400,
-        height: 517,
-      },
-      {
-        src: "https://res.cloudinary.com/glasswavs/image/upload/c_scale,dpr_2.0,q_auto:best,w_400/v1628215720/General%20Qu/forest%20remedies/7_uvqjca.jpg",
-        width: 400,
-        height: 500,
-      },
-      {
-        src: "https://res.cloudinary.com/glasswavs/image/upload/c_scale,dpr_2.0,q_auto:best,w_400/v1628215720/General%20Qu/forest%20remedies/8_udpcnu.jpg",
-        width: 400,
-        height: 517,
-      },
-    ]
-  },
-  gazzybygazzo: {
-    header: 'gazzy by gazzo',
-    copy: 'GAZZY BY GAZZO IS A REGULAR CLIENT OF QU. ALL PHOTOS SHOT BY QU. MODELS - DECONTEE, SABEY, KEASHA BROWN, EUNICE CAZEREZ, LISA CHIEN, AND CHRISTIAN BURKE',
-    photos: [
-      {
-        src: "https://res.cloudinary.com/glasswavs/image/upload/c_scale,dpr_2.0,q_auto:best,w_700/v1601060039/General%20Qu/gazzy/gazzy10_rx976y.jpg",
-        width: 700,
-        height: 467,
-      },
-      {
-        src: "https://res.cloudinary.com/glasswavs/image/upload/c_scale,dpr_2.0,q_auto:best,w_700/v1601060040/General%20Qu/gazzy/gazzy1_yvelur.jpg",
-        width: 700,
-        height: 467,
-      },
-      {
-        src: "https://res.cloudinary.com/glasswavs/image/upload/c_scale,dpr_2.0,q_auto:best,w_700/v1601060040/General%20Qu/gazzy/gazzy3_fptirb.jpg",
-        width: 700,
-        height: 700,
-      },
-      {
-        src: "https://res.cloudinary.com/glasswavs/image/upload/c_scale,dpr_2.0,q_auto:best,w_700/v1628215285/General%20Qu/gazzy/gazzy4_b2hvhy.jpg",
-        width: 700,
-        height: 467,
-      },
-    ]
+    ],
   },
   munchies: {
-    header: 'munchies munchies',
-    copy: 'PHOTOGRAPHER - NADAV BENJAMIN, STYLIST - QU',
+    header: "munchies munchies",
+    copy: "PHOTOGRAPHER - NADAV BENJAMIN, STYLIST - QU",
     photos: [
       {
         src: "https://res.cloudinary.com/glasswavs/image/upload/c_scale,dpr_2.0,q_auto:best,w_700/v1601060035/General%20Qu/food-pyramid/pyramid1_g3b6fv.jpg",
@@ -313,11 +624,11 @@ export const clients = {
         width: 700,
         height: 700,
       },
-    ]
+    ],
   },
   newagedesign: {
-    header: 'new age design',
-    copy: 'PHOTOGRAPHER - NADAV BENJAMIN, STYLIST - QU, PRODUCT - NEW AGE DESIGN',
+    header: "new age design",
+    copy: "PHOTOGRAPHER - NADAV BENJAMIN, STYLIST - QU, PRODUCT - NEW AGE DESIGN",
     photos: [
       {
         src: "https://res.cloudinary.com/glasswavs/image/upload/c_scale,dpr_2.0,q_auto:best,w_400/v1601060036/General%20Qu/new-age/newage1_vpddtx.jpg",
@@ -339,11 +650,11 @@ export const clients = {
         width: 400,
         height: 500,
       },
-    ]
+    ],
   },
-  nike: {
-    header: 'nike / beyond labels /',
-    copy: 'BEYOND LABELS, PHOTOGRAPHER - ZACK LEWIS, SET DESIGN/WARDROBE STYLIST - QU, PRODUCER - AKQA, STYLIST ASSISTANT - CEE, DIGI - JOSH ROMBERG, MODELS - SALOMEE SOUAG, BYLLI HAYWARD, SANTI DARLING',
+  nikebeyondlabels: {
+    header: "nike beyond labels",
+    copy: "BEYOND LABELS, PHOTOGRAPHER - ZACK LEWIS, SET DESIGN/WARDROBE STYLIST - QU, PRODUCER - AKQA, STYLIST ASSISTANT - CEE, DIGI - JOSH ROMBERG, MODELS - SALOMEE SOUAG, BYLLI HAYWARD, SANTI DARLING",
     photos: [
       {
         src: "https://res.cloudinary.com/glasswavs/image/upload/c_scale,dpr_2.0,q_auto:best,w_700/v1627616769/General%20Qu/nike%20x%20beyond%20labels/1_dlofr0.jpg",
@@ -410,42 +721,11 @@ export const clients = {
         width: 700,
         height: 442,
       },
-    ]
-  },
-  oliolab: {
-    header: 'olio lab',
-    copy: `OLIO LAB IS THE ARTIST STUDIO OF BUCKLEY AND QU. MODELS - BUCKLEY AND SALOMEYA SOBKU`,
-    photos: [
-      {
-        src: "https://res.cloudinary.com/glasswavs/image/upload/c_scale,dpr_2.0,q_auto:best,w_400/v1627624596/General%20Qu/olio%20lab/2_om0vxs.jpg",
-        width: 400,
-        height: 533,
-      },
-      {
-        src: "https://res.cloudinary.com/glasswavs/image/upload/c_scale,dpr_2.0,q_auto:best,w_400/v1627624597/General%20Qu/olio%20lab/1_ifdmj9.jpg",
-        width: 400,
-        height: 533,
-      },
-      {
-        src: "https://res.cloudinary.com/glasswavs/image/upload/c_scale,dpr_2.0,q_auto:best,w_400/v1627624605/General%20Qu/olio%20lab/1_tutlss.jpg",
-        width: 400,
-        height: 600,
-      },
-      {
-        src: "https://res.cloudinary.com/glasswavs/image/upload/c_scale,dpr_2.0,q_auto:best,w_400/v1627624605/General%20Qu/olio%20lab/3_qfko8s.jpg",
-        width: 400,
-        height: 560,
-      },
-      {
-        src: "https://res.cloudinary.com/glasswavs/image/upload/c_scale,dpr_2.0,q_auto:best,w_400/v1627624605/General%20Qu/olio%20lab/2_jieube.jpg",
-        width: 400,
-        height: 560,
-      },
-    ]
+    ],
   },
   ourdream: {
-    header: 'our dream',
-    copy: 'CLIENT - OUR DREAM. PHOTOGRAPHER - QU. STYLIST - MICHELLE GONZALEZ, PRODUCER - LAUREN YOSHIKO. MODELS - ARIEL DAVIS, TIMOTHY BEE, MERYL MONTGOMERY, AND VALARIE SAKOTA',
+    header: "our dream",
+    copy: "CLIENT - OUR DREAM. PHOTOGRAPHER - QU. STYLIST - MICHELLE GONZALEZ, PRODUCER - LAUREN YOSHIKO. MODELS - ARIEL DAVIS, TIMOTHY BEE, MERYL MONTGOMERY, AND VALARIE SAKOTA",
     photos: [
       {
         src: "https://res.cloudinary.com/glasswavs/image/upload/c_scale,dpr_2.0,q_auto:best,w_400/v1601059982/General%20Qu/our-dream/ourDream1_a7npxd.jpg",
@@ -467,10 +747,10 @@ export const clients = {
         width: 400,
         height: 600,
       },
-    ]
+    ],
   },
   potplant: {
-    header: 'pot plant',
+    header: "pot plant",
     copy: `CLIENT - POT PLANT. FAUX POT PLANTS FOR YOUR INTERIOR STYLING NEEDS. 
 
     PHOTOGRAPHER-NADAV BENJAMIN. STYLIST-QU`,
@@ -490,10 +770,10 @@ export const clients = {
         width: 700,
         height: 525,
       },
-    ]
+    ],
   },
   stayover: {
-    header: 'stay over',
+    header: "stay over",
     copy: `MUSIC SINGLE COVERS FOR ARTIST - STAY OVER. PHOTOGRAPHER - NADAV BENJAMIN.
 
     STYLIST - QU`,
@@ -513,15 +793,15 @@ export const clients = {
         width: 700,
         height: 700,
       },
-    ]
+    ],
   },
   wetdream: {
-    header: 'wet dream',
+    header: "wet dream",
     copy: `WET DREAM IS QU’S MUSIC/VISUAL PROJECT WITH DYLAN WHITE AND BENJAMIN JOHNSON.
 
     MUSIC CAN BE FOUND ON SPOTIFY.
     
     *INSERT “SEE FOAM MUSIC” VIDEO AND “CADILLACS IN TOKYO”`,
-    photos: []
-  }
-}
+    photos: [],
+  },
+};

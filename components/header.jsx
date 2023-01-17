@@ -3,7 +3,7 @@ import React from "react";
 import style from "../styles/Header.module.css";
 import Link from "next/link";
 import { icons } from "../public/icons.js";
-import Image from "next/image";
+import Image from "next/legacy/image";
 
 function Header({ fontColor, links }) {
   return (
@@ -13,19 +13,19 @@ function Header({ fontColor, links }) {
         general qu
       </h1> */}
       <div className={style.logoContainer}>
-      <Image
-        src="https://res.cloudinary.com/glasswavs/image/upload/c_scale,dpr_auto,w_1000/v1630192952/General%20Qu/logo/General_Qu_white_vywhbg.png"
-        // src="https://res.cloudinary.com/glasswavs/image/upload/c_scale,dpr_auto,w_1000/v1630192960/General%20Qu/logo/General_Qu_green_eddo9f.png"
-        width={1000}
-        height={196}
-        alt="logo"
-      />
+        <Image
+          src="https://res.cloudinary.com/glasswavs/image/upload/c_scale,dpr_auto,w_1000/v1630192952/General%20Qu/logo/General_Qu_white_vywhbg.png"
+          // src="https://res.cloudinary.com/glasswavs/image/upload/c_scale,dpr_auto,w_1000/v1630192960/General%20Qu/logo/General_Qu_green_eddo9f.png"
+          width={1000}
+          height={196}
+          alt="logo"
+        />
       </div>
       <div></div>
       <nav className={style.nav} style={{ color: fontColor }}>
         {links.map((link) => (
-          <Link key={link} href={`/${link}`}>
-            <a className={style.link}>{link}</a>
+          <Link key={link} className={style.link} href={`/${link}`}>
+            {link}
           </Link>
         ))}
       </nav>
