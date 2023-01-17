@@ -2,19 +2,19 @@ import React from "react";
 import style from "../../styles/Home.module.css";
 import Image from "next/legacy/image";
 
-function HomeSection2() {
+function HomeSection9() {
   return (
     <section className={style.photoSection2}>
       <div className={style.imageMargin}>
         <Image
-          src="https://res.cloudinary.com/glasswavs/image/upload/c_scale,dpr_2.0,q_auto,w_1600/v1627616771/General%20Qu/nike%20x%20beyond%20labels/8_h0iw7i.jpg"
-          width={1600}
+          src="https://res.cloudinary.com/glasswavs/image/upload/v1665356849/General%20Qu/2022_revamp/sorel_fall22/SOREL_FA22_KINETIC_BREAKTHRU_DAY_LACE_1986301125_GREEN_ONBODY_1610_l8axmz.jpg"
+          width={1200}
           height={800}
-          alt="nike"
+          alt="sorel"
         />
       </div>
     </section>
   );
 }
 
-export default HomeSection2;
+export default HomeSection9;

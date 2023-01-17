@@ -42,6 +42,18 @@
   flex-direction: row;
   align-items: center;
 }
+.photoSection8 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+.photoSection10 {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+}
 .imageMargin {
   margin: 15px;
   /* text-align: center; */

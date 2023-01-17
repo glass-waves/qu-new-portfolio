@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "next/legacy/image";
 import { useRouter } from "next/router";
 import React from "react";
 import Header from "../../components/header.jsx";
@@ -15,18 +15,29 @@ export const getStaticProps = async (context) => {
 export async function getStaticPaths() {
   return {
     paths: [
+      { params: { client: "fluttering" } },
+      { params: { client: "tevafall22" } },
+      { params: { client: "sorelszn22" } },
+      { params: { client: "sorelfall22" } },
+      { params: { client: "sorelglowpack" } },
+      { params: { client: "sorelspring22" } },
+      { params: { client: "jordan-zionxnaruto" } },
+      { params: { client: "nikesportsbra" } },
+      { params: { client: "nikebehindthedesign" } },
+      { params: { client: "nikefall21olympics" } },
+      { params: { client: "tmagazine" } },
+      { params: { client: "florals" } },
       { params: { client: "auroraelixirs" } },
       { params: { client: "barbari" } },
       { params: { client: "chrome" } },
       { params: { client: "demi" } },
       { params: { client: "dickssportinggoods" } },
-      { params: { client: "dolphinmidwives" } },
       { params: { client: "forestremedies" } },
       { params: { client: "gazzybygazzo" } },
       { params: { client: "aphex" } },
       { params: { client: "munchies" } },
       { params: { client: "newagedesign" } },
-      { params: { client: "nike" } },
+      { params: { client: "nikebeyondlabels" } },
       { params: { client: "oliolab" } },
       { params: { client: "potplant" } },
       { params: { client: "stayover" } },

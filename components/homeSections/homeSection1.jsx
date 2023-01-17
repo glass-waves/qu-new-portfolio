@@ -1,6 +1,6 @@
 import React from "react";
 import style from "../../styles/Home.module.css";
-import Image from "next/image";
+import Image from "next/legacy/image";
 
 function HomeSection1() {
   return (

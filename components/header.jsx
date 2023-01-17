@@ -3,7 +3,7 @@ import React from "react";
 import style from "../styles/Header.module.css";
 import Link from "next/link";
 import { icons } from "../public/icons.js";
-import Image from "next/image";
+import Image from "next/legacy/image";
 
 function Header({ fontColor, links }) {
   return (

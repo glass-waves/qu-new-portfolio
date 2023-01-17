@@ -9,10 +9,13 @@
   position: relative;
 }
 .text {
+  font-family: 'aaaiight';
+  font-size: 2em;
   position: absolute;
   color: white;
-  top: 87%;
+  top: 0%;
   left: 50%;
+  transform: translateX(-50%)
 }
 .text:hover {
   color: black;

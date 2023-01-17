@@ -4,22 +4,33 @@ import style from "../styles/Work.module.css";
 import Link from "next/link";
 import Header from "../components/header";
 const clients = [
-  "nike",
+  "fluttering",
+  "teva fall 22",
+  "sorel szn 22",
+  "sorel fall 22",
+  "sorel glow pack",
+  "sorel spring 22",
+  "jordan - zion x naruto",
+  "nike sports bra",
+  "nike behind the design",
+  "nike fall 21 olympics",
+  "t magazine",
+  "florals",
+  "nike beyond labels",
   "new age design",
   "demi",
   "wet dream",
   "stay over",
   "pot plant",
-  "aurora elixirs",
+  // "aurora elixirs",
   "barbari",
-  "chrome",
+  // "chrome",
   "dicks sporting goods",
-  "dolphin midwives",
-  "forest remedies",
-  "gazzy by gazzo",
-  "aphex",
+  // "forest remedies",
+  // "gazzy by gazzo",
+  // "aphex",
   "munchies",
-  "olio lab",
+  // "olio lab",
 ];
 
 const Work = () => {
@@ -31,18 +42,25 @@ const Work = () => {
         {clients.map((client) => {
           if (client === "wet dream") {
             return (
-              <Link href="/wetdream">
-                <a className={style.aWrapper}>
-                  <h2 className={style.clients}>wet dream</h2>
-                </a>
+              <Link passHref className={style.aWrapper} href="/wetdream">
+                <h2 className={style.clients}>wet dream</h2>
+              </Link>
+            );
+          } else if(client === 'jordan - zion x naruto') {
+            return (
+              <Link passHref className={style.aWrapper} href="/naruto">
+                <h2 className={style.clients}>jordan - zion x naruto</h2>
               </Link>
             );
           } else {
             return (
-              <Link href={`/work/${client.split(" ").join("")}`} key={client}>
-                <a className={style.aWrapper}>
-                  <h2 className={style.clients}>{client}</h2>
-                </a>
+              <Link
+                passHref
+                className={style.aWrapper}
+                href={`/work/${client.split(" ").join("")}`}
+                key={client}
+              >
+                <h2 className={style.clients}>{client}</h2>
               </Link>
             );
           }
