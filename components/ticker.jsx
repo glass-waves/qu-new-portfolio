@@ -9,7 +9,7 @@ function Ticker({ text, backgroundColor }) {
     const width = window?.innerWidth || 900;
     setTickerVelocity(width * 0.01);
   }, [])
-  
+
   return (
     <div
       className={style.title}
@@ -17,7 +17,7 @@ function Ticker({ text, backgroundColor }) {
         backgroundColor: backgroundColor,
       }}
     >
-      <Marquee
+      {/* <Marquee
         velocity={tickerVelocity}
         minScale={0.7}
         resetAfterTries={200}
@@ -35,7 +35,7 @@ function Ticker({ text, backgroundColor }) {
         <h3 className={style.text}> {text} </h3>
         <h3 className={style.text}> {text} </h3>
         <h3 className={style.text}> {text} </h3>
-      </Marquee>
+      </Marquee> */}
     </div>
   );
 }
