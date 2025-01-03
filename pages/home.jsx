@@ -1,4 +1,4 @@
-import Head from "next/head";
+// import Head from "next/head";
 import Header from "../components/header";
 import style from "../styles/Home.module.css";
 import Ticker from "../components/ticker.jsx";

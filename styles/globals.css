@@ -1,4 +1,3 @@
-
 @font-face {
   font-family: "WishfulWaves";
   src: url('../public/fonts/wishfulwaves/wishfulwaves.ttf');
@@ -6,6 +5,7 @@
   font-weight: 400;
   font-display: swap;
 }
+
 @font-face {
   font-family: "aaaiight";
   src: url('../public/fonts/aaaiight/aaaiight.ttf');
@@ -32,4 +32,9 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }

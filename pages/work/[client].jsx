@@ -1,5 +1,5 @@
-import Image from "next/legacy/image";
-import { useRouter } from "next/router";
+import Image from "next/image";
+// import { useRouter } from "next/router";
 import React from "react";
 import Header from "../../components/header.jsx";
 import Ticker from "../../components/ticker.jsx";

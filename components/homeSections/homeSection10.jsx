@@ -1,6 +1,6 @@
 import React from "react";
 import style from "../../styles/Home.module.css";
-import Image from "next/legacy/image";
+import Image from "next/image";
 
 function HomeSection10() {
   return (
@@ -14,7 +14,7 @@ function HomeSection10() {
         />
       </div>
       <div className={style.imageMargin}>
-      <Image
+        <Image
           src="https://res.cloudinary.com/glasswavs/image/upload/v1665355961/General%20Qu/2022_revamp/nike_sports_bra/01_mnmokt.jpg"
           width={600}
           height={900}

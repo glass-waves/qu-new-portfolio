@@ -2,7 +2,7 @@ import React from "react";
 // import PropTypes from "prop-types";
 import styles from "../styles/Enter.module.css";
 import Link from "next/link";
-import Image from "next/legacy/image";
+import Image from "next/image";
 
 function Enter(props) {
   return (

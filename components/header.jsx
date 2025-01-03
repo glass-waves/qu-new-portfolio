@@ -1,9 +1,9 @@
-import { span } from "prelude-ls";
+// import { span } from "prelude-ls";
 import React from "react";
 import style from "../styles/Header.module.css";
 import Link from "next/link";
-import { icons } from "../public/icons.js";
-import Image from "next/legacy/image";
+// import { icons } from "../public/icons.js";
+import Image from "next/image";
 
 function Header({ fontColor, links }) {
   return (
@@ -16,8 +16,8 @@ function Header({ fontColor, links }) {
         <Image
           src="https://res.cloudinary.com/glasswavs/image/upload/c_scale,dpr_auto,w_1000/v1630192952/General%20Qu/logo/General_Qu_white_vywhbg.png"
           // src="https://res.cloudinary.com/glasswavs/image/upload/c_scale,dpr_auto,w_1000/v1630192960/General%20Qu/logo/General_Qu_green_eddo9f.png"
-          width={1000}
-          height={196}
+          width={613}
+          height={120}
           alt="logo"
         />
       </div>

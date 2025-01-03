@@ -2,7 +2,7 @@ import React from "react";
 import Header from "../components/header";
 import Ticker from "../components/ticker";
 import style from "../styles/About.module.css";
-import Image from "next/legacy/image";
+import Image from "next/image";
 import Link from "next/link";
 
 function About() {

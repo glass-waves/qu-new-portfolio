@@ -1,4 +1,4 @@
-import Image from "next/legacy/image";
+import Image from "next/image";
 import Header from "../components/header";
 import Ticker from "../components/ticker";
 import { clients } from "../public/clients";
