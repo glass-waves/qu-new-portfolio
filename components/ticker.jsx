@@ -17,11 +17,12 @@ function Ticker({ text, backgroundColor }) {
         backgroundColor: backgroundColor,
       }}
     >
-      {/* <Marquee
+      <Marquee
         velocity={tickerVelocity}
         minScale={0.7}
         resetAfterTries={200}
         className={style.marquee}
+        onInit={(marquee) => { }} // had to add this in after upgrading to next 15
       >
         <h3 className={style.text}> {text} </h3>
         <h3 className={style.text}> {text} </h3>
@@ -35,7 +36,7 @@ function Ticker({ text, backgroundColor }) {
         <h3 className={style.text}> {text} </h3>
         <h3 className={style.text}> {text} </h3>
         <h3 className={style.text}> {text} </h3>
-      </Marquee> */}
+      </Marquee>
     </div>
   );
 }
