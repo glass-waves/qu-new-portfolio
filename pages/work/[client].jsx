@@ -1,10 +1,10 @@
 import Image from "next/image";
-// import { useRouter } from "next/router";
 import React from "react";
 import Header from "../../components/header.jsx";
 import Ticker from "../../components/ticker.jsx";
 import { clients } from "../../public/clients.js";
 import style from "../../styles/Client.module.css";
+
 export const getStaticProps = async (context) => {
   return {
     props: {
@@ -12,6 +12,7 @@ export const getStaticProps = async (context) => {
     },
   };
 };
+
 export async function getStaticPaths() {
   return {
     paths: [
@@ -59,6 +60,7 @@ const Client = (props) => {
               src={photo.src}
               width={photo.width}
               height={photo.height}
+              sizes="(max-width: 750px) 100vw, 1500px"
             />
           </div>
         ))}
