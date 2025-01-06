@@ -11,6 +11,7 @@ function HomeSection3() {
           width={500}
           height={750}
           alt="demi"
+          sizes="(max-width: 500px) 100vw, 500px"
         />
       </div>
       <div className={style.imageMargin}>
@@ -19,6 +20,7 @@ function HomeSection3() {
           width={1125}
           height={750}
           alt="demi"
+          sizes="(max-width: 1125px) 100vw, 1125px"
         />
       </div>
       {/* <div className={style.imageMargin}>

@@ -11,6 +11,7 @@ function HomeSection4() {
           width={625}
           height={781}
           alt="stay over"
+          sizes="(max-width: 625px) 100vw, 625px"
         />
       </div>
       <div className={style.imageMargin}>
@@ -19,6 +20,7 @@ function HomeSection4() {
           width={781}
           height={781}
           alt="stay over"
+          sizes="(max-width: 781px) 100vw, 781px"
         />
       </div>
     </section>

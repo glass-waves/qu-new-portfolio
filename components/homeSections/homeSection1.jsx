@@ -11,6 +11,7 @@ function HomeSection1() {
           width={700}
           height={467}
           alt="nike beyond labels"
+          sizes="(max-width: 700px) 100vw, 700px"
         />
       </div>
       <div className={style.imageMargin}>
@@ -19,6 +20,7 @@ function HomeSection1() {
           width={700}
           height={467}
           alt="nike beyond labels"
+          sizes="(max-width: 700px) 100vw, 700px"
         />
       </div>
     </section>

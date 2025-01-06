@@ -1,6 +1,6 @@
 .container {
   background-color: black;
-  /* height: 100vh; */
+  min-height: 100vh;
   padding-top: 10px;
   color: white;
 }
@@ -8,6 +8,8 @@
   margin-left: 15%;
   display: flex;
   justify-content: center;
+  min-height: 75vh;
+  align-items: center;
 }
 .imageContainer {
   width: 35%;
@@ -15,7 +17,7 @@
 }
 .textContainer {
   width: 35%;
-  font-family: 'aaaiight';
+  font-family: "aaaiight";
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -32,7 +34,7 @@
   cursor: pointer;
   text-decoration: line-through;
 }
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1200px) {
   .container {
     height: 100vh;
   }
@@ -56,8 +58,8 @@
     width: 50%;
   }
 }
-@media screen and (max-width: 500px){
-  .textContainer{
+@media screen and (max-width: 500px) {
+  .textContainer {
     width: 75%;
     font-size: 12px;
   }

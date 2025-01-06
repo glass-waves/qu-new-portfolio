@@ -11,6 +11,7 @@ function HomeSection6() {
           width={950}
           height={713}
           alt="pot plant"
+          sizes="(max-width: 950px) 100vw, 950px"
         />
       </div>
       <div className={style.imageMargin}>
@@ -19,6 +20,7 @@ function HomeSection6() {
           width={475}
           height={713}
           alt="demi"
+          sizes="(max-width: 475px) 100vw, 475px"
         />
       </div>
       {/* <div className={style.imageMargin}>

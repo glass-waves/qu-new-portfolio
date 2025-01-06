@@ -11,6 +11,7 @@ function HomeSection10() {
           width={600}
           height={900}
           alt="sports bra 1"
+          sizes="(max-width: 1200px) 100vw, 1200px"
         />
       </div>
       <div className={style.imageMargin}>
@@ -19,6 +20,7 @@ function HomeSection10() {
           width={600}
           height={900}
           alt="sports bra 2"
+          sizes="(max-width: 1200px) 100vw, 1200px"
         />
       </div>
     </section>

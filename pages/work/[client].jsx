@@ -60,7 +60,7 @@ const Client = (props) => {
               src={photo.src}
               width={photo.width}
               height={photo.height}
-              sizes="(max-width: 750px) 100vw, 1500px"
+              sizes="(max-width: 750px) 100vw, 1200px"
             />
           </div>
         ))}

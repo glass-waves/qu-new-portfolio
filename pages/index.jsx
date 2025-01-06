@@ -14,9 +14,10 @@ function Enter(props) {
             quality={100}
             priority
             // src="https://res.cloudinary.com/glasswavs/image/upload/v1673919819/General%20Qu/2022_revamp/a_fluttering/FAHO24_BUTTERFLY_TEST_6305_jooquu.jpg"
-            src="https://res.cloudinary.com/glasswavs/image/upload/v1735879398/General%20Qu/enter-images/ENTER_IMAGE_rzxvfw.jpg"
+            src="https://res.cloudinary.com/glasswavs/image/upload/v1736195054/General%20Qu/HOMEPAGE%20IMAGES%20ON%20TOP%20AND%20ENTER%20PAGE/ENTER_IMAGE_snkw2e.jpg"
             width={1200}
             height={800}
+            sizes="(max-width: 1200px) 100vw, 1200px"
           />
           <h1 className={styles.text}>ENTER</h1>
         </Link>

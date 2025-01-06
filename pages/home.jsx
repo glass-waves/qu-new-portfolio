@@ -32,7 +32,8 @@ export default function Home() {
             width={1200}
             height={800}
             alt="sorel_fall"
-            style={{ maxHeight: '800px' }}
+            style={{ maxHeight: "800px" }}
+            sizes="(max-width: 1200px) 100vw, 1200px"
           />
         </div>
         <div className={style.imageMargin}>
@@ -41,16 +42,13 @@ export default function Home() {
             width={1200}
             height={800}
             alt="sorel_fall"
-            style={{ maxHeight: '800px' }}
+            style={{ maxHeight: "800px" }}
+            sizes="(max-width: 1200px) 100vw, 1200px"
           />
         </div>
       </section>
 
-
-      <section className={style.photoSection2}>
-
-      </section>
-
+      <section className={style.photoSection2}></section>
 
       <section className={style.photoSection7}>
         {/* Woman in red */}
@@ -60,7 +58,8 @@ export default function Home() {
             width={1200}
             height={800}
             alt="sorel_fall"
-            style={{ maxHeight: '800px' }}
+            style={{ maxHeight: "800px" }}
+            sizes="(max-width: 1200px) 100vw, 1200px"
           />
         </div>
         {/* Tent */}
@@ -70,7 +69,8 @@ export default function Home() {
             width={1200}
             height={800}
             alt="sorel_fall"
-            style={{ maxHeight: '800px' }}
+            style={{ maxHeight: "800px" }}
+            sizes="(max-width: 1200px) 100vw, 1200px"
           />
         </div>
         {/* Lemon */}
@@ -80,7 +80,8 @@ export default function Home() {
             width={1200}
             height={800}
             alt="sorel_fall"
-            style={{ maxHeight: '800px' }}
+            style={{ maxHeight: "800px" }}
+            sizes="(max-width: 1200px) 100vw, 1200px"
           />
         </div>
         {/* Couch */}
@@ -90,7 +91,8 @@ export default function Home() {
             width={1200}
             height={800}
             alt="sorel_fall"
-            style={{ maxHeight: '800px' }}
+            style={{ maxHeight: "800px" }}
+            sizes="(max-width: 1200px) 100vw, 1200px"
           />
         </div>
       </section>

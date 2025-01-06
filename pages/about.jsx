@@ -19,7 +19,8 @@ color consulting
       <section className={style.flex}>
         <div className={style.imageContainer}>
           <Image
-            src="https://res.cloudinary.com/glasswavs/image/upload/c_scale,dpr_2.0,q_auto:best,w_650/v1630192741/General%20Qu/about/qu_portrait_qonodt.jpg"
+            // src="https://res.cloudinary.com/glasswavs/image/upload/c_scale,dpr_2.0,q_auto:best,w_650/v1630192741/General%20Qu/about/qu_portrait_qonodt.jpg"
+            src="https://res.cloudinary.com/glasswavs/image/upload/v1736195098/General%20Qu/about/NEWBIO_PHOTO_ulnfk4.jpg"
             alt="portrait"
             width={650}
             height={910}
