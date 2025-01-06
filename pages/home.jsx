@@ -20,16 +20,15 @@ import HomeSection13 from "../components/homeSections/homeSection13";
 export default function Home() {
   return (
     <main className={style.container}>
-      {/* <h1 className={style.logo}>general qu</h1> */}
       <Header fontColor="white" links={["work", "about"]} />
       <Ticker text=" defining aesthetic" backgroundColor="#000" />
 
-      {/* Tennis*/}
       <section className={style.photoSection7}>
+        {/* Tennis*/}
         <div className={style.imageMargin}>
           <Image
-            src="https://res.cloudinary.com/glasswavs/image/upload/v1735874924/General%20Qu/home/1_cyasks.png"
-            width={1200}
+            src="https://res.cloudinary.com/glasswavs/image/upload/v1736195006/General%20Qu/HOMEPAGE%20IMAGES%20ON%20TOP%20AND%20ENTER%20PAGE/1_mlxz3w.png"
+            width={600}
             height={800}
             alt="sorel_fall"
             style={{ maxHeight: "800px" }}
@@ -38,8 +37,8 @@ export default function Home() {
         </div>
         <div className={style.imageMargin}>
           <Image
-            src="https://res.cloudinary.com/glasswavs/image/upload/v1735874929/General%20Qu/home/2_i0orjn.png"
-            width={1200}
+            src="https://res.cloudinary.com/glasswavs/image/upload/v1736195007/General%20Qu/HOMEPAGE%20IMAGES%20ON%20TOP%20AND%20ENTER%20PAGE/2_tqtycv.png"
+            width={600}
             height={800}
             alt="sorel_fall"
             style={{ maxHeight: "800px" }}
@@ -48,14 +47,12 @@ export default function Home() {
         </div>
       </section>
 
-      <section className={style.photoSection2}></section>
-
       <section className={style.photoSection7}>
         {/* Woman in red */}
         <div className={style.imageMargin}>
           <Image
-            src="https://res.cloudinary.com/glasswavs/image/upload/dpr_2.0,f_auto/v1735874921/General%20Qu/home/1_aug7ck.jpg"
-            width={1200}
+            src="https://res.cloudinary.com/glasswavs/image/upload/v1736194998/General%20Qu/HOMEPAGE%20IMAGES%20ON%20TOP%20AND%20ENTER%20PAGE/1_fexss6.jpg"
+            width={800}
             height={800}
             alt="sorel_fall"
             style={{ maxHeight: "800px" }}
@@ -65,19 +62,22 @@ export default function Home() {
         {/* Tent */}
         <div className={style.imageMargin}>
           <Image
-            src="https://res.cloudinary.com/glasswavs/image/upload/dpr_2.0/v1735874921/General%20Qu/home/2_acbywf.jpg"
-            width={1200}
+            src="https://res.cloudinary.com/glasswavs/image/upload/v1736195000/General%20Qu/HOMEPAGE%20IMAGES%20ON%20TOP%20AND%20ENTER%20PAGE/2_ecf3px.jpg"
+            width={800}
             height={800}
             alt="sorel_fall"
             style={{ maxHeight: "800px" }}
             sizes="(max-width: 1200px) 100vw, 1200px"
           />
         </div>
+      </section>
+
+      <section className={style.photoSection7}>
         {/* Lemon */}
         <div className={style.imageMargin}>
           <Image
-            src="https://res.cloudinary.com/glasswavs/image/upload/v1735874920/General%20Qu/home/3_b0tps3.jpg"
-            width={1200}
+            src="https://res.cloudinary.com/glasswavs/image/upload/v1736194997/General%20Qu/HOMEPAGE%20IMAGES%20ON%20TOP%20AND%20ENTER%20PAGE/3_giwlnj.jpg"
+            width={650}
             height={800}
             alt="sorel_fall"
             style={{ maxHeight: "800px" }}
@@ -87,8 +87,8 @@ export default function Home() {
         {/* Couch */}
         <div className={style.imageMargin}>
           <Image
-            src="https://res.cloudinary.com/glasswavs/image/upload/v1735874921/General%20Qu/home/4_hs11cd.jpg"
-            width={1200}
+            src="https://res.cloudinary.com/glasswavs/image/upload/v1736195002/General%20Qu/HOMEPAGE%20IMAGES%20ON%20TOP%20AND%20ENTER%20PAGE/4_u8keu1.jpg"
+            width={650}
             height={800}
             alt="sorel_fall"
             style={{ maxHeight: "800px" }}
@@ -96,18 +96,31 @@ export default function Home() {
           />
         </div>
       </section>
+      {/* Butterflies */}
       <HomeSection8 />
+      {/* Flowers */}
       <HomeSection7 />
+      {/* Green Lady */}
       <HomeSection9 />
+      {/* Nike Fitness */}
       <HomeSection10 />
+      {/* Orange Lady */}
       <HomeSection11 />
+      {/* Shoes */}
       <HomeSection12 />
+      {/* Pink Lady */}
       <HomeSection13 />
+      {/* Nike Gradient BG 50/50 */}
       <HomeSection1 />
+      {/* Nike Gradient full */}
       <HomeSection2 />
+      {/* Gold Teeth */}
       <HomeSection3 />
+      {/* Blue Altar */}
       <HomeSection4 />
+      {/* Pot */}
       <HomeSection5 />
+      {/* Pot - Bust */}
       <HomeSection6 />
       <Ticker text="@GENERAL_QU #GENERALQU" backgroundColor="#000" />
     </main>
