@@ -1,6 +1,6 @@
 .container {
   background-color: black;
-  /* min-height: 100vh; */
+  min-height: 100vh;
   padding-top: 10px;
   color: white;
 }
@@ -12,8 +12,11 @@
   align-items: center;
 }
 .imageContainer {
-  width: 35%;
+  width: unset;
   margin: 20px;
+  /* min-height: 750px; */
+  display: flex;
+  align-items: center;
 }
 .textContainer {
   width: 35%;
@@ -34,11 +37,7 @@
   cursor: pointer;
   text-decoration: line-through;
 }
-@media screen and (max-width: 1200px) {
-  .container {
-    height: 100vh;
-  }
-}
+
 @media screen and (max-width: 900px) {
   .textContainer {
     display: grid;
@@ -53,7 +52,7 @@
     min-height: unset;
   }
   .container {
-    min-height: 100%;
+    min-height: unset;
   }
   .imageContainer {
     width: 50%;
