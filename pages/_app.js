@@ -11,7 +11,6 @@ const aaaiight = localFont({
   // display: 'swap',
 })
 
-
 function MyApp({ Component, pageProps }) {
   return (
     <div className={wishfulWaves.className}>
