@@ -18,6 +18,8 @@ export async function getStaticPaths() {
     paths: [
       // Newer Clients - Jan 2025 update
       { params: { client: "waterblossom" } },
+      { params: { client: "quinn" } },
+      { params: { client: "pairofthieves" } },
 
       // Older Clients
       { params: { client: "fluttering" } },

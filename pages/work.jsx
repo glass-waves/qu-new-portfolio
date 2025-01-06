@@ -7,6 +7,8 @@ import Header from "../components/header";
 const clients = [
   // Newer Clients - Jan 2025 update
   "waterblossom",
+  "quinn",
+  "pairofthieves",
   // Older Clients
   "fluttering",
   "teva fall 22",

@@ -850,5 +850,93 @@ export const clients = {
       },
     ],
   },
+  quinn: {
+    header: "QUINN",
+    copy: "PHOTOGRAPHER - EVIE LANE WARDROBE & SET STYLIST - QU METCALF MODEL - QUINN SEARLE ASSISTANT - ADRIEN KING",
+    photos: [
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195624/General%20Qu/QUINN/1_zoce4a.jpg",
+        width: 1200,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195625/General%20Qu/QUINN/2_eathtr.jpg",
+        width: 700,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195624/General%20Qu/QUINN/3_ffazr4.jpg",
+        width: 700,
+        height: 700,
+      },
+    ],
+  },
+  pairofthieves: {
+    header: "PAIR OF THIEVES",
+    copy: "PHOTOGRAPHER - KRISTIN ELLIS WARDROBE & SET STYLIST - QU METCALF PRODUCER - ELLIOT COATES AD - TOMMI & KYLE ASSISTANTS - CHELSEA & LICHI MODELS - KENNY OYAMA, DAVID KOJO AIDO, & JANIAH DELANEY",
+    photos: [
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195604/General%20Qu/PAIR%20OF%20THIEVES/1A_c2rfrw.jpg",
+        width: 700,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195602/General%20Qu/PAIR%20OF%20THIEVES/2_h7wina.jpg",
+        width: 700,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195603/General%20Qu/PAIR%20OF%20THIEVES/3_ajilih.jpg",
+        width: 700,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195605/General%20Qu/PAIR%20OF%20THIEVES/4_qdjb6d.jpg",
+        width: 1200,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195603/General%20Qu/PAIR%20OF%20THIEVES/6_cnqvtl.jpg",
+        width: 700,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195600/General%20Qu/PAIR%20OF%20THIEVES/7_ukjvbn.jpg",
+        width: 700,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195600/General%20Qu/PAIR%20OF%20THIEVES/8_dlwgjg.jpg",
+        width: 700,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195603/General%20Qu/PAIR%20OF%20THIEVES/9_injxh7.jpg",
+        width: 700,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195604/General%20Qu/PAIR%20OF%20THIEVES/10_g8a1ku.jpg",
+        width: 700,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195600/General%20Qu/PAIR%20OF%20THIEVES/11_endvh5.jpg",
+        width: 700,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195607/General%20Qu/PAIR%20OF%20THIEVES/12_iv7jpd.jpg",
+        width: 700,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195606/General%20Qu/PAIR%20OF%20THIEVES/13_khhmdt.jpg",
+        width: 700,
+        height: 700,
+      },
+
+    ],
+  },
 
 };
