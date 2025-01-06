@@ -3,7 +3,11 @@ import Ticker from "../components/ticker";
 import style from "../styles/Work.module.css";
 import Link from "next/link";
 import Header from "../components/header";
+
 const clients = [
+  // Newer Clients - Jan 2025 update
+  "waterblossom",
+  // Older Clients
   "fluttering",
   "teva fall 22",
   "sorel szn 22",

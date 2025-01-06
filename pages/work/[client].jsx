@@ -16,6 +16,10 @@ export const getStaticProps = async (context) => {
 export async function getStaticPaths() {
   return {
     paths: [
+      // Newer Clients - Jan 2025 update
+      { params: { client: "waterblossom" } },
+
+      // Older Clients
       { params: { client: "fluttering" } },
       { params: { client: "tevafall22" } },
       { params: { client: "sorelszn22" } },

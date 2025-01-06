@@ -2,11 +2,13 @@
 
 - [x] Update enter image
 
-- [ ] Add additional photos to home page (\*at the top of page)
+- [x] Add additional photos to home page (\*at the top of page)
 
 # CREDITS
 
 ## Water Blossom
+
+- [x]
 
 CD/PHOTOGRAPHER - COOPER PATTISON
 AD/WARDROBE & SET STYLIST - QU METCALF
@@ -17,12 +19,16 @@ GRIP - VINCE
 
 ## QUINN
 
+- []
+
 PHOTOGRAPHER - EVIE LANE
 WARDROBE & SET STYLIST - QU METCALF
 MODEL - QUINN SEARLE
 ASSISTANT - ADRIEN KING
 
 ## PAIR OF THIEVES
+
+- []
 
 PHOTOGRAPHER - KRISTIN ELLIS
 WARDROBE & SET STYLIST - QU METCALF
@@ -33,20 +39,26 @@ MODELS - KENNY OYAMA, DAVID KOJO AIDO, & JANIAH DELANEY
 
 ## NICHOLAS
 
+- []
+
 PHOTOGRAPHER - ZACH DOLEAC
 STYLIST - QU METCALF
 MODEL - NICHOLAS
 
 ## DAMIAN LILLARD X ADIDAS
 
+- []
+
+WITH STUDIO A
 PHOTOGRAPHER - SAGE EAST
 SET STYLIST - QU METCALF
 PRODUCER - KATIE SELLON
+STUDIO ASSISTANT - LICHI
 
-STUDIO A
-ASSISTANT - LICHI
+## ADIDAS SPRING BREAK24
 
-ADIDAS SPRING BREAK24
+- []
+
 with Studio A / @emilyrosetate @pdxschroeder @zoeward @eelisacox @otterkitten @whatsuplilpup
 Photo / @jennasaintmartin @jamesbianchi @fontaine\*rittelmann @raskut
 Production / @halfcourtstudio @reardonk @lainyyb @bamb00banga
@@ -58,7 +70,11 @@ Location / @coolhandstudiopdx
 Talent / @moku.searle @marley_plonkey @kaelianeal & Dominik Raudy / @theoptionagency @reactionmodels
 Post / @thevisualgroup
 
-ADIDAS BLOG - HOW TO STYLE A TENNIS SKIRT Photo: @yvanna.ramos
+## ADIDAS BLOG - HOW TO STYLE A TENNIS SKIRT
+
+- []
+
+Photo: @yvanna.ramos
 Styling: @kaimago
 Art Dept: @general_qu
 Model: @june_johnson
@@ -67,7 +83,10 @@ Wardrobe! @whatsuplilpup
 Creative: @kt_bz + @thestrongestwomanalive @saint_sparkman + @sarschu Copy: @allyg_12
 Production: @martinenash @otterkitten @mottobot Lighting: @jabnmar
 
-COMPLEX x SETTLEMIERS JACKETS
+## COMPLEX x SETTLEMIERS JACKETS
+
+- []
+
 The Archivists 001, a free, limited edition Complex zine created in collaboration with Nike, that documents how people archive the brand in different ways and its deep connection with culture.
 The Archivists:
 @no.idea.is.original
@@ -83,7 +102,10 @@ Graphic Designer: @ccbuzzell
 Creative Producer: @damnginab
 Special Projects Manager: @orunychoi
 
-SOREL SPRING24
+## SOREL SPRING24
+
+- []
+
 photographer @viviankimx
 models @inouicg @jasmine*dampier @annasophiamoltke @carmen.solomons @*.salanya.\_ producer @webbie_gram
 Sorel team @torilesikar @ohfurreal @lillowski
@@ -91,11 +113,18 @@ Hmua @kyliesallee @serge_ventura
 Wardrobe/props @general_qu
 Assist @lichijellyy
 
-BASEMENT UNDER THE OCEAN Photos - James Bianchi AD/Stylist - Qu Metcalf
+## BASEMENT UNDER THE OCEAN
+
+- []
+
+Photos - James Bianchi AD/Stylist - Qu Metcalf
 Model - Marley Plonkey
 HMUA - Lena Walsh Assistant - Jamie
 
-TAYLOR FARMS
+## TAYLOR FARMS
+
+- []
+
 Photon Portland
 Producer @crary
 DP @liamgillies

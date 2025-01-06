@@ -804,4 +804,51 @@ export const clients = {
     *INSERT “SEE FOAM MUSIC” VIDEO AND “CADILLACS IN TOKYO”`,
     photos: [],
   },
+  waterblossom: {
+    header: "WATER BLOSSOM",
+    copy: `CD/PHOTOGRAPHER - COOPER PATTISON AD/WARDROBE & SET STYLIST - QU METCALF HMUA - KAREN CORDELL MODELS - CHARLES XIOUNG & MAILE KAM ASSISTANT - LICHI GRIP - VINCE`,
+    photos: [
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195832/General%20Qu/WATER%20BLOSSOM/1_afhwhc.jpg",
+        width: 700,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195837/General%20Qu/WATER%20BLOSSOM/2_fx2uye.jpg",
+        width: 700,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195831/General%20Qu/WATER%20BLOSSOM/3_fcswep.jpg",
+        width: 700,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195831/General%20Qu/WATER%20BLOSSOM/4_yxfoxf.jpg",
+        width: 700,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195840/General%20Qu/WATER%20BLOSSOM/5_hxqsbm.jpg",
+        width: 700,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195838/General%20Qu/WATER%20BLOSSOM/6_ywiclc.jpg",
+        width: 700,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195839/General%20Qu/WATER%20BLOSSOM/7_jdtkyz.jpg",
+        width: 700,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195830/General%20Qu/WATER%20BLOSSOM/8_k5avxx.jpg",
+        width: 700,
+        height: 700,
+      },
+    ],
+  },
+
 };
