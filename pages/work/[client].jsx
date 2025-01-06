@@ -61,6 +61,7 @@ const Client = (props) => {
               width={photo.width}
               height={photo.height}
               sizes="(max-width: 750px) 100vw, 1200px"
+              priority
             />
           </div>
         ))}
