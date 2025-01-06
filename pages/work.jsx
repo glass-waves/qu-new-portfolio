@@ -36,13 +36,23 @@ const Work = () => {
         {clients.map((client) => {
           if (client === "wet dream") {
             return (
-              <Link key="wetdream" passHref className={style.aWrapper} href="/wetdream">
+              <Link
+                key="wetdream"
+                passHref
+                className={style.aWrapper}
+                href="/wetdream"
+              >
                 <h2 className={style.clients}>wet dream</h2>
               </Link>
             );
-          } else if(client === 'jordan - zion x naruto') {
+          } else if (client === "jordan - zion x naruto") {
             return (
-              <Link key="naruto" passHref className={style.aWrapper} href="/naruto">
+              <Link
+                key="naruto"
+                passHref
+                className={style.aWrapper}
+                href="/naruto"
+              >
                 <h2 className={style.clients}>jordan - zion x naruto</h2>
               </Link>
             );

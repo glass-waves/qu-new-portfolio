@@ -1,23 +1,23 @@
-@font-face {
+/* @font-face {
   font-family: "WishfulWaves";
-  src: url('../public/fonts/wishfulwaves/wishfulwaves.ttf');
+  src: url("../public/fonts/wishfulwaves/wishfulwaves.ttf");
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-}
+} */
 
-@font-face {
+/* @font-face {
   font-family: "aaaiight";
-  src: url('../public/fonts/aaaiight/aaaiight.ttf');
+  src: url("../public/fonts/aaaiight/aaaiight.ttf");
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-}
-
+} */
 
 html,
 body {
-  cursor: url('https://res.cloudinary.com/glasswavs/image/upload/c_scale,w_32/v1630198187/General%20Qu/enter/cursor_byhvoj.png'), auto;
+  cursor: url("https://res.cloudinary.com/glasswavs/image/upload/c_scale,w_32/v1630198187/General%20Qu/enter/cursor_byhvoj.png"),
+    auto;
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
@@ -25,7 +25,8 @@ body {
 }
 
 a {
-  cursor: url('https://res.cloudinary.com/glasswavs/image/upload/c_scale,w_32/v1628294470/General%20Qu/enter/PngItem_1818548_obdwx6.png'), auto;
+  cursor: url("https://res.cloudinary.com/glasswavs/image/upload/c_scale,w_32/v1628294470/General%20Qu/enter/PngItem_1818548_obdwx6.png"),
+    auto;
   color: inherit;
   text-decoration: none;
 }
@@ -43,5 +44,3 @@ img {
 img[height="800"] {
   max-height: 800px;
 }
-
-/* yo */

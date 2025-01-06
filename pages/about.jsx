@@ -24,6 +24,7 @@ color consulting
             alt="portrait"
             width={650}
             height={910}
+            priority
           />
         </div>
         <div className={style.textContainer}>

@@ -1,15 +1,15 @@
 .main {
-  background-image: url('https://res.cloudinary.com/glasswavs/image/upload/c_scale,q_auto,w_2000/v1627951760/General%20Qu/backgrounds/cloudBackground_ibziva.jpg');
+  background-image: url("https://res.cloudinary.com/glasswavs/image/upload/c_scale,q_auto,w_2000,f_auto/v1627951760/General%20Qu/backgrounds/cloudBackground_ibziva.jpg");
+  background-size: cover;
   padding-top: 10px;
   /* position: relative; */
 }
 .clientList {
   /* margin: 5px auto 5px 50%; */
   /* transform: translateX(-12.5%); */
-
 }
 .clients {
-  font-family: 'aaaiight';
+  font-family: "aaaiight";
   font-size: 2em;
   color: #f9ff99;
   margin: 4px auto;
