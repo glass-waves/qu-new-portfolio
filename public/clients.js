@@ -938,5 +938,71 @@ export const clients = {
 
     ],
   },
+  nicholas: {
+    header: "NICHOLAS",
+    copy: "PHOTOGRAPHER - ZACH DOLEAC STYLIST - QU METCALF MODEL - NICHOLAS",
+    photos: [
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195549/General%20Qu/NICHOLAS/1_en3fxe.jpg",
+        width: 1200,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195546/General%20Qu/NICHOLAS/2_es4mjt.jpg",
+        width: 1200,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195534/General%20Qu/NICHOLAS/3_v5b1hr.jpg",
+        width: 1200,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195521/General%20Qu/NICHOLAS/4_j6wlch.jpg",
+        width: 1200,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195520/General%20Qu/NICHOLAS/6_mo06qn.jpg",
+        width: 1200,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195552/General%20Qu/NICHOLAS/DOLEACZACH_NICHOLAS-8_lj60ij.jpg",
+        width: 1200,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195541/General%20Qu/NICHOLAS/DOLEACZACH_NICHOLAS-2_jclsnr.jpg",
+        width: 700,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195529/General%20Qu/NICHOLAS/DOLEACZACH_NICHOLAS-10_idp87r.jpg",
+        width: 700,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195521/General%20Qu/NICHOLAS/DOLEACZACH_NICHOLAS-22_msacii.jpg",
+        width: 1200,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195521/General%20Qu/NICHOLAS/DOLEACZACH_NICHOLAS-12_knyn7s.jpg",
+        width: 1200,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195521/General%20Qu/NICHOLAS/DOLEACZACH_NICHOLAS-4_kucazx.jpg",
+        width: 1200,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195520/General%20Qu/NICHOLAS/DOLEACZACH_NICHOLAS-11_snoy52.jpg",
+        width: 700,
+        height: 700,
+      },
+    ],
+  },
 
 };

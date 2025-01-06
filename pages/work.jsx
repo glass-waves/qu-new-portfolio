@@ -9,6 +9,7 @@ const clients = [
   "waterblossom",
   "quinn",
   "pairofthieves",
+  "nicholas",
   // Older Clients
   "fluttering",
   "teva fall 22",
