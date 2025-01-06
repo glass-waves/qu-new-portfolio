@@ -7,13 +7,11 @@ function Header({ fontColor, links, pageTitle }) {
   return (
     <>
       <Head>
-        <title>{pageTitle} | General Qu</title>
+        <title>{pageTitle.toUpperCase()} | General Qu</title>
       </Head>
       <header className={style.header}>
         <div></div>
-        {/* <h1 className={style.logo} style={{ color: fontColor }}>
-        general qu
-      </h1> */}
+
         <Link
           className={style.logoContainer}
           href="/home"
@@ -27,7 +25,9 @@ function Header({ fontColor, links, pageTitle }) {
             alt="logo"
           />
         </Link>
+
         <div></div>
+
         <nav className={style.nav} style={{ color: fontColor }}>
           {links.map((link) => (
             <Link key={link} className={style.link} href={`/${link}`}>

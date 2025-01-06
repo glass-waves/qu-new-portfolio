@@ -1004,5 +1004,56 @@ export const clients = {
       },
     ],
   },
+  damianlillardxadidas: {
+    header: "DAMIAN LILLARD X ADIDAS",
+    copy: "WITH STUDIO A PHOTOGRAPHER - SAGE EAST SET STYLIST - QU METCALF PRODUCER - KATIE SELLON STUDIO ASSISTANT - LICHI",
+    photos: [
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195412/General%20Qu/DAMIAN%20LILLARD%20x%20ADIDAS/XCAT_SS23_HC161_FATHERSDAY__M_KM_LOOK01_00338_kxflbu.jpg",
+        width: 1200,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195411/General%20Qu/DAMIAN%20LILLARD%20x%20ADIDAS/XCAT_SS23_HC161_FATHERSDAY__M_KM_LOOK02_00923_qmca5b.jpg",
+        width: 700,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195408/General%20Qu/DAMIAN%20LILLARD%20x%20ADIDAS/XCAT_SS23_HC161_FATHERSDAY__M_KM_LOOK01_00346_hytfxz.jpg",
+        width: 1200,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195407/General%20Qu/DAMIAN%20LILLARD%20x%20ADIDAS/XCAT_SS23_HC161_FATHERSDAY__M_KM_LOOK02_00785_wrylad.jpg",
+        width: 1200,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195400/General%20Qu/DAMIAN%20LILLARD%20x%20ADIDAS/XCAT_SS23_HC161_FATHERSDAY__M_KM_LOOK01_00616_owh2pw.jpg",
+        width: 1200,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195402/General%20Qu/DAMIAN%20LILLARD%20x%20ADIDAS/XCAT_SS23_HC161_FATHERSDAY__M_KM_LOOK01_00298_ymcidh.jpg",
+        width: 1200,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195400/General%20Qu/DAMIAN%20LILLARD%20x%20ADIDAS/XCAT_SS23_HC161_FATHERSDAY__M_KM_LOOK02_00733_zqrksp.jpg",
+        width: 1200,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195399/General%20Qu/DAMIAN%20LILLARD%20x%20ADIDAS/XCAT_SS23_HC161_FATHERSDAY__M_KM_LOOK01_00549_quetvz.jpg",
+        width: 700,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195388/General%20Qu/DAMIAN%20LILLARD%20x%20ADIDAS/XCAT_SS23_HC161_FATHERSDAY__M_KM_LOOK02_00712_fismss.jpg",
+        width: 1200,
+        height: 700,
+      },
+    ],
+  },
 
 };

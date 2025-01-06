@@ -10,6 +10,7 @@ const clients = [
   "quinn",
   "pairofthieves",
   "nicholas",
+  "damian lillard x adidas",
   // Older Clients
   "fluttering",
   "teva fall 22",

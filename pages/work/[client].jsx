@@ -21,6 +21,7 @@ export async function getStaticPaths() {
       { params: { client: "quinn" } },
       { params: { client: "pairofthieves" } },
       { params: { client: "nicholas" } },
+      { params: { client: "damianlillardxadidas" } },
 
       // Older Clients
       { params: { client: "fluttering" } },
