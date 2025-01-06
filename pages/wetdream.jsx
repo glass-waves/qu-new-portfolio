@@ -10,11 +10,15 @@ function Wetdream() {
   const handleWidth = () => setScreenRatio(window.innerWidth / 1000);
   useEffect(() => {
     handleWidth();
-    window.addEventListener('resize', handleWidth);
-  }, [])
+    window.addEventListener("resize", handleWidth);
+  }, []);
   return (
     <main className={style.container}>
-      <Header fontColor="white" links={["home", "about", "work"]} />
+      <Header
+        fontColor="white"
+        links={["home", "about", "work"]}
+        pageTitle="WET DREAM"
+      />
       <Ticker text="wet dream" />
       <p className={style.copy}>
         WET DREAM IS QU’S MUSIC/VISUAL PROJECT WITH DYLAN WHITE AND BENJAMIN

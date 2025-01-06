@@ -1,10 +1,9 @@
 import React from "react";
-// import PropTypes from "prop-types";
 import styles from "../styles/Enter.module.css";
 import Link from "next/link";
 import Image from "next/image";
 
-function Enter(props) {
+function Enter() {
   return (
     <section className={styles.container}>
       <div className={styles.imageAndText}>
@@ -25,7 +24,5 @@ function Enter(props) {
     </section>
   );
 }
-
-Enter.propTypes = {};
 
 export default Enter;

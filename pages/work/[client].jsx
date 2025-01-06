@@ -53,7 +53,11 @@ const Client = (props) => {
 
   return (
     <main className={style.container}>
-      <Header fontColor="white" links={["home", "about", "work"]} />
+      <Header
+        fontColor="white"
+        links={["home", "about", "work"]}
+        pageTitle={thisClient.header}
+      />
       <Ticker text={thisClient.header} />
       <section className={style.photoContainer}>
         {thisClient.photos.map((photo) => (

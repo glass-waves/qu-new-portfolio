@@ -37,7 +37,7 @@ const clients = [
 const Work = () => {
   return (
     <main className={style.main}>
-      <Header fontColor="white" links={["home", "about"]} />
+      <Header fontColor="white" links={["home", "about"]} pageTitle="Work" />
       <Ticker text=" work work " />
       <section className={style.clientList}>
         {clients.map((client) => {

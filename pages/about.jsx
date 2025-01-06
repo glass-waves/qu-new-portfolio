@@ -14,7 +14,7 @@ color consulting
    */
   return (
     <main className={style.container}>
-      <Header fontColor="white" links={["home", "work"]} />
+      <Header fontColor="white" links={["home", "work"]} pageTitle="About" />
       <Ticker text="general qu" backgroundColor="black" />
       <section className={style.flex}>
         <div className={style.imageContainer}>
@@ -53,3 +53,7 @@ color consulting
 }
 
 export default About;
+
+export const metadata = {
+  title: "About",
+};

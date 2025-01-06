@@ -1,4 +1,5 @@
 import localFont from 'next/font/local'
+// import { Metadata } from 'next/document'
 import '../styles/globals.css'
 
 // Font files can be colocated inside of `pages`
@@ -23,3 +24,8 @@ function MyApp({ Component, pageProps }) {
 }
 
 export default MyApp
+
+export const metadata = {
+  title: "General Qu",
+  description: "General Qu - Creative Director",
+}
