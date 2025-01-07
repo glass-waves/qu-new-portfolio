@@ -26,6 +26,7 @@ export async function getStaticPaths() {
       { params: { client: "adidasbloghowtostyleatennisskirt" } },
       { params: { client: "complexxsettlemiers" } },
       { params: { client: "sorelspring24" } },
+      { params: { client: "basementundertheocean" } },
 
       // Older Clients
       { params: { client: "fluttering" } },
