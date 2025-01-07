@@ -141,11 +141,25 @@ Craft service @amesandolives
 
 ## Sorel SZN23
 
+- [x]
+
 ## Teva
+
+- [x]
 
 ## Blackwater HolyLight
 
-VIDEO LINK -
+- [x]
+
+## DISNEY x COLUMBIA
+
+- [x]
+
+## SOREL VARSITY F24
+
+- [x]
+
+<!-- VIDEO LINK -
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ip8ynDPYAP8? si=qkZxHVZ84UZFwDkK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -159,4 +173,4 @@ WET DREAM “CADILLACS IN TOKYO”
 frameborder="0" allow="accelerometer; autoplay; clipboard- write; encrypted-media; gyroscope; picture-in-picture; web- share" allowfullscreen></iframe>
 BLACKWATER HOLYLIGHT “SILENCE/MOTION”
 <iframe width="560" height="315" src="https:// www.youtube.com/embed/NNNwdKyoBNU? si=q4WqF8B7Z-7VjJ_x" title="YouTube video player"
-frameborder="0" allow="accelerometer; autoplay; clipboard- write; encrypted-media; gyroscope; picture-in-picture; web- share" allowfullscreen></iframe>
+frameborder="0" allow="accelerometer; autoplay; clipboard- write; encrypted-media; gyroscope; picture-in-picture; web- share" allowfullscreen></iframe> -->

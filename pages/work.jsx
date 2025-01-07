@@ -17,6 +17,11 @@ const clients = [
   "sorel spring 24",
   "basement under the ocean",
   "taylor farms",
+  "sorel szn 23",
+  "teva",
+  "blackwater holy light",
+  "disney x columbia",
+  "sorel varsity 24",
   // Older Clients
   "fluttering",
   "teva fall 22",

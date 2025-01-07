@@ -820,11 +820,7 @@ export const clients = {
   },
   wetdream: {
     header: "wet dream",
-    copy: `WET DREAM IS QU’S MUSIC/VISUAL PROJECT WITH DYLAN WHITE AND BENJAMIN JOHNSON.
-
-    MUSIC CAN BE FOUND ON SPOTIFY.
-    
-    *INSERT “SEE FOAM MUSIC” VIDEO AND “CADILLACS IN TOKYO”`,
+    copy: `WET DREAM IS QU’S MUSIC/VISUAL PROJECT WITH DYLAN WHITE AND BENJAMIN JOHNSON. MUSIC CAN BE FOUND ON SPOTIFY.`,
     videos: [
       { src: "https://www.youtube.com/embed/9N-herNALFE" },
       { src: "https://www.youtube.com/embed/8KWRkCOSyfU" },
@@ -1581,6 +1577,132 @@ export const clients = {
         height: 700,
       },
 
+    ],
+  },
+  sorelszn23: {
+    header: "Sorel SZN23",
+    copy: "",
+    videos: [],
+    photos: [
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195711/General%20Qu/SOREL%20SZN23/1_cfv5cy.jpg",
+        width: 1200,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195711/General%20Qu/SOREL%20SZN23/2_copy_capclb.jpg",
+        width: 1200,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195713/General%20Qu/SOREL%20SZN23/3_zpx6rs.jpg",
+        width: 700,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195711/General%20Qu/SOREL%20SZN23/4_va60ts.jpg",
+        width: 1200,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736196067/General%20Qu/SOREL%20SZN23/5_egkddz.jpg",
+        width: 700,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195704/General%20Qu/SOREL%20SZN23/6_j2qitz.jpg",
+        width: 700,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195703/General%20Qu/SOREL%20SZN23/7_wgv7ra.jpg",
+        width: 700,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195708/General%20Qu/SOREL%20SZN23/8_qpjmsk.jpg",
+        width: 700,
+        height: 700,
+      },
+    ],
+  },
+  teva: {
+    header: "TEVA",
+    copy: "",
+    videos: [],
+    photos: [
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195815/General%20Qu/TEVA/1_ukd3el.jpg",
+        width: 1200,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195813/General%20Qu/TEVA/2_tkd71p.jpg",
+        width: 700,
+        height: 700,
+      },
+    ],
+  },
+  blackwaterholylight: {
+    header: "BLACKWATER HOLYLIGHT “SILENCE/MOTION”",
+    copy: "",
+    videos: [
+      { src: "https://www.youtube.com/embed/NNNwdKyoBNU" }
+    ],
+    photos: [],
+  },
+  disneyxcolumbia: {
+    header: "DISNEY x COLUMBIA",
+    copy: "",
+    videos: [],
+    photos: [
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195422/General%20Qu/DISNEY%20x%20COLUMBIA/1_oe04ki.jpg",
+        width: 1200,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195420/General%20Qu/DISNEY%20x%20COLUMBIA/2_xbhcgi.jpg",
+        width: 1200,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195418/General%20Qu/DISNEY%20x%20COLUMBIA/3_omstgf.jpg",
+        width: 1200,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195419/General%20Qu/DISNEY%20x%20COLUMBIA/4_p2mb4o.jpg",
+        width: 1200,
+        height: 700,
+      },
+    ],
+  },
+  sorelvarsity24: {
+    header: "SOREL VARSITY F24",
+    copy: "",
+    videos: [],
+    photos: [
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195801/General%20Qu/SOREL%20VARSITY%20F24/Screenshot_2024-12-20_at_11.11.48_AM_z5nwlq.png",
+        width: 1200,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195799/General%20Qu/SOREL%20VARSITY%20F24/Screenshot_2024-12-20_at_11.12.48_AM_fpxhug.png",
+        width: 1200,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195799/General%20Qu/SOREL%20VARSITY%20F24/Screenshot_2024-12-20_at_11.12.13_AM_dyyis0.png",
+        width: 700,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195802/General%20Qu/SOREL%20VARSITY%20F24/Screenshot_2024-12-20_at_11.13.13_AM_urflhu.png",
+        width: 1200,
+        height: 700,
+      },
     ],
   },
 };

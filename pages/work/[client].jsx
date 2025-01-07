@@ -16,45 +16,15 @@ export const getStaticProps = async (context) => {
   };
 };
 
+const clientKeys = Object.keys(clients);
+
+const paths = clientKeys.map((clientKey) => {
+  return { params: { client: clientKey } };
+});
+
 export async function getStaticPaths() {
   return {
-    paths: [
-      // Newer Clients - Jan 2025 update
-      { params: { client: "waterblossom" } },
-      { params: { client: "quinn" } },
-      { params: { client: "pairofthieves" } },
-      { params: { client: "nicholas" } },
-      { params: { client: "damianlillardxadidas" } },
-      { params: { client: "adidasspringbreak24" } },
-      { params: { client: "adidasbloghowtostyleatennisskirt" } },
-      { params: { client: "complexxsettlemiers" } },
-      { params: { client: "sorelspring24" } },
-      { params: { client: "basementundertheocean" } },
-      { params: { client: "taylorfarms" } },
-
-      // Older Clients
-      { params: { client: "fluttering" } },
-      { params: { client: "tevafall22" } },
-      { params: { client: "sorelszn22" } },
-      { params: { client: "sorelfall22" } },
-      { params: { client: "sorelglowpack" } },
-      { params: { client: "sorelspring22" } },
-      { params: { client: "jordan-zionxnaruto" } },
-      { params: { client: "nikesportsbra" } },
-      { params: { client: "nikebehindthedesign" } },
-      { params: { client: "nikefall21olympics" } },
-      { params: { client: "tmagazine" } },
-      { params: { client: "florals" } },
-      { params: { client: "barbari" } },
-      { params: { client: "demi" } },
-      { params: { client: "dickssportinggoods" } },
-      { params: { client: "munchies" } },
-      { params: { client: "newagedesign" } },
-      { params: { client: "nikebeyondlabels" } },
-      { params: { client: "potplant" } },
-      { params: { client: "stayover" } },
-      { params: { client: "wetdream" } },
-    ],
+    paths: paths,
     fallback: false, // See the "fallback" section below
   };
 }
@@ -106,7 +76,8 @@ const Client = (props) => {
           </div>
         ))}
       </section>
-      <p className={style.copy}>{thisClient.copy}</p>
+
+      {thisClient.copy && <p className={style.copy}>{thisClient.copy}</p>}
     </main>
   );
 };
