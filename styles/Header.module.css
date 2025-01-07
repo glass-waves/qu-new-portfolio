@@ -26,12 +26,16 @@
 .link:hover {
   text-decoration: line-through;
 }
+
 @media screen and (max-width: 1300px) {
   .link {
     font-size: 1em;
   }
 }
 @media screen and (max-width: 950px) {
+  .link:focus {
+    text-decoration: none;
+  }
   .header {
     display: flex;
     flex-direction: column;
