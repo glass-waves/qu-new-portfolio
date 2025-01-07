@@ -2,6 +2,7 @@ export const clients = {
   tevafall22: {
     header: "teva fall 22",
     copy: "PHOTOGRAPHER - BEN SELLON, SET DESIGNER - QU METCALF, PRODUCER - KATIE SELLON, STYLIST - MARCUS FISCHER, AD - MYKE MART",
+    videos: [],
     photos: [
       {
         src: "https://res.cloudinary.com/glasswavs/image/upload/v1673909384/General%20Qu/2022_revamp/teva_fall22/3_ftm5az.jpg",
@@ -43,6 +44,7 @@ export const clients = {
   fluttering: {
     header: "fluttering",
     copy: "CD/STYLIST - QU METCALF, PHOTOGRAPHER - TYLER ASHLOCK, MODELS - NYANG YOUNG & ARIANNA SIMONE, HMUA - KYLIE SALLEE",
+    videos: [],
     photos: [
       {
         src: "https://res.cloudinary.com/glasswavs/image/upload/v1673909319/General%20Qu/2022_revamp/a_fluttering/1_xoudsg.jpg",
@@ -79,6 +81,7 @@ export const clients = {
   sorelszn22: {
     header: "sorel szn 22'",
     copy: "PHOTOGRAPHER - EVIE LANE, SET DESIGN/STYLIST - QU METCALF, ASSIST - LICHI, SOREL TEAM - CORI PEDDICORD, TORI LESIKAR, ALISON, JADE",
+    videos: [],
     photos: [
       {
         src: "https://res.cloudinary.com/glasswavs/image/upload/v1673909445/General%20Qu/2022_revamp/sorel_szn_22/2_etsank.jpg",
@@ -150,6 +153,7 @@ export const clients = {
   sorelfall22: {
     header: "sorel fall 22'",
     copy: "PHOTOGRAPHER - TYLER ASHLOCK @ SWANSON STUDIO, SET DESIGN/STYLIST - QU METCALF, MODELS - MINJ + AYAANA STEVENS",
+    videos: [],
     photos: [
       {
         src: "https://res.cloudinary.com/glasswavs/image/upload/v1673911358/General%20Qu/2022_revamp/sorel_fall22/3__qfuvir.jpg",
@@ -181,6 +185,7 @@ export const clients = {
   sorelglowpack: {
     header: "sorel glow pack",
     copy: "PHOTOGRAPHER - PAUL REID MILLER, SET DESIGN/STYLIST - QU METCALF, MODEL - EMMA JOHNSTON",
+    videos: [],
     photos: [
       {
         src: "https://res.cloudinary.com/glasswavs/image/upload/v1665356336/General%20Qu/2022_revamp/sorel_glow_pack/03_nozfyk.jpg",
@@ -227,6 +232,7 @@ export const clients = {
   sorelspring22: {
     header: "sorel spring 22",
     copy: "PHOTOGRAPHER - RICHARD DARBONNE, STYLIST - QU METCALF",
+    videos: [],
     photos: [
       {
         src: "https://res.cloudinary.com/glasswavs/image/upload/v1665355914/General%20Qu/2022_revamp/sorel_spring_22/12_ply9we.jpg",
@@ -293,6 +299,9 @@ export const clients = {
   "jordan-zionxnaruto": {
     header: "jordan - zion x naruto",
     copy: "DP - NOLAN GROSE WITH BROTHER PRODUCTIONS, SET DESIGN/STYLIST - QU METCALF, VIDEO - https://www.youtube.com/watch?v=RXeJ9kUmVTM",
+    videos: [
+      { src: "https://www.youtube.com/embed/RXeJ9kUmVTM" }
+    ],
     photos: [
       {
         src: "https://res.cloudinary.com/glasswavs/image/upload/v1665356716/General%20Qu/2022_revamp/zion_naruto/group2_qj4qsv.jpg",
@@ -319,6 +328,7 @@ export const clients = {
   nikesportsbra: {
     header: "nike sports bra",
     copy: "PHOTOGRAPHER - EVIE LANE, MODELS - CADENCE CAMILLE, MAKAYLA KYLE, AKQA",
+    videos: [],
     photos: [
       {
         src: "https://res.cloudinary.com/glasswavs/image/upload/v1665355964/General%20Qu/2022_revamp/nike_sports_bra/03_ku1cw1.jpg",
@@ -365,6 +375,7 @@ export const clients = {
   nikebehindthedesign: {
     header: "nike behind the design",
     copy: "PHOTOGRAPHER -  EVIE LANE, STYLING - QU METCALF, TALENT - BETH MATHIAS, INSTRUMENT",
+    videos: [],
     photos: [
       {
         src: "https://res.cloudinary.com/glasswavs/image/upload/v1665356770/General%20Qu/2022_revamp/nike_behind_the_design/02_cl1q5c.jpg",
@@ -401,6 +412,7 @@ export const clients = {
   nikefall21olympics: {
     header: "nike fall 21 olympics",
     copy: "PHOTOGRAPHER - JULES DAVIES, STYLIST - QU METCALF, MODELS - QUINN SEARLE, ROBDU, EMMA JOHNSTON, AKQA",
+    videos: [],
     photos: [
       {
         src: "https://res.cloudinary.com/glasswavs/image/upload/v1665356273/General%20Qu/2022_revamp/nike_fall21_olympics/07_fewzwu.jpg",
@@ -447,6 +459,7 @@ export const clients = {
   tmagazine: {
     header: "t magazine",
     copy: "PHOTOGRAPHER/VIDEOGRAPHER - MASON TRINCA, STYLIST - QU METCALF, FEATURING CHRIS JOHANSON + JOHANNA JACKSON, CONTENT - https://www.nytimes.com/2021/10/04/t-magazine/chris-johanson-johanna-jackson.html",
+    videos: [],
     photos: [
       {
         src: "https://res.cloudinary.com/glasswavs/image/upload/v1665356060/General%20Qu/2022_revamp/t_magazine/20210915_TMagazine_092_tgljto.jpg",
@@ -473,6 +486,7 @@ export const clients = {
   florals: {
     header: "florals",
     copy: "PHOTOGRAPHER - NADAV BENJAMIN, STYLIST - QU METCALF",
+    videos: [],
     photos: [
       {
         src: "https://res.cloudinary.com/glasswavs/image/upload/v1665356230/General%20Qu/2022_revamp/florals/floral1_afqucq.jpg",
@@ -494,6 +508,7 @@ export const clients = {
   barbari: {
     header: "barbari",
     copy: "BARBARI HAS BEEN A REGULAR CLIENT OF QU’S FOR THE LAST 2.5 YEARS. TOGETHER, BOTH COMPANIES HAVE EVOLVED A SOLID AESTHETIC. ALL IMAGES ARE STYLED AND SHOT BY QU. IMAGES 5 & 8 STYLED BY FAMOUS CHARM. MODELS - CHRISTIAN BURKE AND BRILEY JOZWIAK.",
+    videos: [],
     photos: [
       {
         src: "https://res.cloudinary.com/glasswavs/image/upload/c_scale,dpr_2.0,q_auto:best,w_700/v1628210845/General%20Qu/barbari/barbari_new1_ys7pac.jpg",
@@ -557,6 +572,7 @@ export const clients = {
     copy: `THIS PROJECT WAS ART DIRECTED, STYLED, AND PRODUCED BY QU. PHOTOGRAPHER-ZACH DOLEAC,
 
     MODEL DEMI YO’KO, HMUA-SUNNY FARRIS, DIGI/POST-TYLER LYON WITH CAMPFIRE CREATIVE`,
+    videos: [],
     photos: [
       {
         src: "https://res.cloudinary.com/glasswavs/image/upload/c_scale,dpr_2.0,q_auto:best,w_700/v1627619412/General%20Qu/demi/1_kriclc.jpg",
@@ -592,6 +608,7 @@ export const clients = {
     A COLLABORATION BETWEEN DICKS SPORTING GOODS AND NIKE/STAY AT HOME GYM.
     
     PRODUCER - HERENOW CREATIVE, ART DIRECTOR - KATIE BEASLEY, SET DESIGNER - QU`,
+    videos: [],
     photos: [
       {
         src: "https://res.cloudinary.com/glasswavs/image/upload/c_scale,dpr_2.0,q_auto:best,w_700/v1601059996/General%20Qu/dsg/dsg9_o1g2pn.jpg",
@@ -613,6 +630,7 @@ export const clients = {
   munchies: {
     header: "munchies munchies",
     copy: "PHOTOGRAPHER - NADAV BENJAMIN, STYLIST - QU",
+    videos: [],
     photos: [
       {
         src: "https://res.cloudinary.com/glasswavs/image/upload/c_scale,dpr_2.0,q_auto:best,w_700/v1601060035/General%20Qu/food-pyramid/pyramid1_g3b6fv.jpg",
@@ -629,6 +647,7 @@ export const clients = {
   newagedesign: {
     header: "new age design",
     copy: "PHOTOGRAPHER - NADAV BENJAMIN, STYLIST - QU, PRODUCT - NEW AGE DESIGN",
+    videos: [],
     photos: [
       {
         src: "https://res.cloudinary.com/glasswavs/image/upload/c_scale,dpr_2.0,q_auto:best,w_400/v1601060036/General%20Qu/new-age/newage1_vpddtx.jpg",
@@ -655,6 +674,7 @@ export const clients = {
   nikebeyondlabels: {
     header: "nike beyond labels",
     copy: "BEYOND LABELS, PHOTOGRAPHER - ZACK LEWIS, SET DESIGN/WARDROBE STYLIST - QU, PRODUCER - AKQA, STYLIST ASSISTANT - CEE, DIGI - JOSH ROMBERG, MODELS - SALOMEE SOUAG, BYLLI HAYWARD, SANTI DARLING",
+    videos: [],
     photos: [
       {
         src: "https://res.cloudinary.com/glasswavs/image/upload/c_scale,dpr_2.0,q_auto:best,w_700/v1627616769/General%20Qu/nike%20x%20beyond%20labels/1_dlofr0.jpg",
@@ -726,6 +746,7 @@ export const clients = {
   ourdream: {
     header: "our dream",
     copy: "CLIENT - OUR DREAM. PHOTOGRAPHER - QU. STYLIST - MICHELLE GONZALEZ, PRODUCER - LAUREN YOSHIKO. MODELS - ARIEL DAVIS, TIMOTHY BEE, MERYL MONTGOMERY, AND VALARIE SAKOTA",
+    videos: [],
     photos: [
       {
         src: "https://res.cloudinary.com/glasswavs/image/upload/c_scale,dpr_2.0,q_auto:best,w_400/v1601059982/General%20Qu/our-dream/ourDream1_a7npxd.jpg",
@@ -754,6 +775,7 @@ export const clients = {
     copy: `CLIENT - POT PLANT. FAUX POT PLANTS FOR YOUR INTERIOR STYLING NEEDS. 
 
     PHOTOGRAPHER-NADAV BENJAMIN. STYLIST-QU`,
+    videos: [],
     photos: [
       {
         src: "https://res.cloudinary.com/glasswavs/image/upload/c_scale,dpr_2.0,q_auto:best,w_700/v1601060033/General%20Qu/pot-plant/potPlant5_qm2u5a.jpg",
@@ -777,6 +799,7 @@ export const clients = {
     copy: `MUSIC SINGLE COVERS FOR ARTIST - STAY OVER. PHOTOGRAPHER - NADAV BENJAMIN.
 
     STYLIST - QU`,
+    videos: [],
     photos: [
       {
         src: "https://res.cloudinary.com/glasswavs/image/upload/c_scale,dpr_2.0,q_auto:best,w_700/v1601059990/General%20Qu/stay-over/stayOver1_ewdewb.jpg",
@@ -802,11 +825,17 @@ export const clients = {
     MUSIC CAN BE FOUND ON SPOTIFY.
     
     *INSERT “SEE FOAM MUSIC” VIDEO AND “CADILLACS IN TOKYO”`,
+    videos: [
+      { src: "https://www.youtube.com/embed/9N-herNALFE" },
+      { src: "https://www.youtube.com/embed/8KWRkCOSyfU" },
+      { src: "https://player.vimeo.com/video/336836268?h=ecf932df6f" }
+    ],
     photos: [],
   },
   waterblossom: {
     header: "WATER BLOSSOM",
     copy: `CD/PHOTOGRAPHER - COOPER PATTISON AD/WARDROBE & SET STYLIST - QU METCALF HMUA - KAREN CORDELL MODELS - CHARLES XIOUNG & MAILE KAM ASSISTANT - LICHI GRIP - VINCE`,
+    videos: [],
     photos: [
       {
         src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195832/General%20Qu/WATER%20BLOSSOM/1_afhwhc.jpg",
@@ -853,6 +882,7 @@ export const clients = {
   quinn: {
     header: "QUINN",
     copy: "PHOTOGRAPHER - EVIE LANE WARDROBE & SET STYLIST - QU METCALF MODEL - QUINN SEARLE ASSISTANT - ADRIEN KING",
+    videos: [],
     photos: [
       {
         src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195624/General%20Qu/QUINN/1_zoce4a.jpg",
@@ -874,6 +904,7 @@ export const clients = {
   pairofthieves: {
     header: "PAIR OF THIEVES",
     copy: "PHOTOGRAPHER - KRISTIN ELLIS WARDROBE & SET STYLIST - QU METCALF PRODUCER - ELLIOT COATES AD - TOMMI & KYLE ASSISTANTS - CHELSEA & LICHI MODELS - KENNY OYAMA, DAVID KOJO AIDO, & JANIAH DELANEY",
+    videos: [],
     photos: [
       {
         src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195604/General%20Qu/PAIR%20OF%20THIEVES/1A_c2rfrw.jpg",
@@ -941,6 +972,7 @@ export const clients = {
   nicholas: {
     header: "NICHOLAS",
     copy: "PHOTOGRAPHER - ZACH DOLEAC STYLIST - QU METCALF MODEL - NICHOLAS",
+    videos: [],
     photos: [
       {
         src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195549/General%20Qu/NICHOLAS/1_en3fxe.jpg",
@@ -1007,6 +1039,7 @@ export const clients = {
   damianlillardxadidas: {
     header: "DAMIAN LILLARD X ADIDAS",
     copy: "WITH STUDIO A PHOTOGRAPHER - SAGE EAST SET STYLIST - QU METCALF PRODUCER - KATIE SELLON STUDIO ASSISTANT - LICHI",
+    videos: [],
     photos: [
       {
         src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195412/General%20Qu/DAMIAN%20LILLARD%20x%20ADIDAS/XCAT_SS23_HC161_FATHERSDAY__M_KM_LOOK01_00338_kxflbu.jpg",
@@ -1058,6 +1091,7 @@ export const clients = {
   adidasspringbreak24: {
     header: "ADIDAS SPRING BREAK24",
     copy: "with Studio A / @emilyrosetate @pdxschroeder @zoeward @eelisacox @otterkitten @whatsuplilpup Photo / @jennasaintmartin @jamesbianchi @fontaine*rittelmann @raskut Production / @halfcourtstudio @reardonk @lainyyb @bamb00banga Wardrobe / @ameliailema @l.gilbert81 HMU / @_lenawalsh @jessiepowers_makeup Production Design / @general_qu @seanmager Assist @leeza_con_queso Location / @coolhandstudiopdx Talent / @moku.searle @marley_plonkey @kaelianeal & Dominik Raudy / @theoptionagency @reactionmodels Post / @thevisualgroup",
+    videos: [],
     photos: [
       {
         src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195232/General%20Qu/ADIDAS%20SPRING%20BREAK24/Screen_Shot_2024-03-21_at_10.25.20_AM_zxmljw.png",
@@ -1159,6 +1193,7 @@ export const clients = {
   adidasbloghowtostyleatennisskirt: {
     header: "ADIDAS BLOG - HOW TO STYLE A TENNIS SKIRT",
     copy: "Photo: @yvanna.ramos Styling: @kaimago Art Dept: @general_qu Model: @june_johnson Muahhh: @_lenawalsh Wardrobe! @whatsuplilpup Creative: @kt_bz + @thestrongestwomanalive @saint_sparkman + @sarschu Copy: @allyg_12 Production: @martinenash @otterkitten @mottobot Lighting: @jabnmar",
+    videos: [],
     photos: [
       {
         src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195154/General%20Qu/ADIDAS%20EDITIORAL%20-%20HOW%20TO%20STYLE%20A%20TENNIS%20SKIRT/1_mzue1k.png",
@@ -1185,6 +1220,7 @@ export const clients = {
   complexxsettlemiers: {
     header: "COMPLEX x SETTLEMIERS JACKETS",
     copy: "The Archivists 001, a free, limited edition Complex zine created in collaboration with Nike, that documents how people archive the brand in different ways and its deep connection with culture. The Archivists: @no.idea.is.original @aaliyahnoel @magdi.dna @roots_bk @settlemiers.jackets Story by @mike_destefano Photos by @sellonb Prop Stylist: @general_qu Photo Assistant: @jabnmar Editorial Creative Director: @ariahughes Art Director: @ben_kopp* Graphic Designer: @ccbuzzell Creative Producer: @damnginab Special Projects Manager: @orunychoi",
+    videos: [],
     photos: [
       {
         src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195375/General%20Qu/COMPLEX%20x%20SETTLEMIERS/Screen_Shot_2024-05-09_at_10.56.53_AM_ywju8z.png",
@@ -1236,6 +1272,7 @@ export const clients = {
   sorelspring24: {
     header: "SOREL SPRING24",
     copy: "photographer @viviankimx models @inouicg @jasminedampier @annasophiamoltke @carmen.solomons @.salanya._ producer @webbie_gram Sorel team @torilesikar @ohfurreal @lillowski Hmua @kyliesallee @serge_ventura Wardrobe/props @general_qu Assist @lichijellyy",
+    videos: [],
     photos: [
       {
         src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195686/General%20Qu/SOREL%20SPRING24/Screen_Shot_2024-03-11_at_7.24.32_PM_j2icbo.png",
@@ -1487,6 +1524,7 @@ export const clients = {
   basementundertheocean: {
     header: "BASEMENT UNDER THE OCEAN",
     copy: "Photos - James Bianchi AD/Stylist - Qu Metcalf Model - Marley Plonkey HMUA - Lena Walsh Assistant - Jamie",
+    videos: [],
     photos: [
       {
         src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195252/General%20Qu/BASEMENT%20UNDER%20THE%20OCEAN/1_ienpwc.png",
@@ -1518,6 +1556,9 @@ export const clients = {
   taylorfarms: {
     header: "TAYLOR FARMS",
     copy: "Photon Portland Producer @crary DP @liamgillies Edit @photon Color @pinata_post AC @baker_bros_films Bolt @cameracontrol.nw Styling & H&M@kimberlybriggscreative Art department @general_qu Digitech @baker_bros_film Grip @baker_bros_films @russelbowens Set build @calebpetroski@travywild BTS Video @baker_bros_films BTS Photos @matthewthomasrich Craft service @amesandolives",
+    videos: [
+      { src: "https://www.youtube.com/embed/ip8ynDPYAP8" }
+    ],
     photos: [
       {
         src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195259/General%20Qu/BTS/BTS_TAYLORFARMS1_psimgj.jpg",

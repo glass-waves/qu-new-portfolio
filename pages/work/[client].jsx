@@ -4,6 +4,8 @@ import Header from "../../components/header.jsx";
 import Ticker from "../../components/ticker.jsx";
 import { clients } from "../../public/clients.js";
 import style from "../../styles/Client.module.css";
+import style2 from "../../styles/Wet.module.css";
+import { useEffect, useState } from "react";
 
 export const getStaticProps = async (context) => {
   return {
@@ -27,7 +29,7 @@ export async function getStaticPaths() {
       { params: { client: "complexxsettlemiers" } },
       { params: { client: "sorelspring24" } },
       { params: { client: "basementundertheocean" } },
-      // { params: { client: "taylorfarms" } },
+      { params: { client: "taylorfarms" } },
 
       // Older Clients
       { params: { client: "fluttering" } },
@@ -57,6 +59,12 @@ export async function getStaticPaths() {
 }
 const Client = (props) => {
   const thisClient = props.client;
+  const [screenRatio, setScreenRatio] = useState(1);
+  const handleWidth = () => setScreenRatio(window.innerWidth / 1000);
+  useEffect(() => {
+    handleWidth();
+    window.addEventListener("resize", handleWidth);
+  }, []);
 
   return (
     <main className={style.container}>
@@ -67,6 +75,19 @@ const Client = (props) => {
       />
       <Ticker text={thisClient.header} />
       <section className={style.photoContainer}>
+        {thisClient.videos.map((video) => (
+          <div className={style2.videoWrapper} key={video.src}>
+            <iframe
+              width={640 * screenRatio}
+              height={360 * screenRatio}
+              src={video.src}
+              title="Video player"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowFullScreen
+              frameBorder={0}
+            ></iframe>
+          </div>
+        ))}
         {thisClient.photos.map((photo) => (
           <div
             className={style.imageWrapper}

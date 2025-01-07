@@ -48,51 +48,16 @@ const Work = () => {
       <Ticker text=" work work " />
       <section className={style.clientList}>
         {clients.map((client) => {
-          if (client === "wet dream") {
-            return (
-              <Link
-                key="wetdream"
-                passHref
-                className={style.aWrapper}
-                href="/wetdream"
-              >
-                <h2 className={style.clients}>wet dream</h2>
-              </Link>
-            );
-          } else if (client === "jordan - zion x naruto") {
-            return (
-              <Link
-                key="naruto"
-                passHref
-                className={style.aWrapper}
-                href="/naruto"
-              >
-                <h2 className={style.clients}>jordan - zion x naruto</h2>
-              </Link>
-            );
-          } else if (client === "taylor farms") {
-            return (
-              <Link
-                key="taylorfarms"
-                passHref
-                className={style.aWrapper}
-                href="/taylorfarms"
-              >
-                <h2 className={style.clients}>taylor farms</h2>
-              </Link>
-            );
-          } else {
-            return (
-              <Link
-                passHref
-                className={style.aWrapper}
-                href={`/work/${client.split(" ").join("")}`}
-                key={client}
-              >
-                <h2 className={style.clients}>{client}</h2>
-              </Link>
-            );
-          }
+          return (
+            <Link
+              passHref
+              className={style.aWrapper}
+              href={`/work/${client.split(" ").join("")}`}
+              key={client}
+            >
+              <h2 className={style.clients}>{client}</h2>
+            </Link>
+          );
         })}
       </section>
       <Ticker text="general qu 🥴" />
