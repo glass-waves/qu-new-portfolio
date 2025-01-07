@@ -29,6 +29,18 @@ function Wetdream() {
           <iframe
             width={640 * screenRatio}
             height={360 * screenRatio}
+            src="https://www.youtube.com/embed/9N-herNALFE"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard- write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </div>
+
+        <div className={style2.videoWrapper}>
+          <iframe
+            width={640 * screenRatio}
+            height={360 * screenRatio}
             src="https://www.youtube.com/embed/8KWRkCOSyfU"
             title="YouTube video player"
             frameBorder="0"
