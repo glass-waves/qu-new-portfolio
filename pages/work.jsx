@@ -14,6 +14,7 @@ const clients = [
   "adidas spring break 24",
   "adidas blog how to style a tennis skirt",
   "complex x settlemiers",
+  "sorel spring 24",
   // Older Clients
   "fluttering",
   "teva fall 22",

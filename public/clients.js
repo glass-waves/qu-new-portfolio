@@ -1233,4 +1233,255 @@ export const clients = {
       },
     ],
   },
+  sorelspring24: {
+    header: "SOREL SPRING24",
+    copy: "photographer @viviankimx models @inouicg @jasminedampier @annasophiamoltke @carmen.solomons @.salanya._ producer @webbie_gram Sorel team @torilesikar @ohfurreal @lillowski Hmua @kyliesallee @serge_ventura Wardrobe/props @general_qu Assist @lichijellyy",
+    photos: [
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195686/General%20Qu/SOREL%20SPRING24/Screen_Shot_2024-03-11_at_7.24.32_PM_j2icbo.png",
+        width: 1200,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195684/General%20Qu/SOREL%20SPRING24/Screen_Shot_2024-03-11_at_7.15.54_PM_uypscg.png",
+        width: 1200,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195683/General%20Qu/SOREL%20SPRING24/Screen_Shot_2024-03-11_at_7.09.06_PM_ehwbfv.png",
+        width: 1200,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195683/General%20Qu/SOREL%20SPRING24/Screen_Shot_2024-03-11_at_7.14.24_PM_euzhea.png",
+        width: 1200,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195679/General%20Qu/SOREL%20SPRING24/Screen_Shot_2024-03-11_at_7.43.42_PM_tjmpvv.png",
+        width: 1200,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195679/General%20Qu/SOREL%20SPRING24/Screen_Shot_2024-03-11_at_7.34.28_PM_d4buqc.png",
+        width: 1200,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195679/General%20Qu/SOREL%20SPRING24/Screen_Shot_2024-03-11_at_7.08.34_PM_qyntbt.png",
+        width: 1200,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195679/General%20Qu/SOREL%20SPRING24/Screen_Shot_2024-03-11_at_7.17.43_PM_qvdnxz.png",
+        width: 1200,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195677/General%20Qu/SOREL%20SPRING24/Screen_Shot_2024-03-11_at_7.10.57_PM_np7qxh.png",
+        width: 1200,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195673/General%20Qu/SOREL%20SPRING24/Screen_Shot_2024-03-11_at_7.32.52_PM_pwvk8y.png",
+        width: 700,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195671/General%20Qu/SOREL%20SPRING24/Screen_Shot_2024-03-11_at_7.27.29_PM_gia8n2.png",
+        width: 700,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195671/General%20Qu/SOREL%20SPRING24/Screen_Shot_2024-03-11_at_7.59.40_PM_yejkls.png",
+        width: 700,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195670/General%20Qu/SOREL%20SPRING24/Screen_Shot_2024-03-11_at_7.46.09_PM_h9exd1.png",
+        width: 700,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195668/General%20Qu/SOREL%20SPRING24/Screen_Shot_2024-03-11_at_7.44.13_PM_gdpmnu.png",
+        width: 700,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195667/General%20Qu/SOREL%20SPRING24/Screen_Shot_2024-03-11_at_7.20.17_PM_mehbw5.png",
+        width: 1200,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195667/General%20Qu/SOREL%20SPRING24/Screen_Shot_2024-03-11_at_7.28.07_PM_kyd520.png",
+        width: 700,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195666/General%20Qu/SOREL%20SPRING24/Screen_Shot_2024-03-11_at_7.52.26_PM_blcjmy.png",
+        width: 700,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195665/General%20Qu/SOREL%20SPRING24/Screen_Shot_2024-03-11_at_7.19.22_PM_nahgux.png",
+        width: 1200,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195664/General%20Qu/SOREL%20SPRING24/Screen_Shot_2024-03-11_at_7.34.01_PM_vjioj6.png",
+        width: 700,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195663/General%20Qu/SOREL%20SPRING24/Screen_Shot_2024-03-11_at_7.53.03_PM_jx7e7j.png",
+        width: 700,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195662/General%20Qu/SOREL%20SPRING24/Screen_Shot_2024-03-11_at_7.26.28_PM_avccv0.png",
+        width: 700,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195662/General%20Qu/SOREL%20SPRING24/Screen_Shot_2024-03-11_at_7.41.58_PM_blendq.png",
+        width: 700,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195661/General%20Qu/SOREL%20SPRING24/Screen_Shot_2024-03-11_at_7.51.17_PM_ied7ir.png",
+        width: 1200,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195661/General%20Qu/SOREL%20SPRING24/Screen_Shot_2024-03-11_at_7.47.32_PM_bwchzu.png",
+        width: 700,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195659/General%20Qu/SOREL%20SPRING24/Screen_Shot_2024-03-11_at_7.23.47_PM_ll2tcf.png",
+        width: 700,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195658/General%20Qu/SOREL%20SPRING24/Screen_Shot_2024-03-11_at_7.23.26_PM_auzfac.png",
+        width: 700,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195657/General%20Qu/SOREL%20SPRING24/Screen_Shot_2024-03-11_at_7.30.00_PM_qeofi2.png",
+        width: 700,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195657/General%20Qu/SOREL%20SPRING24/Screen_Shot_2024-03-11_at_7.44.36_PM_po1hh3.png",
+        width: 700,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195656/General%20Qu/SOREL%20SPRING24/Screen_Shot_2024-03-11_at_7.13.03_PM_yj1jut.png",
+        width: 700,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195656/General%20Qu/SOREL%20SPRING24/Screen_Shot_2024-03-11_at_7.58.12_PM_lxwdul.png",
+        width: 700,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195655/General%20Qu/SOREL%20SPRING24/Screen_Shot_2024-03-11_at_7.49.21_PM_xul2xl.png",
+        width: 700,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195654/General%20Qu/SOREL%20SPRING24/Screen_Shot_2024-03-11_at_7.07.33_PM_gt8br5.png",
+        width: 700,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195653/General%20Qu/SOREL%20SPRING24/Screen_Shot_2024-03-11_at_7.57.43_PM_ifnpgy.png",
+        width: 700,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195652/General%20Qu/SOREL%20SPRING24/Screen_Shot_2024-03-11_at_7.55.24_PM_t9ofzg.png",
+        width: 700,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195650/General%20Qu/SOREL%20SPRING24/Screen_Shot_2024-03-11_at_7.48.41_PM_wznjyi.png",
+        width: 700,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195650/General%20Qu/SOREL%20SPRING24/Screen_Shot_2024-03-11_at_7.23.02_PM_xtbyp6.png",
+        width: 700,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195650/General%20Qu/SOREL%20SPRING24/Screen_Shot_2024-03-11_at_7.11.42_PM_rlzqhy.png",
+        width: 700,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195649/General%20Qu/SOREL%20SPRING24/Screen_Shot_2024-03-11_at_7.09.34_PM_cjyipl.png",
+        width: 700,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195649/General%20Qu/SOREL%20SPRING24/Screen_Shot_2024-03-11_at_7.21.44_PM_hyrnwb.png",
+        width: 700,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195649/General%20Qu/SOREL%20SPRING24/Screen_Shot_2024-03-11_at_7.20.54_PM_nlsfwz.png",
+        width: 700,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195647/General%20Qu/SOREL%20SPRING24/Screen_Shot_2024-03-11_at_7.12.22_PM_yjabbd.png",
+        width: 700,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195647/General%20Qu/SOREL%20SPRING24/Screen_Shot_2024-03-11_at_7.55.48_PM_jmpz0i.png",
+        width: 700,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195645/General%20Qu/SOREL%20SPRING24/Screen_Shot_2024-03-11_at_7.12.01_PM_xfpt9w.png",
+        width: 700,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195645/General%20Qu/SOREL%20SPRING24/Screen_Shot_2024-03-11_at_7.26.01_PM_drpswh.png",
+        width: 700,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195644/General%20Qu/SOREL%20SPRING24/Screen_Shot_2024-03-11_at_7.56.25_PM_fw4nbq.png",
+        width: 700,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195644/General%20Qu/SOREL%20SPRING24/Screen_Shot_2024-03-11_at_7.48.15_PM_syttgp.png",
+        width: 700,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195644/General%20Qu/SOREL%20SPRING24/Screen_Shot_2024-03-11_at_7.20.37_PM_opkizz.png",
+        width: 700,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195642/General%20Qu/SOREL%20SPRING24/Screen_Shot_2024-03-11_at_7.10.01_PM_uz2ks5.png",
+        width: 700,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195641/General%20Qu/SOREL%20SPRING24/Screen_Shot_2024-03-11_at_7.45.42_PM_av5uqx.png",
+        width: 700,
+        height: 700,
+      },
+    ],
+  },
 };

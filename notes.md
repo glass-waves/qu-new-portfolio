@@ -104,7 +104,7 @@ Special Projects Manager: @orunychoi
 
 ## SOREL SPRING24
 
-- []
+- [x]
 
 photographer @viviankimx
 models @inouicg @jasmine*dampier @annasophiamoltke @carmen.solomons @*.salanya.\_ producer @webbie_gram
@@ -117,7 +117,8 @@ Assist @lichijellyy
 
 - []
 
-Photos - James Bianchi AD/Stylist - Qu Metcalf
+Photos - James Bianchi
+AD/Stylist - Qu Metcalf
 Model - Marley Plonkey
 HMUA - Lena Walsh Assistant - Jamie
 
