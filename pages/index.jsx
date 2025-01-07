@@ -12,7 +12,7 @@ function Enter() {
             alt="enter image"
             quality={100}
             priority
-            // src="https://res.cloudinary.com/glasswavs/image/upload/v1673919819/General%20Qu/2022_revamp/a_fluttering/FAHO24_BUTTERFLY_TEST_6305_jooquu.jpg"
+            className="img"
             src="https://res.cloudinary.com/glasswavs/image/upload/v1736195054/General%20Qu/HOMEPAGE%20IMAGES%20ON%20TOP%20AND%20ENTER%20PAGE/ENTER_IMAGE_snkw2e.jpg"
             width={1200}
             height={800}
