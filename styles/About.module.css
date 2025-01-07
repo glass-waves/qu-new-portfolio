@@ -42,7 +42,7 @@
   .textContainer {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    font-size: 14px;
+    /* font-size: 14px; */
     width: 60%;
   }
   .flex {
@@ -55,12 +55,12 @@
     min-height: unset;
   }
   .imageContainer {
-    width: 50%;
+    /* width: 50%; */
   }
 }
 @media screen and (max-width: 500px) {
   .textContainer {
     width: 75%;
-    font-size: 12px;
+    /* font-size: 12px; */
   }
 }
