@@ -115,7 +115,7 @@ Assist @lichijellyy
 
 ## BASEMENT UNDER THE OCEAN
 
-- []
+- [x]
 
 Photos - James Bianchi
 AD/Stylist - Qu Metcalf

@@ -16,6 +16,7 @@ const clients = [
   "complex x settlemiers",
   "sorel spring 24",
   "basement under the ocean",
+  "taylor farms bts",
   // Older Clients
   "fluttering",
   "teva fall 22",

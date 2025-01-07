@@ -1515,4 +1515,31 @@ export const clients = {
       },
     ],
   },
+  taylorfarmsbts: {
+    header: "TAYLOR FARMS BTS",
+    copy: "Photon Portland Producer @crary DP @liamgillies Edit @photon Color @pinata_post AC @baker_bros_films Bolt @cameracontrol.nw Styling & H&M@kimberlybriggscreative Art department @general_qu Digitech @baker_bros_film Grip @baker_bros_films @russelbowens Set build @calebpetroski@travywild BTS Video @baker_bros_films BTS Photos @matthewthomasrich Craft service @amesandolives",
+    photos: [
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195259/General%20Qu/BTS/BTS_TAYLORFARMS1_psimgj.jpg",
+        width: 1200,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195258/General%20Qu/BTS/BTS_TAYLORFARMS_st1rc3.jpg",
+        width: 700,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195257/General%20Qu/BTS/BTS_TEVAW23_l7e2bo.jpg",
+        width: 700,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195255/General%20Qu/BTS/BTS_TEVAFW23_pqa3ar.jpg",
+        width: 700,
+        height: 700,
+      },
+
+    ],
+  },
 };
