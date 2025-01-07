@@ -54,6 +54,9 @@ img.img {
   .imageLink {
     width: 30%;
   }
+  .container {
+    height: unset;
+  }
 }
 @media screen and (max-width: 720px) {
   /* .image {
