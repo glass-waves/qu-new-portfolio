@@ -1055,5 +1055,105 @@ export const clients = {
       },
     ],
   },
-
+  adidasspringbreak24: {
+    header: "ADIDAS SPRING BREAK24",
+    copy: "with Studio A / @emilyrosetate @pdxschroeder @zoeward @eelisacox @otterkitten @whatsuplilpup Photo / @jennasaintmartin @jamesbianchi @fontaine*rittelmann @raskut Production / @halfcourtstudio @reardonk @lainyyb @bamb00banga Wardrobe / @ameliailema @l.gilbert81 HMU / @_lenawalsh @jessiepowers_makeup Production Design / @general_qu @seanmager Assist @leeza_con_queso Location / @coolhandstudiopdx Talent / @moku.searle @marley_plonkey @kaelianeal & Dominik Raudy / @theoptionagency @reactionmodels Post / @thevisualgroup",
+    photos: [
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195232/General%20Qu/ADIDAS%20SPRING%20BREAK24/Screen_Shot_2024-03-21_at_10.25.20_AM_zxmljw.png",
+        width: 1200,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195229/General%20Qu/ADIDAS%20SPRING%20BREAK24/Screen_Shot_2024-03-21_at_10.24.48_AM_wc0y7q.png",
+        width: 1200,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195227/General%20Qu/ADIDAS%20SPRING%20BREAK24/Screen_Shot_2024-03-21_at_10.25.50_AM_vkocox.png",
+        width: 1200,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195225/General%20Qu/ADIDAS%20SPRING%20BREAK24/Screen_Shot_2024-03-21_at_10.28.52_AM_b7zne9.png",
+        width: 1200,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195224/General%20Qu/ADIDAS%20SPRING%20BREAK24/Screen_Shot_2024-03-21_at_10.27.49_AM_dzhcxd.png",
+        width: 1200,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195220/General%20Qu/ADIDAS%20SPRING%20BREAK24/Screen_Shot_2024-03-21_at_10.27.09_AM_bhnvfq.png",
+        width: 1200,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195218/General%20Qu/ADIDAS%20SPRING%20BREAK24/Screen_Shot_2024-03-21_at_10.24.15_AM_fsfu8z.png",
+        width: 1200,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195218/General%20Qu/ADIDAS%20SPRING%20BREAK24/Screen_Shot_2024-03-21_at_10.25.31_AM_ixay8l.png",
+        width: 1200,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195214/General%20Qu/ADIDAS%20SPRING%20BREAK24/Screen_Shot_2024-03-21_at_10.23.46_AM_snixjf.png",
+        width: 1200,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195206/General%20Qu/ADIDAS%20SPRING%20BREAK24/Screen_Shot_2024-03-21_at_10.26.38_AM_azusfe.png",
+        width: 1200,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195205/General%20Qu/ADIDAS%20SPRING%20BREAK24/Screen_Shot_2024-03-21_at_10.27.21_AM_btiuws.png",
+        width: 1200,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195203/General%20Qu/ADIDAS%20SPRING%20BREAK24/Screen_Shot_2024-03-21_at_10.26.26_AM_kvpzzr.png",
+        width: 1200,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195198/General%20Qu/ADIDAS%20SPRING%20BREAK24/Screen_Shot_2024-03-21_at_10.25.07_AM_uyueds.png",
+        width: 1200,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195196/General%20Qu/ADIDAS%20SPRING%20BREAK24/Screen_Shot_2024-03-21_at_10.28.05_AM_xffek8.png",
+        width: 1200,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195194/General%20Qu/ADIDAS%20SPRING%20BREAK24/Screen_Shot_2024-03-21_at_10.27.37_AM_nirrvc.png",
+        width: 1200,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195189/General%20Qu/ADIDAS%20SPRING%20BREAK24/Screen_Shot_2024-03-21_at_10.28.37_AM_l7wzse.png",
+        width: 1200,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195188/General%20Qu/ADIDAS%20SPRING%20BREAK24/Screen_Shot_2024-03-21_at_10.26.56_AM_luwuw9.png",
+        width: 1200,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195187/General%20Qu/ADIDAS%20SPRING%20BREAK24/Screen_Shot_2024-03-21_at_10.26.09_AM_hzgihy.png",
+        width: 1200,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195179/General%20Qu/ADIDAS%20SPRING%20BREAK24/Screen_Shot_2024-03-21_at_10.24.31_AM_p0snpi.png",
+        width: 1200,
+        height: 700,
+      },
+    ],
+  },
 };
