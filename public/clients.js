@@ -1156,4 +1156,30 @@ export const clients = {
       },
     ],
   },
+  adidasbloghowtostyleatennisskirt: {
+    header: "ADIDAS BLOG - HOW TO STYLE A TENNIS SKIRT",
+    copy: "Photo: @yvanna.ramos Styling: @kaimago Art Dept: @general_qu Model: @june_johnson Muahhh: @_lenawalsh Wardrobe! @whatsuplilpup Creative: @kt_bz + @thestrongestwomanalive @saint_sparkman + @sarschu Copy: @allyg_12 Production: @martinenash @otterkitten @mottobot Lighting: @jabnmar",
+    photos: [
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195154/General%20Qu/ADIDAS%20EDITIORAL%20-%20HOW%20TO%20STYLE%20A%20TENNIS%20SKIRT/1_mzue1k.png",
+        width: 700,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195149/General%20Qu/ADIDAS%20EDITIORAL%20-%20HOW%20TO%20STYLE%20A%20TENNIS%20SKIRT/2_f4u1qb.png",
+        width: 700,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195155/General%20Qu/ADIDAS%20EDITIORAL%20-%20HOW%20TO%20STYLE%20A%20TENNIS%20SKIRT/3_rtgmlb.png",
+        width: 700,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195154/General%20Qu/ADIDAS%20EDITIORAL%20-%20HOW%20TO%20STYLE%20A%20TENNIS%20SKIRT/4_iaj112.png",
+        width: 700,
+        height: 700,
+      },
+    ],
+  },
 };

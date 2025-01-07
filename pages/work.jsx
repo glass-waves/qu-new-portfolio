@@ -12,6 +12,7 @@ const clients = [
   "nicholas",
   "damian lillard x adidas",
   "adidas spring break 24",
+  "adidas blog how to style a tennis skirt",
   // Older Clients
   "fluttering",
   "teva fall 22",

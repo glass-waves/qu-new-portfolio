@@ -57,7 +57,7 @@ STUDIO ASSISTANT - LICHI
 
 ## ADIDAS SPRING BREAK24
 
-- []
+- [x]
 
 with Studio A / @emilyrosetate @pdxschroeder @zoeward @eelisacox @otterkitten @whatsuplilpup
 Photo / @jennasaintmartin @jamesbianchi @fontaine\*rittelmann @raskut
@@ -72,7 +72,7 @@ Post / @thevisualgroup
 
 ## ADIDAS BLOG - HOW TO STYLE A TENNIS SKIRT
 
-- []
+- [x]
 
 Photo: @yvanna.ramos
 Styling: @kaimago
