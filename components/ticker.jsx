@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import PropTypes from "prop-types";
 import style from "../styles/Ticker.module.css";
 import Marquee from "react-marquee-slider";
 
@@ -8,7 +9,7 @@ function Ticker({ text, backgroundColor }) {
   useEffect(() => {
     const width = window?.innerWidth || 900;
     setTickerVelocity(width * 0.01);
-  }, [])
+  }, []);
 
   return (
     <div
@@ -22,7 +23,7 @@ function Ticker({ text, backgroundColor }) {
         minScale={0.7}
         resetAfterTries={200}
         className={style.marquee}
-        onInit={(marquee) => { }} // had to add this in after upgrading to next 15
+        onInit={() => {}} // had to add this in after upgrading to next 15
       >
         <h3 className={style.text}> {text} </h3>
         <h3 className={style.text}> {text} </h3>
@@ -40,5 +41,9 @@ function Ticker({ text, backgroundColor }) {
     </div>
   );
 }
+Ticker.propTypes = {
+  text: PropTypes.string.isRequired,
+  backgroundColor: PropTypes.string.isRequired,
+};
 
 export default Ticker;

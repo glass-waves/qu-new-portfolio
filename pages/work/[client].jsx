@@ -1,11 +1,12 @@
-import Image from "next/image";
 import React from "react";
+import Image from "next/image";
 import Header from "../../components/header.jsx";
 import Ticker from "../../components/ticker.jsx";
 import { clients } from "../../public/clients.js";
 import style from "../../styles/Client.module.css";
 import style2 from "../../styles/Wet.module.css";
 import { useEffect, useState } from "react";
+import PropTypes from "prop-types";
 
 export const getStaticProps = async (context) => {
   return {
@@ -108,6 +109,25 @@ const Client = (props) => {
       <p className={style.copy}>{thisClient.copy}</p>
     </main>
   );
+};
+
+Client.propTypes = {
+  client: PropTypes.shape({
+    header: PropTypes.string.isRequired,
+    videos: PropTypes.arrayOf(
+      PropTypes.shape({
+        src: PropTypes.string.isRequired,
+      })
+    ).isRequired,
+    photos: PropTypes.arrayOf(
+      PropTypes.shape({
+        src: PropTypes.string.isRequired,
+        width: PropTypes.number.isRequired,
+        height: PropTypes.number.isRequired,
+      })
+    ).isRequired,
+    copy: PropTypes.string.isRequired,
+  }).isRequired,
 };
 
 export default Client;

@@ -1,7 +1,9 @@
+import React from "react";
 import style from "../styles/Header.module.css";
 import Link from "next/link";
 import Image from "next/image";
 import Head from "next/head";
+import PropTypes from "prop-types";
 
 function Header({ fontColor, links, pageTitle }) {
   return (
@@ -14,12 +16,11 @@ function Header({ fontColor, links, pageTitle }) {
 
         <Link
           className={style.logoContainer}
-          href="/home"
+          href="/home/"
           aria-label="General Qu Home"
         >
           <Image
             src="https://res.cloudinary.com/glasswavs/image/upload/c_scale,dpr_auto,w_1000/v1630192952/General%20Qu/logo/General_Qu_white_vywhbg.png"
-            // src="https://res.cloudinary.com/glasswavs/image/upload/c_scale,dpr_auto,w_1000/v1630192960/General%20Qu/logo/General_Qu_green_eddo9f.png"
             width={613}
             height={120}
             alt="logo"
@@ -30,7 +31,7 @@ function Header({ fontColor, links, pageTitle }) {
 
         <nav className={style.nav} style={{ color: fontColor }}>
           {links.map((link) => (
-            <Link key={link} className={style.link} href={`/${link}`}>
+            <Link key={link} className={style.link} href={`/${link}/`}>
               {link}
             </Link>
           ))}
@@ -39,5 +40,11 @@ function Header({ fontColor, links, pageTitle }) {
     </>
   );
 }
+Header.propTypes = {
+  fontColor: PropTypes.string,
+  links: PropTypes.arrayOf(PropTypes.string).isRequired,
+  pageTitle: PropTypes.string.isRequired,
+};
 
+// export default Header;
 export default Header;

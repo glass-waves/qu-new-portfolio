@@ -1,4 +1,5 @@
 // import Head from "next/head";
+import React from "react";
 import Image from "next/image";
 import Header from "../components/header";
 import style from "../styles/Home.module.css";

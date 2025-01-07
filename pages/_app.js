@@ -1,6 +1,7 @@
+import React from 'react'
 import localFont from 'next/font/local'
-// import { Metadata } from 'next/document'
 import '../styles/globals.css'
+import PropTypes from 'prop-types'
 
 // Font files can be colocated inside of `pages`
 const wishfulWaves =
@@ -22,10 +23,9 @@ function MyApp({ Component, pageProps }) {
     </div>
   )
 }
+MyApp.propTypes = {
+  Component: PropTypes.elementType.isRequired,
+  pageProps: PropTypes.object.isRequired,
+}
 
 export default MyApp
-
-export const metadata = {
-  title: "General Qu",
-  description: "General Qu - Creative Director",
-}
