@@ -24,6 +24,7 @@ export async function getStaticPaths() {
       { params: { client: "damianlillardxadidas" } },
       { params: { client: "adidasspringbreak24" } },
       { params: { client: "adidasbloghowtostyleatennisskirt" } },
+      { params: { client: "complexxsettlemiers" } },
 
       // Older Clients
       { params: { client: "fluttering" } },

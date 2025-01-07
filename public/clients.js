@@ -1182,4 +1182,55 @@ export const clients = {
       },
     ],
   },
+  complexxsettlemiers: {
+    header: "COMPLEX x SETTLEMIERS JACKETS",
+    copy: "The Archivists 001, a free, limited edition Complex zine created in collaboration with Nike, that documents how people archive the brand in different ways and its deep connection with culture. The Archivists: @no.idea.is.original @aaliyahnoel @magdi.dna @roots_bk @settlemiers.jackets Story by @mike_destefano Photos by @sellonb Prop Stylist: @general_qu Photo Assistant: @jabnmar Editorial Creative Director: @ariahughes Art Director: @ben_kopp* Graphic Designer: @ccbuzzell Creative Producer: @damnginab Special Projects Manager: @orunychoi",
+    photos: [
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195375/General%20Qu/COMPLEX%20x%20SETTLEMIERS/Screen_Shot_2024-05-09_at_10.56.53_AM_ywju8z.png",
+        width: 700,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195375/General%20Qu/COMPLEX%20x%20SETTLEMIERS/Screen_Shot_2024-05-09_at_10.58.37_AM_avcvxu.png",
+        width: 1200,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195372/General%20Qu/COMPLEX%20x%20SETTLEMIERS/Screen_Shot_2024-05-09_at_10.57.47_AM_a0wijc.png",
+        width: 700,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195377/General%20Qu/COMPLEX%20x%20SETTLEMIERS/Screen_Shot_2024-05-09_at_10.57.08_AM_e5zqrz.png",
+        width: 700,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195365/General%20Qu/COMPLEX%20x%20SETTLEMIERS/Screen_Shot_2024-05-09_at_10.58.53_AM_qd5ufp.png",
+        width: 1200,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195363/General%20Qu/COMPLEX%20x%20SETTLEMIERS/Screen_Shot_2024-05-09_at_10.59.52_AM_lvbxv9.png",
+        width: 700,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195359/General%20Qu/COMPLEX%20x%20SETTLEMIERS/Screen_Shot_2024-05-09_at_10.59.42_AM_tg8bl5.png",
+        width: 700,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195359/General%20Qu/COMPLEX%20x%20SETTLEMIERS/Screen_Shot_2024-05-09_at_10.59.28_AM_koj6u8.png",
+        width: 700,
+        height: 700,
+      },
+      {
+        src: "https://res.cloudinary.com/glasswavs/image/upload/v1736195356/General%20Qu/COMPLEX%20x%20SETTLEMIERS/Screen_Shot_2024-05-09_at_10.59.16_AM_nmzfdx.png",
+        width: 1200,
+        height: 700,
+      },
+    ],
+  },
 };

@@ -13,6 +13,7 @@ const clients = [
   "damian lillard x adidas",
   "adidas spring break 24",
   "adidas blog how to style a tennis skirt",
+  "complex x settlemiers",
   // Older Clients
   "fluttering",
   "teva fall 22",
@@ -81,7 +82,6 @@ const Work = () => {
         })}
       </section>
       <Ticker text="general qu 🥴" />
-      {/* <Ticker text="🥴 🥴 🥴" /> */}
     </main>
   );
 };

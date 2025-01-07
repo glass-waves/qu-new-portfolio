@@ -85,7 +85,7 @@ Production: @martinenash @otterkitten @mottobot Lighting: @jabnmar
 
 ## COMPLEX x SETTLEMIERS JACKETS
 
-- []
+- [x]
 
 The Archivists 001, a free, limited edition Complex zine created in collaboration with Nike, that documents how people archive the brand in different ways and its deep connection with culture.
 The Archivists:
