@@ -26,8 +26,8 @@ const TaylorFarms = (props) => {
       <section className={style.photoContainer}>
         <div className={style2.videoWrapper}>
           <iframe
-            width="760"
-            height="565"
+            width={640 * screenRatio}
+            height={360 * screenRatio}
             src="https://www.youtube.com/embed/ip8ynDPYAP8"
             title="YouTube video player"
             frameborder="0"

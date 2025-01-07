@@ -3,7 +3,6 @@ import Header from "../components/header";
 import Ticker from "../components/ticker";
 import style from "../styles/Client.module.css";
 import style2 from "../styles/Wet.module.css";
-import Image from "next/image";
 
 function Wetdream() {
   const [screenRatio, setScreenRatio] = useState(1);
