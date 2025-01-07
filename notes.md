@@ -124,7 +124,7 @@ HMUA - Lena Walsh Assistant - Jamie
 
 ## TAYLOR FARMS
 
-- []
+- [x]
 
 Photon Portland
 Producer @crary

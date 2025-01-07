@@ -1515,8 +1515,8 @@ export const clients = {
       },
     ],
   },
-  taylorfarmsbts: {
-    header: "TAYLOR FARMS BTS",
+  taylorfarms: {
+    header: "TAYLOR FARMS",
     copy: "Photon Portland Producer @crary DP @liamgillies Edit @photon Color @pinata_post AC @baker_bros_films Bolt @cameracontrol.nw Styling & H&M@kimberlybriggscreative Art department @general_qu Digitech @baker_bros_film Grip @baker_bros_films @russelbowens Set build @calebpetroski@travywild BTS Video @baker_bros_films BTS Photos @matthewthomasrich Craft service @amesandolives",
     photos: [
       {

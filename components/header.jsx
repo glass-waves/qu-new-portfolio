@@ -7,7 +7,7 @@ function Header({ fontColor, links, pageTitle }) {
   return (
     <>
       <Head>
-        <title>{pageTitle.toUpperCase()} | General Qu</title>
+        <title>{`${pageTitle.toUpperCase()} | General Qu`}</title>
       </Head>
       <header className={style.header}>
         <div></div>

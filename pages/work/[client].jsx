@@ -27,7 +27,7 @@ export async function getStaticPaths() {
       { params: { client: "complexxsettlemiers" } },
       { params: { client: "sorelspring24" } },
       { params: { client: "basementundertheocean" } },
-      { params: { client: "taylorfarmsbts" } },
+      // { params: { client: "taylorfarms" } },
 
       // Older Clients
       { params: { client: "fluttering" } },

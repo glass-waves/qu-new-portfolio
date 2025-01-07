@@ -16,7 +16,7 @@ const clients = [
   "complex x settlemiers",
   "sorel spring 24",
   "basement under the ocean",
-  "taylor farms bts",
+  "taylor farms",
   // Older Clients
   "fluttering",
   "teva fall 22",
@@ -68,6 +68,17 @@ const Work = () => {
                 href="/naruto"
               >
                 <h2 className={style.clients}>jordan - zion x naruto</h2>
+              </Link>
+            );
+          } else if (client === "taylor farms") {
+            return (
+              <Link
+                key="taylorfarms"
+                passHref
+                className={style.aWrapper}
+                href="/taylorfarms"
+              >
+                <h2 className={style.clients}>taylor farms</h2>
               </Link>
             );
           } else {

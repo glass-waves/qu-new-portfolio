@@ -44,3 +44,13 @@ img {
 img[height="800"] {
   max-height: 800px;
 }
+
+iframe {
+  max-width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  iframe {
+    max-height: 350px;
+  }
+}
