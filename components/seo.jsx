@@ -39,7 +39,7 @@ const SEO = ({ title, description, keywords }) => {
 
       {/* Keywords */}
       {hasKeywords && <meta name="keywords" content={keywords} />}
-      <meta name="keywords" content={keywords} />
+      {hasKeywords && <meta name="twitter:keywords" content={keywords} />}
 
       {/* Viewport */}
       <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -55,6 +55,7 @@ const SEO = ({ title, description, keywords }) => {
       />
       <meta property="twitter:card" content="summary_large_image"></meta>
 
+      {/* Other */}
       <meta property="og:site_name" content="General Qu"></meta>
       <meta property="og:url" content={canonicalUrl}></meta>
       <link rel="canonical" href={canonicalUrl} />
