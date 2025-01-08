@@ -11,8 +11,13 @@ const SEO = ({ title, description, keywords }) => {
   if (!hasDescription) {
     description = defaultDescription;
   }
-  const canonicalUrl =
-    typeof window !== "undefined" ? window.location.href : "";
+  const [canonicalUrl, setCanonicalUrl] = React.useState("");
+
+  React.useEffect(() => {
+    if (typeof window !== "undefined") {
+      setCanonicalUrl(window.location.href);
+    }
+  }, []);
 
   return (
     <Head>
