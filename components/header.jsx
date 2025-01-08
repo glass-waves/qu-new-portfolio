@@ -2,15 +2,14 @@ import React from "react";
 import style from "../styles/Header.module.css";
 import Link from "next/link";
 import Image from "next/image";
-import Head from "next/head";
 import PropTypes from "prop-types";
+import SEO from "./seo";
 
 function Header({ fontColor, links, pageTitle }) {
   return (
     <>
-      <Head>
-        <title>{`${pageTitle.toUpperCase()} | General Qu`}</title>
-      </Head>
+      <SEO title={pageTitle} description="" keywords="" />
+
       <header className={style.header}>
         <div></div>
 
