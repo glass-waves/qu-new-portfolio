@@ -11,6 +11,7 @@ function HomeSection7() {
           width={750}
           height={750}
           alt="floral 1"
+          sizes="(max-width: 750px) 100vw, 750px"
         />
       </div>
       <div className={style.imageMargin}>
@@ -19,6 +20,7 @@ function HomeSection7() {
           width={750}
           height={750}
           alt="floral 2"
+          sizes="(max-width: 750px) 100vw, 750px"
         />
       </div>
     </section>

@@ -11,6 +11,7 @@ function HomeSection9() {
           width={1200}
           height={800}
           alt="sorel"
+          sizes="(max-width: 1200px) 100vw, 1200px"
         />
       </div>
     </section>

@@ -1,28 +1,33 @@
 .container {
-  background-color: rgb(0,0,0);
+  /* background-color: rgb(0, 0, 0); */
   display: flex;
   justify-content: center;
   align-items: center;
-  /* height: 100vh; */
+  height: 100vh;
+  /* max-height: 100vh; */
+  /* margin: 2rem 0; */
 }
 .imageAndText {
   position: relative;
 }
 .text {
-  font-family: 'aaaiight';
+  font-family: "aaaiight";
   font-size: 2em;
   position: absolute;
   color: white;
   top: 0%;
   left: 50%;
-  transform: translateX(-50%)
+  transform: translateX(-50%);
 }
 .text:hover {
   color: black;
 }
-.image {
-  height: 100%;
-  width: auto;
+img.img {
+  /* height: 100%;
+  width: auto; */
+  max-height: 100vh !important;
+  width: auto !important;
+  object-fit: contain;
 }
 .imageLink {
   width: 30%;
@@ -34,52 +39,54 @@
   display: flex;
   /* flex-direction: column; */
   align-items: center;
-  margin: auto 0;
   text-align: center;
   justify-content: center;
 }
 
 @media screen and (max-width: 800px) {
-  .imageContainer {
+  /* .imageContainer {
     flex-direction: column;
     width: 100%;
-  }
-  .image{
+  } */
+  /* .image {
+    width: 30%;
+  } */
+  .imageLink {
     width: 30%;
   }
-  .imageLink{
-    width: 30%;
+  .container {
+    height: unset;
   }
 }
 @media screen and (max-width: 720px) {
-  .image{
+  /* .image {
     width: 33%;
-  }
-  .imageLink{
+  } */
+  .imageLink {
     width: 33%;
   }
 }
 @media screen and (max-width: 650px) {
-  .image{
+  /* .image {
     width: 35%;
-  }
-  .imageLink{
+  } */
+  .imageLink {
     width: 35%;
   }
 }
 @media screen and (max-width: 590px) {
-  .image{
+  /* .image {
     width: 40%;
-  }
-  .imageLink{
+  } */
+  .imageLink {
     width: 40%;
   }
 }
 @media screen and (max-width: 540px) {
-  .image{
+  /* .image {
     width: 43%;
-  }
-  .imageLink{
+  } */
+  .imageLink {
     width: 43%;
   }
 }

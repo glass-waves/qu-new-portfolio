@@ -6,23 +6,18 @@ import Image from "next/image";
 import Link from "next/link";
 
 function About() {
-  /**
-   * Creative Director
-set & props styling
-wardrobe styling
-color consulting
-   */
   return (
     <main className={style.container}>
-      <Header fontColor="white" links={["home", "work"]} />
+      <Header fontColor="white" links={["home", "work"]} pageTitle="About" />
       <Ticker text="general qu" backgroundColor="black" />
       <section className={style.flex}>
         <div className={style.imageContainer}>
           <Image
-            src="https://res.cloudinary.com/glasswavs/image/upload/c_scale,dpr_2.0,q_auto:best,w_650/v1630192741/General%20Qu/about/qu_portrait_qonodt.jpg"
+            src="https://res.cloudinary.com/glasswavs/image/upload/v1736195098/General%20Qu/about/NEWBIO_PHOTO_ulnfk4.jpg"
             alt="portrait"
             width={650}
             height={910}
+            priority
           />
         </div>
         <div className={style.textContainer}>
@@ -51,3 +46,7 @@ color consulting
 }
 
 export default About;
+
+export const metadata = {
+  title: "About",
+};

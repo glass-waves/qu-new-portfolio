@@ -11,6 +11,7 @@ function HomeSection8() {
           width={1200}
           height={800}
           alt="fluttering"
+          sizes="(max-width: 1200px) 100vw, 1200px"
         />
       </div>
     </section>

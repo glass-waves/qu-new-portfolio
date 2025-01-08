@@ -1,6 +1,6 @@
 .container {
   background-color: black;
-  /* height: 100vh; */
+  min-height: 100vh;
   padding-top: 10px;
   color: white;
 }
@@ -8,14 +8,19 @@
   margin-left: 15%;
   display: flex;
   justify-content: center;
+  min-height: 75vh;
+  align-items: center;
 }
 .imageContainer {
-  width: 35%;
+  width: unset;
   margin: 20px;
+  /* min-height: 750px; */
+  display: flex;
+  align-items: center;
 }
 .textContainer {
   width: 35%;
-  font-family: 'aaaiight';
+  font-family: "aaaiight";
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -32,33 +37,30 @@
   cursor: pointer;
   text-decoration: line-through;
 }
-@media screen and (max-width: 1200px){
-  .container {
-    height: 100vh;
-  }
-}
+
 @media screen and (max-width: 900px) {
   .textContainer {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    font-size: 14px;
+    /* font-size: 14px; */
     width: 60%;
   }
   .flex {
     margin: 0 auto;
     flex-direction: column;
     align-items: center;
+    min-height: unset;
   }
   .container {
-    height: 100%;
+    min-height: unset;
   }
   .imageContainer {
-    width: 50%;
+    /* width: 50%; */
   }
 }
-@media screen and (max-width: 500px){
-  .textContainer{
+@media screen and (max-width: 500px) {
+  .textContainer {
     width: 75%;
-    font-size: 12px;
+    /* font-size: 12px; */
   }
 }

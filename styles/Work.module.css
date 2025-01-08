@@ -1,20 +1,27 @@
 .main {
-  background-image: url('https://res.cloudinary.com/glasswavs/image/upload/c_scale,q_auto,w_2000/v1627951760/General%20Qu/backgrounds/cloudBackground_ibziva.jpg');
-  padding-top: 10px;
+  background-image: url("https://res.cloudinary.com/glasswavs/image/upload/c_scale,q_auto,w_2000,f_auto/v1627951760/General%20Qu/backgrounds/cloudBackground_ibziva.jpg");
+  background-size: cover;
+  padding-top: 0.625rem; /* 10px */
   /* position: relative; */
 }
 .clientList {
   /* margin: 5px auto 5px 50%; */
   /* transform: translateX(-12.5%); */
-
 }
 .clients {
-  font-family: 'aaaiight';
-  font-size: 2em;
+  font-family: "aaaiight";
+  font-size: 2rem;
   color: #f9ff99;
-  margin: 4px auto;
+  margin: 0.25rem auto;
   text-align: center;
 }
 .clients:hover {
   text-decoration: line-through;
+}
+
+@media screen and (max-width: 800px) {
+  .clients {
+    font-size: 1.5rem;
+    margin: 0.5rem auto;
+  }
 }

@@ -11,6 +11,7 @@ function HomeSection2() {
           width={1600}
           height={800}
           alt="nike"
+          sizes="(max-width: 1600px) 100vw, 1600px"
         />
       </div>
     </section>
