@@ -6,7 +6,7 @@ import SEO from "../components/seo";
 function Enter() {
   return (
     <>
-      <SEO title="Enter" description="" keywords="" />
+      <SEO title="Enter" description="" keywords="" currentPage="/" />
       <section className={styles.container}>
         <div className={styles.imageAndText}>
           <Link href="/home" passHref>
