@@ -2,7 +2,7 @@ import React from "react";
 import Head from "next/head";
 import PropTypes from "prop-types";
 
-const SEO = ({ title, description, keywords }) => {
+const SEO = ({ title, description, keywords, currentPage }) => {
   const hasDescription = description.length > 0;
   const hasKeywords = keywords.length > 0;
   const defaultDescription =
@@ -11,13 +11,8 @@ const SEO = ({ title, description, keywords }) => {
   if (!hasDescription) {
     description = defaultDescription;
   }
-  const [canonicalUrl, setCanonicalUrl] = React.useState("");
 
-  React.useEffect(() => {
-    if (typeof window !== "undefined") {
-      setCanonicalUrl(window.location.href);
-    }
-  }, []);
+  currentPage = `https://generalqu.com${currentPage}`;
 
   return (
     <Head>
@@ -57,8 +52,8 @@ const SEO = ({ title, description, keywords }) => {
 
       {/* Other */}
       <meta property="og:site_name" content="General Qu"></meta>
-      <meta property="og:url" content={canonicalUrl}></meta>
-      <link rel="canonical" href={canonicalUrl} />
+      <meta property="og:url" content={currentPage}></meta>
+      <link rel="canonical" href={currentPage} />
     </Head>
   );
 };
@@ -66,6 +61,7 @@ SEO.propTypes = {
   title: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
   keywords: PropTypes.string,
+  currentPage: PropTypes.string.isRequired,
 };
 
 export default SEO;

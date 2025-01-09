@@ -5,10 +5,15 @@ import Image from "next/image";
 import PropTypes from "prop-types";
 import SEO from "./seo";
 
-function Header({ fontColor, links, pageTitle }) {
+function Header({ fontColor, links, pageTitle, currentPage }) {
   return (
     <>
-      <SEO title={pageTitle} description="" keywords="" />
+      <SEO
+        title={pageTitle}
+        description=""
+        keywords=""
+        currentPage={currentPage}
+      />
 
       <header className={style.header}>
         <div></div>
@@ -43,6 +48,7 @@ Header.propTypes = {
   fontColor: PropTypes.string,
   links: PropTypes.arrayOf(PropTypes.string).isRequired,
   pageTitle: PropTypes.string.isRequired,
+  currentPage: PropTypes.string.isRequired,
 };
 
 // export default Header;

@@ -12,6 +12,7 @@ export const getStaticProps = async (context) => {
   return {
     props: {
       client: clients[context.params.client],
+      currentUrl: "/work/" + context.params.client,
     },
   };
 };
@@ -28,6 +29,7 @@ export async function getStaticPaths() {
     fallback: false, // See the "fallback" section below
   };
 }
+
 const Client = (props) => {
   const thisClient = props.client;
   const [screenRatio, setScreenRatio] = useState(1);
@@ -43,6 +45,7 @@ const Client = (props) => {
         fontColor="white"
         links={["home", "about", "work"]}
         pageTitle={thisClient.header}
+        currentPage={props.currentUrl}
       />
       <Ticker text={thisClient.header} />
       <section className={style.photoContainer}>
@@ -99,6 +102,7 @@ Client.propTypes = {
     ).isRequired,
     copy: PropTypes.string.isRequired,
   }).isRequired,
+  currentUrl: PropTypes.string.isRequired,
 };
 
 export default Client;

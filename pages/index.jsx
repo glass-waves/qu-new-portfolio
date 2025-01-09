@@ -6,8 +6,8 @@ import SEO from "../components/seo";
 function Enter() {
   return (
     <>
-      <SEO title="Enter" description="" keywords="" />
-      <section className={styles.container}>
+      <SEO title="Enter" description="" keywords="" currentPage="/" />
+      <main className={styles.container}>
         <div className={styles.imageAndText}>
           <Link href="/home" passHref>
             <Image
@@ -23,7 +23,7 @@ function Enter() {
             <h1 className={styles.text}>ENTER</h1>
           </Link>
         </div>
-      </section>
+      </main>
     </>
   );
 }

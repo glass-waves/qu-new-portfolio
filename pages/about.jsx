@@ -8,7 +8,12 @@ import Link from "next/link";
 function About() {
   return (
     <main className={style.container}>
-      <Header fontColor="white" links={["home", "work"]} pageTitle="About" />
+      <Header
+        fontColor="white"
+        links={["home", "work"]}
+        pageTitle="About"
+        currentPage="/about"
+      />
       <Ticker text="general qu" backgroundColor="black" />
       <section className={style.flex}>
         <div className={style.imageContainer}>

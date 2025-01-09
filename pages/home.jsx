@@ -21,7 +21,12 @@ import HomeSection13 from "../components/homeSections/homeSection13";
 export default function Home() {
   return (
     <main className={style.container}>
-      <Header fontColor="white" links={["work", "about"]} pageTitle="Home" />
+      <Header
+        fontColor="white"
+        links={["work", "about"]}
+        pageTitle="Home"
+        currentPage="/home"
+      />
       <Ticker text=" defining aesthetic" backgroundColor="#000" />
 
       <section className={style.photoSection7}>
